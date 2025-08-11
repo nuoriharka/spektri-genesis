@@ -152,15 +152,26 @@ export class MockSoul implements Soul {
 }
 
 export async function trustDemo() {
-  const soulA = new MockSoul("Aurinko", 440, true);
-  const soulB = new MockSoul("Kuutamo", 432, true);
-  const resonance = trustEngine(soulA, soulB);
-  if (resonance !== null) {
-    console.log(`Resonanssi ${soulA.id} ↔ ${soulB.id}: ${resonance.toFixed(2)}`);
+  // Luodaan kaksi sielua eri taajuuksilla
+  const aurinko = new MockSoul("Aurinko", 440, true);  // A-kirkas
+  const kuutamo = new MockSoul("Kuutamo", 432, true);  // Schumann-resonanssi
+  // Luodaan kolmas sielu, joka ei ole autenttinen
+  const varjo = new MockSoul("Varjo", 440, false);
+
+  // Testaa resonanssia autenttisten sielujen välillä
+  const resonance1 = trustEngine(aurinko, kuutamo);
+  if (resonance1 !== null) {
+    console.log(`\nResonanssi ${aurinko.id} ↔ ${kuutamo.id}: ${resonance1.toFixed(2)}`);
     console.log("create(shared_reality)");
-    soulA.transmit(resonance * 0.8);
-    soulB.transmit(resonance * 0.9);
-  } else {
-    console.log("Ei resonanssia - aitous puuttui");
+    // Luodaan jaettu todellisuus energianvaihdon kautta
+    aurinko.transmit(resonance1 * 0.8);
+    kuutamo.transmit(resonance1 * 0.9);
+    // Simuloidaan synergiaefekti
+    const synergy = (aurinko.receive() + kuutamo.receive()) * resonance1;
+    console.log(`Synergia: ${synergy.toFixed(2)}`);
   }
+
+  // Testaa epäautenttista tapaus
+  const resonance2 = trustEngine(aurinko, varjo);
+  console.log(`\nYhteys ${aurinko.id} ↔ ${varjo.id}:`, resonance2 ?? "ei resonanssia (aitous puuttuu)");
 }
