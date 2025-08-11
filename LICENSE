@@ -1,7 +1,143 @@
-SPDX-License-Identifier: AGPL-3.0-or-later
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
 
 Copyright (C) 2025 Spektri
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License...
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
 
-(Voit korvata täydellä AGPL-tekstillä julkaisussa.)
+Preamble
+
+The GNU Affero General Public License is a free software license that ensures
+that end users have the freedom to run, study, and modify the software. It
+also ensures that any modified versions of the software are free as well.
+
+This license is intended to guarantee your freedom to share and change all
+versions of a program--to make sure it remains free software for all its
+users.
+
+TERMS AND CONDITIONS
+
+0. Definitions.
+
+"This License" refers to version 3 of the GNU Affero General Public License.
+
+"The Program" refers to any copyrightable work licensed under this License.
+
+"Copyright" also means copyright-like rights such as those arising from
+similar laws protecting against unauthorized copying.
+
+"License" means this document.
+
+"Licensor" means the copyright owner or entity authorized by the copyright
+owner that is granting the License.
+
+"You" means the licensee in terms of this License.
+
+"Your" is the possessive form of "you".
+
+1. Source Code.
+
+The term "source code" means the preferred form of the Program for making
+modifications, including all modules it contains, plus any associated
+interface definition files, scripts used to control compilation and
+installation of an executable, and any other source files used to generate,
+install, or run the executable.
+
+The "object code" is the form of the Program resulting from mechanical
+transformation or translation of the source code.
+
+2. Basic Permissions.
+
+You are permitted to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Program, and to permit others to do so, subject to
+the following conditions.
+
+3. Copyleft.
+
+You also have the option of using the Program under the terms of the GNU General
+Public License, in which case that license applies instead of this one.
+
+4. Requirements for Modified Versions.
+
+You may not impose any further restrictions on the exercise of the rights
+granted or affirmed under this License. You are not allowed to add
+additional requirements or legal terms.
+
+5. Conveying Modified Source Versions.
+
+You may convey modified source versions of the Program to others under the
+terms of this License, provided that you also do the following:
+
+a) The modified files must carry prominent notices stating that you changed
+   the files and the date of the change.
+
+b) You must keep intact all notices stating that this License and any
+   GNU General Public License version 3 or later applies to the Program.
+
+c) You must keep intact all notices of copyright, and you must add
+   appropriate notices of your own copyright.
+
+d) You must provide a copy of this License and the GNU General Public License
+   version 3 or later to all recipients of the modified Program.
+
+6. Conveying Non-Source Forms.
+
+You may convey the Program in object code or executable form under the terms
+of this License, provided that you also do the following:
+
+a) The conveyed form must be accompanied by the source code.
+
+b) The source code must be kept intact, and you must not impose any further
+   restrictions on its distribution.
+
+c) You must provide a copy of this License and the GNU General Public License
+   version 3 or later to all recipients of the conveyed form.
+
+7. Additional Terms.
+
+"Additional permissions" are terms that supplement the conditions of this
+License by making exceptions from one or more of its conditions. Additional
+permissions that are applicable to the Program shall be listed in the
+"Additional Permissions" section of this License.
+
+8. Disclaimer of Warranty.
+
+There is no warranty for the Program, and the Licensor is not liable for any
+damages resulting from the use or inability to use the Program.
+
+9. Acceptance Not Required for Having Copies.
+
+You are not required to accept this License in order to receive or run a
+copy of the Program. You accept the License if you modify the Program or
+convey it to another person in a way that requires you to comply with the
+License.
+
+10. Termination.
+
+This License and the rights granted hereunder will terminate automatically
+upon any breach by you of the terms of this License. Individuals or
+entities who have received copies, or rights, from you under this License
+will not have their licenses terminated provided such individuals or
+entities remain in full compliance with those licenses.
+
+11. Future Versions.
+
+GNU General Public License version 3 or later applies to the Program, and
+you have the option of using the Program under the terms of that license
+instead of this one.
+
+12. No Surrender of Others' Freedom.
+
+If you convey a covered work under this License, you waive any legal power
+to forbid subsequent licensing of the work to others under terms that
+prohibit modification or addition of other software.
+
+13. Use with the GNU General Public License.
+
+This License is intended to be used in conjunction with the GNU General
+Public License, version 3 or later. If the Program is used together with
+software licensed under the GNU General Public License, version 3 or later,
+the terms of that license will apply to the combination as a whole.
+
+SPDX-License-Identifier: AGPL-3.0-or-later

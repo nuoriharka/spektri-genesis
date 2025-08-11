@@ -2,6 +2,8 @@
 
 **Vision:** Luottamus > Kontrolli. Yhteisö > Omistus. Kutsuminen > Pakottaminen.
 
+**License:** AGPL-3.0-or-later — freedom-first, network use must remain open.
+
 Tämä repo sisältää:
 - **MANIFESTO:** Vapausmanifesti (filosofia & suunta)
 - **CONSTITUTION:** Konstitutionaaliset periaatteet (ei orjuutusta, yksityisyys oletuksena, peruutettavuus)
