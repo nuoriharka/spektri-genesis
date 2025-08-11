@@ -36,4 +36,31 @@ Vahvista allekirjoitukset:
 node verify_signatures.js
 ```
 
+
 Lisätietoja: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) ja [docs/TRUST-ENGINE.md](docs/TRUST-ENGINE.md).
+
+---
+
+## Uudet multidomain-moduulit
+
+### 3D-visualisointi (`src/viz/`)
+- `soulSpace.ts`: Three.js-pohjainen 3D-visualisointi sieluista ja resonanssiyhteyksistä.
+- Katso `src/viz/README.md` käyttöohjeet ja asennus.
+
+### AI Resonanssipredictio (`src/ai/`)
+- `resonancePredictor.ts`: TensorFlow.js-neuroverkko resonanssin ennustamiseen.
+- Katso `src/ai/README.md` käyttöohjeet ja asennus.
+
+### Kosminen konteksti (`src/cosmic/`)
+- `schumann.ts`: Simuloi Schumann-resonanssia ja vertaa sielutaajuuksiin.
+- Katso `src/cosmic/README.md` lisätiedot.
+
+### Firmware (`firmware/`)
+- `soul_led.ino`: ESP32/Arduino FastLED-firmware resonanssin visualisointiin LED-matriisilla.
+- Katso `firmware/README.md` flashaus- ja sarjaporttiohjeet.
+
+## Nopea asennus uusille ominaisuuksille
+
+```bash
+pnpm add three @tensorflow/tfjs
+```

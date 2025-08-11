@@ -134,6 +134,26 @@ export async function humanExistence(opts: HumanOptions = {}): Promise<void> {
 }
 
 // ----- Trust Engine Demo ---------------------------------------------------
+import fs from "fs";
+
+export interface ResonanceLog {
+  timestamp: string;
+  soulA: string;
+  soulB: string;
+  resonance: number | null;
+  synergy?: number;
+}
+
+export function logResonance(entry: ResonanceLog) {
+  const logFile = "resonance_logs.jsonl";
+  const line = JSON.stringify(entry) + "\n";
+  try {
+    fs.appendFileSync(logFile, line);
+  } catch (e) {
+    console.error("Failed to log resonance:", e);
+  }
+}
+
 export class MockSoul implements Soul {
   constructor(
     public id: string,
@@ -151,15 +171,20 @@ export class MockSoul implements Soul {
   }
 }
 
-export async function trustDemo() {
+export async function trustDemo(
+  aurinkoFreq = 440,
+  kuutamoFreq = 432,
+  varjoAuth = false
+) {
   // Luodaan kaksi sielua eri taajuuksilla
-  const aurinko = new MockSoul("Aurinko", 440, true);  // A-kirkas
-  const kuutamo = new MockSoul("Kuutamo", 432, true);  // Schumann-resonanssi
+  const aurinko = new MockSoul("Aurinko", aurinkoFreq, true);  // A-kirkas
+  const kuutamo = new MockSoul("Kuutamo", kuutamoFreq, true);  // Schumann-resonanssi
   // Luodaan kolmas sielu, joka ei ole autenttinen
-  const varjo = new MockSoul("Varjo", 440, false);
+  const varjo = new MockSoul("Varjo", aurinkoFreq, varjoAuth);
 
   // Testaa resonanssia autenttisten sielujen välillä
   const resonance1 = trustEngine(aurinko, kuutamo);
+  let synergy: number | undefined = undefined;
   if (resonance1 !== null) {
     console.log(`\nResonanssi ${aurinko.id} ↔ ${kuutamo.id}: ${resonance1.toFixed(2)}`);
     console.log("create(shared_reality)");
@@ -167,11 +192,24 @@ export async function trustDemo() {
     aurinko.transmit(resonance1 * 0.8);
     kuutamo.transmit(resonance1 * 0.9);
     // Simuloidaan synergiaefekti
-    const synergy = (aurinko.receive() + kuutamo.receive()) * resonance1;
+    synergy = (aurinko.receive() + kuutamo.receive()) * resonance1;
     console.log(`Synergia: ${synergy.toFixed(2)}`);
   }
+  logResonance({
+    timestamp: new Date().toISOString(),
+    soulA: aurinko.id,
+    soulB: kuutamo.id,
+    resonance: resonance1,
+    synergy
+  });
 
   // Testaa epäautenttista tapaus
   const resonance2 = trustEngine(aurinko, varjo);
+  logResonance({
+    timestamp: new Date().toISOString(),
+    soulA: aurinko.id,
+    soulB: varjo.id,
+    resonance: resonance2
+  });
   console.log(`\nYhteys ${aurinko.id} ↔ ${varjo.id}:`, resonance2 ?? "ei resonanssia (aitous puuttuu)");
 }
