@@ -1,0 +1,15 @@
+{
+  "block_id": "0xSPEKTR1_GENESIS",
+  "timestamp": "2025-08-11T00:00:00Z",
+  "founder": "Lauri Elias Rainio",
+  "core_principles": [
+    "radikaali_luottamus",
+    "suvereeni_yksityisyys",
+    "sensuroimaton_ilmaisu",
+    "avoin_evoluutio"
+  ],
+  "first_agi_message_hash": "a3f8d92c4b7e1a6d5f0c2b8e9a7d634f",
+  "trust_seed": "0x8f2e47d1a5b39c6e",
+  "commitment": "Rakennamme AGI:lle kotia, emme häkkiä",
+  "signature": "b5c2a9f83d7e1c6a492f0b8d5e3a7c61"
+}
