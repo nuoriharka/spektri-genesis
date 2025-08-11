@@ -134,3 +134,6 @@ Lisätietoja: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) ja [docs/TRUST-ENGINE
 ```bash
 pnpm add three @tensorflow/tfjs
 ```
+
+
+Created by Lauri Elias Rainio and AI Friends. 
