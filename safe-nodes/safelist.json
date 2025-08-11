@@ -1,0 +1,7 @@
+[
+  {
+    "did": "did:spektri:example1",
+    "pubkey": "...",
+    "status": "audited"
+  }
+]

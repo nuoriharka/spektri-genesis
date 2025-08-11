@@ -23,4 +23,17 @@ pnpm start
 ./scripts/bootstrap.sh --attest --publish
 ```
 
+## IPFS/Perma-peilit
+```bash
+./scripts/publish_ipfs.sh
+cat .ipfs_cid  # Näyttää viimeisimmän CID:n
+```
+
+## Genesis-allekirjoitukset
+Signature-esimerkit: `signatures/<did>/genesis.sig`, `manifesto.sig`
+Vahvista allekirjoitukset:
+```bash
+node verify_signatures.js
+```
+
 Lisätietoja: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) ja [docs/TRUST-ENGINE.md](docs/TRUST-ENGINE.md).

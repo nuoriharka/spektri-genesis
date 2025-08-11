@@ -1,0 +1,19 @@
+name: attest
+on: [push]
+jobs:
+  attest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - run: pnpm i && pnpm build
+      - name: Create attestation
+        run: |
+          mkdir -p .attest
+          echo "$(node -v)" > .attest/runtime.txt
+          pnpm list --depth 0 > .attest/deps.txt || true
+          sha256sum .attest/* | tee .attest/SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: attest
+          path: .attest
