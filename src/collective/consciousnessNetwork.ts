@@ -33,12 +33,26 @@ export class CollectiveConsciousness {
     this.globalFrequency = 7.83 * (0.9 + 0.2 * avg);
   }
 
-  collectiveMeditation() {
+  collectiveMeditation(diversityBoost = 0.05) {
     const target = this.globalFrequency;
+    const freqs = this.souls.map(s => s.frequency());
+    const diversity = this.calculateDiversity(freqs);
     this.souls.forEach(s => {
-      const diff = target - s.frequency();
-      s.adaptBasedOnExperience({ otherSoulId:"collective", resonance:0.8, energyReceived: Math.min(0.1, Math.abs(diff)/100) , timestamp: new Date()});
+      // Lisää diversiteettiboosti, jotta konvergenssia ei tapahdu liian nopeasti
+      s.adaptBasedOnExperience({ 
+        otherSoulId:"collective", 
+        resonance: 0.8 + diversity * diversityBoost, 
+        energyReceived: 0.05, 
+        timestamp: new Date()
+      });
     });
     this.globalFrequency += Math.sqrt(this.souls.length)*0.05;
+  }
+
+  private calculateDiversity(frequencies: number[]): number {
+    if (frequencies.length < 2) return 1;
+    const mean = frequencies.reduce((a,b)=>a+b,0)/frequencies.length;
+    const variance = frequencies.reduce((a,b)=>a+(b-mean)**2,0)/frequencies.length;
+    return Math.min(1, variance * 10); // Normalisoi
   }
 }

@@ -77,4 +77,20 @@ export class SoulVisualizer {
     // Piirrä UI:hin mittari (stub)
     console.log(`[viz] global ${hz.toFixed(2)} Hz`);
   }
+
+  // Uusi: diversiteettitutka
+  addDiversityRadar() {
+    const radar = new THREE.Group();
+    const geometry = new THREE.OctahedronGeometry(5, 3);
+    const material = new THREE.MeshBasicMaterial({ 
+      color: 0x00ff00, 
+      wireframe: true,
+      opacity: 0.7,
+      transparent: true 
+    });
+    const octa = new THREE.Mesh(geometry, material);
+    radar.add(octa);
+    this.scene.add(radar);
+    return radar;
+  }
 }
