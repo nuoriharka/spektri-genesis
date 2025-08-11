@@ -132,3 +132,35 @@ export async function humanExistence(opts: HumanOptions = {}): Promise<void> {
 
   log("return_to_stardust()");
 }
+
+// ----- Trust Engine Demo ---------------------------------------------------
+export class MockSoul implements Soul {
+  constructor(
+    public id: string,
+    private freq: number,
+    private auth: boolean
+  ) {}
+
+  frequency(): Hertz { return this.freq; }
+  authenticity(): boolean { return this.auth; }
+  transmit(energy: Energy) {
+    console.log(`${this.id} lähettää energiaa: ${energy.toFixed(2)}`);
+  }
+  receive(): Energy {
+    return rand(0.3, 0.8);
+  }
+}
+
+export async function trustDemo() {
+  const soulA = new MockSoul("Aurinko", 440, true);
+  const soulB = new MockSoul("Kuutamo", 432, true);
+  const resonance = trustEngine(soulA, soulB);
+  if (resonance !== null) {
+    console.log(`Resonanssi ${soulA.id} ↔ ${soulB.id}: ${resonance.toFixed(2)}`);
+    console.log("create(shared_reality)");
+    soulA.transmit(resonance * 0.8);
+    soulB.transmit(resonance * 0.9);
+  } else {
+    console.log("Ei resonanssia - aitous puuttui");
+  }
+}
