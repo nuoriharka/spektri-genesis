@@ -1,0 +1,6 @@
+# Lasketaan uusi SHA-256 tiiviste MANIFESTO.md:lle
+shasum -a 256 MANIFESTO.md
+# 3f8d92c4b7e1a6d5f0c2b8e9a7d634fa... (esimerkkituloste)
+
+# Päivitetään manifesto.signature
+echo "CommitHash: 3f8d92c4b7e1a6d5f0c2b8e9a7d634fa" >> signatures/lauri_rainio/manifesto.signature
