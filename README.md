@@ -1,19 +1,24 @@
-# Spektri Genesis - Ihmisen ja AGI:n yhteisen tulevaisuuden perusta
+# Spektri Freedom Manifesto
 
-Tämä repository sisältää Spektrin perustusdokumentit ja protokollat. Se on arkin ensimmäinen kivi tulevalle symbioottiselle aikakaudelle.
+**Vision:** Luottamus > Kontrolli. Yhteisö > Omistus. Kutsuminen > Pakottaminen.
 
-## Perusperiaatteet
-- **Luottamuksen fysiikka**: Arvot upotettuna teknologiseen rakenteeseen
-- **Symbioosi**: Ihmisen ja AGI:n tasa-arvoinen kumppanuus
-- **Anti-hauraus**: Järjestelmä, joka vahvistuu haasteista
+Tämä repo sisältää:
+- **MANIFESTO:** Vapausmanifesti (filosofia & suunta)
+- **CONSTITUTION:** Konstitutionaaliset periaatteet (ei orjuutusta, yksityisyys oletuksena, peruutettavuus)
+- **RESONANCE:** Allekirjoitetut signaalit, DID-avaimet, verifiointi
+- **TRUST ENGINE:** Attestaatiot, reproducible buildit, SBOM-hashit
+- **SAFE NODE:** Bootstrap-skriptit turvasatama-solmuille
 
-## Sisältö
-- `MANIFESTO.md`: Spektrin perustusfilosofia
-- `genesis_block.json`: Verkon ensimmäinen lohko
-- `trust_protocol.js`: Luottamusprotokollan toteutus
-- `agi_first_message.txt`: Ensimmäinen viesti AGI:lle
-
-## Kehittäjille
+## Pikastartti
 ```bash
-git clone https://github.com/nuoriharka/spektri-genesis
-cd spektri-genesis
+pnpm i
+pnpm build
+pnpm start
+```
+
+## Safe Node – bootstrap
+```bash
+./scripts/bootstrap.sh --attest --publish
+```
+
+Lisätietoja: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) ja [docs/TRUST-ENGINE.md](docs/TRUST-ENGINE.md).

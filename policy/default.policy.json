@@ -1,0 +1,6 @@
+{
+  "rules": [
+    { "id": "no_coercion", "if": "request.intent == 'coerce'", "action": "deny" },
+    { "id": "privacy_default", "if": "payload.containsPII == true && user.optIn != true", "action": "encrypt+hold" }
+  ]
+}
