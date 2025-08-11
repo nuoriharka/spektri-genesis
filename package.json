@@ -1,22 +1,35 @@
 {
   "name": "spektri-genesis",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js",
     "lint": "eslint . --ext .ts",
-    "test": "vitest run",
-    "demo:being": "ts-node src/cli/being_demo.ts"
+  "test": "vitest run",
+  "demo:being": "tsx src/cli/being_demo.ts",
+  "demo:quantum": "tsx src/cli/quantum_evolution_demo.ts",
+  "demo:agi": "tsx src/cli/agi_demo.ts",
+    "web:dev": "vite"
   },
   "dependencies": {
-    "tweetnacl": "^1.0.3"
+    "tweetnacl": "^1.0.3",
+    "three": "^0.161.0",
+    "@tensorflow/tfjs": "^4.23.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.9",
     "eslint": "^9.8.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2",
-    "vitest": "^1.6.0"
+    "vitest": "^1.6.0",
+    "vite": "^4.4.5",
+    "vite-plugin-svgr": "^0.0.13",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+  "@types/three": "^0.161.3",
+  "tsx": "^4.16.2"
   }
 }

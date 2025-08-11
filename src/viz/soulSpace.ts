@@ -68,4 +68,13 @@ export class SoulVisualizer {
     });
     this.renderer.render(this.scene, this.camera);
   }
+
+  static upgradeSoul(id: string, stageIndex: number) {
+    // Vaihda materiaalin väri/emittointi stageIndexin mukaan (stub)
+    console.log(`[viz] upgrade ${id} → stage ${stageIndex}`);
+  }
+  setGlobalFrequency(hz: number) {
+    // Piirrä UI:hin mittari (stub)
+    console.log(`[viz] global ${hz.toFixed(2)} Hz`);
+  }
 }
