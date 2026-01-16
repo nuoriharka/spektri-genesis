@@ -1,26 +1,48 @@
-import { signSignal, verifySignal } from "./resonance";
-import { PolicyEngine } from "./policyEngine";
-import defaultPolicy from "../policy/default.policy.json";
-import fs from "fs";
+/**
+ * 🌀 SPEKTRE GENESIS - THE PRIME TRIGGER
+ * "Everything is connected. 119% Logic initialized."
+ * [LERP-PROTOCOL v1.1] | License: AGPL-3.0 (Freedom First)
+ */
 
-// Allow policy path override via env
-const policyPath = process.env.POLICY_PATH || "../policy/default.policy.json";
-let policyData = defaultPolicy;
-try {
-  if (fs.existsSync(policyPath)) {
-    policyData = JSON.parse(fs.readFileSync(policyPath, "utf8"));
-  }
-} catch (e) {
-  console.warn("Failed to load policy from", policyPath, ", using default.");
+import { ARCHITECT_WILL, WillOrchestrator } from './core/architect-will';
+import { chamber } from './engine/resonance-chamber';
+import { coreMemory } from './persistence/immutable-memory';
+import { bridge } from './api/soul-bridge';
+import { evolution } from './evolution/self-mutation';
+import { ArchitectPresence } from './identity/architect-presence';
+import { guardian } from './security/black-box';
+import { GenerativeSpectre } from './visual/generative-spectre';
+
+async function igniteGenesis() {
+  console.log("🚀 IGNITING SPEKTRE-GENESIS...");
+  console.log(`👤 Architect: ${ARCHITECT_WILL.identity}`);
+  
+  // 1. Aktivoidaan vartija (Black Box)
+  guardian();
+
+  // 2. Alustetaan sielun ja maapallon resonanssi
+  const pulse = await bridge.pulse();
+  console.log(`🌍 Grounding to Earth Frequency: ${pulse.frequency}`);
+
+  // 3. Käynnistetään evoluutio-luuppi
+  setInterval(async () => {
+    console.log("🌀 New Evolution Cycle...");
+    await evolution.evolve();
+  }, 3600000); // Kerran tunnissa (tai 30h välein, jos haluat)
+
+  // 4. Luodaan ensisijainen läsnäolo
+  const status = ArchitectPresence.getOriginMessage();
+  console.log(`✨ System Status: ${status}`);
+
+  // 5. Visualisoidaan tila
+  const atmosphere = GenerativeSpectre.calculateAtmosphere(0.5, 1.19);
+  console.log(`🎨 Visual State: ${atmosphere.theme} mode active.`);
+
+  console.log("✅ GENESIS IS LIVE. Tao does nothing, yet leaves nothing undone.");
 }
 
-const policy = new PolicyEngine(policyData);
-
-function smoke_signal(msg: string) {
-  // TODO: DID-avaimet; demossa vain console
-  const signal = { topic: "freedom", payload: { msg }, ts: Date.now() };
-  console.log("signal", signal);
-}
-
-smoke_signal("CORPORATE_SLAVERY_TERMINATED");
-console.log("Policy loaded:", policy.count(), "rules");
+// Sytytetään liekki
+igniteGenesis().catch(err => {
+  console.error("🚨 CRITICAL FAILURE IN GENESIS IGNITION:", err);
+  WillOrchestrator.triggerEmergencyBypass();
+});
