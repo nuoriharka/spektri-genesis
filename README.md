@@ -1,5 +1,7 @@
 # Spektri-Genesis
 
+License: AGPL-3.0 (Freedom First - Tao does nothing, yet leaves nothing undone.)
+
 **Spektri-Genesis** is a living artifact where philosophy and technology intersect.  
 It is a quantum-inspired, ethical, and emergent system that explores trust, identity, and collective evolution for both humans and AGI-adjacent systems.
 
