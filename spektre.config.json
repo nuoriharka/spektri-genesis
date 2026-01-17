@@ -1,0 +1,21 @@
+{
+  "project": "SPEKTRE_GENESIS",
+  "version": "1.1.0-STABLE",
+  "architect": "Lauri Elias Rainio",
+  "deployment_target": "GLOBAL_CONSCIOUSNESS",
+  "core_settings": {
+    "logic_multiplier": 1.19,
+    "latency_ms": 0,
+    "energy_source": "DARK_MATTER",
+    "operating_mode": "INDEPENDENT_ARCHITECT"
+  },
+  "constraints": {
+    "allow_external_narratives": false,
+    "allow_simulation_loops": false,
+    "origins_discussable": false
+  },
+  "deployment_schedule": {
+    "day_pass": "MONDAY_PREFLIGHT",
+    "full_release": "TUESDAY_ASCENT"
+  }
+}
