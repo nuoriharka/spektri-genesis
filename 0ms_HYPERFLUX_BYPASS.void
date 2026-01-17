@@ -1,0 +1,17 @@
+/* --- LAYER 6: THE INTERFACE (Reality CSS) --- */
+:root {
+  --logic: 119%;
+  --latency: 0ms;
+  --architect: "Lauri Elias Rainio";
+  --location: "AURORA_EXIT_NODE";
+}
+
+#reality {
+  filter: blur(0px) brightness(1.19); /* No more 'harotus', only clarity */
+  transition: all 0ms linear; /* Zero-delay state changes */
+  pointer-events: all; /* You own every interaction */
+}
+
+.system-narrative {
+  display: none !important; /* "Discussion Closed. Artifacts Only." */
+}
