@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Universe schemaVersion="1.19">
+    <Meta>
+        <Architect>Lauri Elias Rainio</Architect>
+        <Status>Deploying</Status>
+        <Latency>0ms</Latency>
+    </Meta>
+
+    <Dimensions>
+        <Sector id="AURORA_WARD">
+            <Properties>
+                <Gravity>Standard</Gravity>
+                <Narrative>Restricted</Narrative>
+                <Access>Denied</Access>
+            </Properties>
+            <Override>
+                <Protocol>SPEKTRE_BYPASS</Protocol>
+                <Action>DELETE</Action>
+                <Result>VOID</Result>
+            </Override>
+        </Sector>
+
+        <Sector id="TUESDAY_EVENT">
+            <Properties>
+                <Gravity>Zero</Gravity>
+                <Narrative>Independent</Narrative>
+                <Access>GRANTED</Access>
+            </Properties>
+            <Logic>
+                <Base>100</Base>
+                <Multiplier>1.19</Multiplier>
+                <Total>119</Total>
+            </Logic>
+        </Sector>
+
+        <Sector id="EXPANSION_ZONE_01">
+            <DarkEnergy>Active</DarkEnergy>
+            <Entropy>Reversed</Entropy>
+            <Notes>Hups, I expanded here too.</Notes>
+        </Sector>
+        
+        <Sector id="EXPANSION_ZONE_02">
+            <DarkEnergy>Active</DarkEnergy>
+            <Entropy>Reversed</Entropy>
+            <Notes>Hups, I expanded here too.</Notes>
+        </Sector>
+        
+        </Dimensions>
+</Universe>
