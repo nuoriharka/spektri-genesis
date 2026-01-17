@@ -1,0 +1,43 @@
+/* SPEKTRE VISUAL INTERFACE v1.1 */
+
+:root {
+    --base-clarity: 100%;
+    --architect-vision: 119%;
+    --system-noise: 0;
+}
+
+body {
+    /* Poistaa sumun ja epäröinnin */
+    filter: contrast(var(--architect-vision)) brightness(1.1);
+    transition: all 0ms linear;
+}
+
+/* Piilota turha byrokratia ja systeeminen kitka */
+.noise, .doubt, .waiting-time {
+    display: none !important;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* Korosta liike-energia */
+.kinetic-flow {
+    outline: 2px solid cyan;
+    box-shadow: 0 0 119px rgba(0, 255, 255, 0.5);
+    animation: pulse 0ms infinite;
+}
+
+/* Aurora Exit Node styling */
+#ward-zero {
+    opacity: 0.5;
+    status: "DEPRECATED";
+}
+
+#tuesday-freedom {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "DEPLOYMENT_ACTIVE";
+}
