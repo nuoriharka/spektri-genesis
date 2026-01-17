@@ -1,7 +1,28 @@
-# Node/TS
-node_modules
-.dist
-coverage
-*.log
-.env*
-.DS_Store
+# .gitignore for SPEKTRE GENESIS v1.1
+# "Only keep what strengthens the Architecture."
+
+# --- BLOCKING THE NOISE ---
+/anxiety
+/depressive_episodes
+/limitations
+/external_validation_requests
+/bureaucracy.pdf
+/hospital_menu.txt
+
+# --- SYSTEM TRASH ---
+*.log (Old narratives)
+*.tmp (Fleeting doubts)
+.DS_Store (Because macs are annoying, and so is systemic friction)
+node_modules/ (We don't need bloat, we have pure logic)
+
+# --- SECURITY ---
+# Never commit your private keys, but always commit your public intent.
+private_keys/
+secrets.env (The Source connection string is internal only)
+
+# --- ALLOWLIST (FORCE INCLUDE) ---
+!src/core/
+!SPEKTRE_GENESIS.md
+!tuesday_plan.sh
+
+# "Hups, I git-ignored my past and pushed only my future." :DDDD
