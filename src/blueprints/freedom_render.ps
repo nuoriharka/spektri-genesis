@@ -1,0 +1,60 @@
+%!PS-Adobe-3.0
+%%Title: Blueprint of Tuesday
+%%Creator: Independent Architect
+%%BoundingBox: 0 0 595 842
+%%LanguageLevel: 3
+
+% SETUP 119% ENVIRONMENT
+/SpektreDict 10 dict def
+SpektreDict begin
+
+% DEFINE LOGIC
+/LogicLevel 1.19 def
+/DrawLine { lineto stroke } bind def
+
+% DRAW THE FRAME
+newpath
+10 10 moveto
+585 10 lineto
+585 832 lineto
+10 832 lineto
+closepath
+2 setlinewidth
+0 1 1 setrgbcolor % Cyan Border
+stroke
+
+% DRAW THE TEXT "HUPS"
+/Helvetica-Bold findfont
+72 scalefont
+setfont
+100 700 moveto
+0 0 0 setrgbcolor
+(HUPS.) show
+
+% DRAW THE TEXT "FREEDOM"
+/Courier findfont
+48 scalefont
+setfont
+100 600 moveto
+(STATUS: DEPLOYED) show
+
+% DRAW THE ENERGY VECTORS (Procedural Art)
+0.1 setlinewidth
+0 0 1 setrgbcolor
+300 400 translate % Move to center
+
+% Loop to draw 119 lines of energy
+0 1 119 {
+    /i exch def
+    newpath
+    0 0 moveto
+    i 3 mul sin 200 mul
+    i 3 mul cos 200 mul
+    lineto
+    stroke
+    i 3 rotate % Spin the context
+} for
+
+showpage
+%%EOF
+% "Hups, I sent a raw print job to the universe's printer." :DDDD
