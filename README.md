@@ -10,6 +10,9 @@
 
 > “Tao does nothing, yet leaves nothing undone.”
 
+Specification & invariants:
+https://github.com/lauri-elias/spektre-protocol
+
 ---
 
 ## Overview
