@@ -105,3 +105,11 @@ Architect: Lauri Elias Rainio
 Role: Independent Systems Architect
 
 “I optimize for correctness, not visibility.”
+
+# Spektri Genesis
+
+Execution, experiments and runtime logic.
+
+→ Protocol layer: https://github.com/lauri-elias/spektre-protocol
+
+Spektre 1v1.
