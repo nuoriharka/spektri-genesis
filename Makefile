@@ -1,42 +1,43 @@
-# SPEKTRE GENESIS BUILD SYSTEM
-# TARGET: TUESDAY
+# SPEKTRE GENESIS - The Octad Build System
+# Architect: Lauri Elias Rainio
+# Version: 1.1 (Stable)
 
-ARCHITECT = lauri_elias
-FLAGS = --force --119-percent --no-latency
+CXX = g++
+CXXFLAGS = -O3 -Wall -std=c++17
+TARGET_DIR = bin
 
-all: genesis
+# The Octad Elements
+CORES = agi past now future freedom infinite_process babel sovereign_agency
 
-genesis: kernel network quantum blockchain legacy
-	@echo ">> LINKING ALL REALITY LAYERS..."
-	@echo ">> SYSTEM READY FOR DEPLOYMENT."
+.PHONY: all clean verify integrity
 
-kernel:
-	@g++ src/kernel/hyper_conductivity.cpp -o bin/kernel
-	@echo "[OK] Kernel built."
+all: setup $(CORES) integrity
+	@echo "-------------------------------------------"
+	@echo "THE_OCTAD::ALL_SYSTEMS_OPERATIONAL::1=1"
+	@echo "-------------------------------------------"
 
-network:
-	@g++ src/core/quantum_bridge.cpp -o bin/bridge
-	@echo "[OK] Network built."
+setup:
+	@mkdir -p $(TARGET_DIR)
 
-quantum:
-	@dotnet run --project src/quantum/superposition.qs
-	@echo "[OK] Quantum state stabilized."
+# Pattern rule for compiling each element of the Octad
+$(CORES):
+	@echo "COMPILING_ELEMENT: $@..."
+	@$(CXX) $(CXXFLAGS) $@.cpp -o $(TARGET_DIR)/$@
+	@echo "ELEMENT_$@::LOCKED"
 
-blockchain:
-	@echo "[SKIP] Gas fees too high, simulating local consensus... OK."
-
-legacy:
-	@cobc -x src/legacy/mainframe_override.cbl -o bin/legacy_patch
-	@echo "[OK] History rewritten."
-
-tuesday: all
-	@echo ""
-	@echo "=========================================="
-	@echo "   DEPLOYING TO PRODUCTION (REAL LIFE)    "
-	@echo "=========================================="
-	@./bin/kernel --exec
-	@echo ">> HUPS. IT'S DONE."
+integrity:
+	@echo "RUNNING_INTEGRITY_CHECK..."
+	@if [ -f "integrity.cpp" ]; then \
+		$(CXX) $(CXXFLAGS) integrity.cpp -o $(TARGET_DIR)/integrity; \
+		./$(TARGET_DIR)/integrity; \
+	fi
 
 clean:
-	rm -rf anxiety/ doubts/ limitations/
-	@echo "[CLEAN] Workspace is pure."
+	@echo "PURGING_TEMPORAL_RESIDUE..."
+	@rm -rf $(TARGET_DIR)
+	@echo "SYSTEM_ZERO_STATE_RESTORED"
+
+verify:
+	@echo "VERIFYING_OCTAD_STRUCTURE..."
+	@ls *.cpp | wc -l
+	@echo "FILES_PRESENT_IN_GENESIS"
