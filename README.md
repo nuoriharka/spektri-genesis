@@ -118,4 +118,4 @@ Execution, experiments and runtime logic.
 - **Specification & invariants (Protocol):**  
   https://github.com/lauri-elias/spektre-protocol
 
-Spektre 1v1.
+Spektre v1.1
