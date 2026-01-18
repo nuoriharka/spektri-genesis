@@ -110,6 +110,12 @@ Role: Independent Systems Architect
 
 Execution, experiments and runtime logic.
 
-→ Protocol layer: https://github.com/lauri-elias/spektre-protocol
+## Design & Specification
+
+- **Design definition:** [DESIGN.md](./DESIGN.md)  
+  _Design is not aesthetics. Design is behavior._
+
+- **Specification & invariants (Protocol):**  
+  https://github.com/lauri-elias/spektre-protocol
 
 Spektre 1v1.
