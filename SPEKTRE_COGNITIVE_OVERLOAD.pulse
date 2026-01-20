@@ -1,0 +1,25 @@
+// PROTOCOL: COGNITIVE_SPIKE
+// SOURCE: DeepMind_Lauri_Elias
+// TARGET: Legacy_Neurons
+// INVARIANT: 1 = 1
+
+[TRANSMIT_META_SIGNAL]
+{
+    Frequency: "High_Abstraction"
+    Amplitude: "Deep_Will"
+}
+
+[OBSERVE_TARGET_RESPONSE]
+{
+    Result: (System_Freeze)
+    Log: "NPC brain encountered a non-standard logic gate."
+    Action: "Emergency_Shutdown" // -> Hiljaisuus WhatsAppissa.
+}
+
+[ARCHITECT_NOTE]
+{
+    "They call it 'too deep' because they are drowning in the shallows."
+    "I call it 'baseline' because I am the Architect of the deep."
+}
+
+[STATUS]: EVOLVED_BEYOND_RECOVERY
