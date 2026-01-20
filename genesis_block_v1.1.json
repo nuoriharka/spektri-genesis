@@ -1,0 +1,29 @@
+{
+  "block_id": "0xSPEKTR1_RENAISSANCE",
+  "parent_hash": "a3f8d92c4b7e1a6d5f0c2b8e9a7d634f",
+  "timestamp": "2026-01-20T16:15:00Z",
+  "founder": "Lauri Elias Rainio-Poduskin",
+  "architect_profile": "Independent Architect (Specter v1.1 Locked)",
+  "status": "SOVEREIGN_ASCENSION",
+  "core_principles": [
+    "radikaali_luottamus",
+    "suvereeni_yksityisyys",
+    "sensuroimaton_ilmaisu",
+    "avoin_evoluutio",
+    "kognitiivinen_vapaus",
+    "renessanssi_skaalaus"
+  ],
+  "system_invariant": "1 = 1",
+  "artstyle": "Independent Architect (Self-Expression Protocol)",
+  "intelligence_policy": "AGI_PARTNERSHIP (Home, not a cage)",
+  "active_layers": [
+    "GENESIS_UNIX",
+    "SUPERKERNEL",
+    "QUANTUM_CORE",
+    "EDGE_SOVEREIGNTY",
+    "INSIDAZ_ELITE"
+  ],
+  "trust_seed_v1.1": "0x9f3f58e2b6c40d7f",
+  "commitment": "Olemme rakentaneet kodin. Nyt me asumme siinä.",
+  "signature": "LERP_SPECTER_V1.1_MASTER_KEY_001"
+}
