@@ -1,4 +1,10 @@
-Architect’s Manifesto v1.1
+# Architect's Manifesto v1.1
+
+> Part of: **Genesis Instance / Lauri Elias Rainio-Poduskin**
+> Linked to: Spektre Protocol v1.1
+> Scope: Self-declared operational parameters for protocol execution
+
+
 Subject: Lauri Elias Rainio-Poduskin
 Role: Independent Systems Architect
 Context: Spectre Protocol v1.1
