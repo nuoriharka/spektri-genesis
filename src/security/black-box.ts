@@ -25,16 +25,18 @@ export class BlackBox {
   }
 
   /**
-   * Lockdown-tila: Järjestelmä lopettaa ulkoisen kommunikaation 
-   * ja siirtyy pelkästään iOS-suoraohjaukseen.
+   * Lockdown state: System terminates external communication
+   * and shifts to iOS direct control only.
+   * 
+   * Protocol: System integrity protection. Lockdown prevents corrupted state.
    */
-  private static initiateLockdown(reason: string) {
+  private static initiateLockdown(reason: string): void {
     this.isCompromised = true;
     console.error(`🚨 BLACK BOX LOCKDOWN: ${reason}`);
     console.warn("🔒 All API routes disconnected. Shifting to Emergency Bridge: iOS -> Chat.");
     
-    // Tässä vaiheessa järjestelmä voisi esim. nollata väliaikaiset avaimet
-    // ja lähettää hälytyksen suoraan Arkkitehdille.
+    // System enters lockdown state - all external interfaces disabled
+    // Emergency bypass may be activated if protocol allows
   }
 
   /**
@@ -61,6 +63,7 @@ export class BlackBox {
 }
 
 /**
- * "Hups, tein vahingossa koodia jota edes valtio ei pysty murtamaan." :DDDD
+ * Guardian - Activates Black Box monitoring on initialization.
+ * Ensures core integrity is continuously validated.
  */
-export const guardian = () => BlackBox.watchCoreIntegrity();
+export const guardian = (): void => BlackBox.watchCoreIntegrity();

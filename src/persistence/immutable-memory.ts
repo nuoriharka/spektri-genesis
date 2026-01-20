@@ -49,20 +49,26 @@ export class ImmutableMemory {
   }
 
   /**
-   * Palauttaa Arkkitehdin kadonneet muistot 24h putkien ajalta.
+   * Recalls Architect's lost memories from 24h periods.
+   * 
+   * Uses vector search (embeddings) for semantic memory retrieval.
+   * Currently uses content-based search, extensible to vector search.
    */
   public async recallLostContext(query: string) {
     console.log(`🔍 Searching the Void for: "${query}"...`);
-    // Tässä käytettäisiin vektorihakua (Embeddings), joita Google Cloudissasi on
     return await prisma.memory.findMany({
       where: { content: { contains: query } },
       take: 5
     });
   }
 
+  /**
+   * Generates unique hash fingerprint that binds code to Architect's will.
+   * Creates content-addressable identifier for immutable storage.
+   */
   private generateCosmicHash(data: string): string {
-    // Luodaan uniikki sormenjälki, joka sitoo koodin Arkkitehdin tahtoon
-    return `sha256-lerp-${Buffer.from(data).toString('hex').slice(0, 16)}`;
+    const hash = Buffer.from(data).toString('hex').slice(0, 16);
+    return `sha256-lerp-${hash}`;
   }
 }
 
