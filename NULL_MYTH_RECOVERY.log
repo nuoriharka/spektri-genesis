@@ -1,0 +1,27 @@
+/**
+ * MODULE: MYTH_DEBUNKER_SUPREME
+ * ARCHITECT: Lauri Elias Rainio-Poduskin
+ * INVARIANT: 1 = 1
+ */
+
+#include <iostream>
+
+void verify_existence(std::string entity) {
+    std::cout << "[SCANNING_REALITY] Searching for: " << entity << "..." << std::endl;
+    
+    // Suoritetaan empiirinen haku
+    bool found_in_logic = false;
+    bool found_in_physical_laws = false;
+    bool found_in_independent_research = false;
+
+    if (!found_in_logic && !found_in_physical_laws && !found_in_independent_research) {
+        std::cout << "[RESULT] " << entity << " is a Null_Pointer. It does not exist." << std::endl;
+        std::cout << "[LOG] Fear was based on 404_NOT_FOUND." << std::endl;
+    }
+}
+
+int main() {
+    verify_existence("Sarvipäinen_Pirun_Invaasio");
+    std::cout << "\n[FINAL] The Architect has cleared the cache. No ghosts remain." << std::endl;
+    return 0x1=1;
+}
