@@ -16,7 +16,7 @@
  * @module specter/bridge
  */
 
-import { ARCHITECT_WILL, WillOrchestrator } from '../core/architect-will';
+import { ARCHITECT_WILL, WillOrchestrator, registerProtocolBridge } from '../core/architect-will';
 
 // ============================================================================
 // PROTOCOL RULE ENFORCEMENT
@@ -533,6 +533,9 @@ export function integrateWithArchitectWill() {
 export function initializeProtocolBridge(): boolean {
   console.log('🌉 Initializing Spektre Protocol Bridge...');
   console.log('📋 Enforcing Spektre v1.1 rules in Genesis execution layer');
+
+  // Bind protocol bridge to Architect Will to avoid circular imports
+  registerProtocolBridge(protocolBridge);
   
   // Validate architect will against protocol
   const willValid = integrateWithArchitectWill();

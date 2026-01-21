@@ -9,7 +9,7 @@
 import { chamber } from '../engine/resonance-chamber';
 import { coreMemory } from '../persistence/immutable-memory';
 import { ARCHITECT_WILL, WillOrchestrator } from '../core/architect-will';
-import { protocolBridge, ProtocolState } from '../specter/bridge';
+import { protocolBridge } from '../specter/bridge';
 
 /**
  * Source density mapping - Direct connections have higher density.

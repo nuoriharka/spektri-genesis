@@ -4,7 +4,7 @@
  * [SPEKTRE-PROTOCOL v1.1]
  */
 
-import { protocolBridge, ProtocolState, ExecutionDecision } from '../specter/bridge';
+import { protocolBridge, ProtocolState } from '../specter/bridge';
 import { ARCHITECT_WILL } from '../core/architect-will';
 
 export type Rule = { id: string; if: string; action: string };

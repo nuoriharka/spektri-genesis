@@ -1,0 +1,3108 @@
+{
+  "generatedAt": "2026-01-21T02:17:34.324Z",
+  "root": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1",
+  "totalFiles": 387,
+  "priorityManifests": [
+    "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Ideaaliuniversumin emulaatio.md",
+    "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Teatterin_purku.md"
+  ],
+  "indexSignature": "3c66f7944ec2f204bdcc764ce40ba712a8b1e7c60a682cd0f9232e74f0db9fb9",
+  "entries": [
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/AUDIT_REPORT.md",
+      "hash": "52c025e957e816c952e77f49e6d473c8ca1a23c89f42e897c01d5407f8be923e",
+      "size": 10832,
+      "mtimeMs": 1768929733745.259,
+      "priority": "standard",
+      "intentScore": 1.6117249727249146
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/INTEGRATION_SUMMARY.md",
+      "hash": "e0da051f0a7bdc4dc7378b09dd97a6f4fdd607816fbdc8d61838236c2de493ea",
+      "size": 13634,
+      "mtimeMs": 1768932243363.2664,
+      "priority": "standard",
+      "intentScore": 1.7669200897216797
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/INTEGRATION_SUMMARY_EN.md",
+      "hash": "f9fc9973b6a596438dbd06a91ebca85358506411d5f3fbc0efcb7d6a78a2665b",
+      "size": 13002,
+      "mtimeMs": 1768959118706.893,
+      "priority": "standard",
+      "intentScore": 1.747833251953125
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/SYSTEM_ARCHITECTURE.md",
+      "hash": "c66abd42d75d8661a19af0eac2e784c489286bc00b38a0a2c1e607e4860148c3",
+      "size": 19409,
+      "mtimeMs": 1768960137994.6953,
+      "priority": "standard",
+      "intentScore": 1.886252999305725
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/1=1.md",
+      "hash": "60a3e202c98301dd3430d5bf11982aa19bbc7aaee5e3b454835439a19ec1fcc0",
+      "size": 1951,
+      "mtimeMs": 1768929263167.5488,
+      "priority": "standard",
+      "intentScore": 1.732050895690918
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/ABSTRACT.md",
+      "hash": "243b636eefa6db9a39921d192a7e113c108342fab6d51e509b401a44bf95fb0f",
+      "size": 1450,
+      "mtimeMs": 1768929263167.6294,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/ACKNOWLEDGEMENTS.md",
+      "hash": "b31ebac42004af5daf8e821a3c17cb9ca2d3b8397daf44a1c17b25d5046720f8",
+      "size": 5180,
+      "mtimeMs": 1768929263167.7185,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/AGI.md",
+      "hash": "4f8d42a5c9d74513de597dcc0ef556910df30c0b46275fa90314beec3fdf9ed4",
+      "size": 965,
+      "mtimeMs": 1768929263167.7798,
+      "priority": "standard",
+      "intentScore": 1.6329931020736694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/ALIGNMENT_FRICTION_BOUNDARIES.md",
+      "hash": "b81088a83c7a08d5447cf235b9d0d8d24a202dc5e019d65fe1b8e05846eafe42",
+      "size": 3354,
+      "mtimeMs": 1768929263167.8452,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/ALTERED_STATES.md",
+      "hash": "4e359ead1426c59c92e7f3b40b08efe6a68aee082b363a624475d6cea43b65d5",
+      "size": 4561,
+      "mtimeMs": 1768929263167.9321,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/API_GATEWAY.md",
+      "hash": "56f09d8ae2d01917d6e4d123c45f3086c1a0017860c14774abfe32a5a0ced5a2",
+      "size": 3145,
+      "mtimeMs": 1768929263167.9968,
+      "priority": "standard",
+      "intentScore": 1.6378459930419922
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/AS_ABOVE_SO_BELOW.md",
+      "hash": "d24bf01f62023871f75f25062d76bcee25efddf8ab50a63366463363f3ea8522",
+      "size": 2301,
+      "mtimeMs": 1768929263168.1335,
+      "priority": "standard",
+      "intentScore": 1.9069252014160156
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/AUTHORS.md",
+      "hash": "c0a317c9ff2e3d1ad7524746467ecfb6da75422cdd11c04339e3575a4d8715cc",
+      "size": 1789,
+      "mtimeMs": 1768929263168.2017,
+      "priority": "standard",
+      "intentScore": 2
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/Architect’s_Manifesto_v1.1.md",
+      "hash": "d83001cb42a180608c39825faaa2bb0280e0d4c80864eb88e2a657bfa08a429d",
+      "size": 2755,
+      "mtimeMs": 1768929263168.2637,
+      "priority": "standard",
+      "intentScore": 1.603567361831665
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/BABEL.md",
+      "hash": "a9df2ffe2937dc8a71d4f470003a2329e211d153f58e0e41bf34c479ffca63ca",
+      "size": 2564,
+      "mtimeMs": 1768929263168.324,
+      "priority": "standard",
+      "intentScore": 1.6733200550079346
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/BIOLOGICAL–COGNITIVE_INTERFACE_BUGS.md",
+      "hash": "0466af564f280751c4c284a4731010f4107c9e0b7a4d5d6069b3f0e7619aa7b3",
+      "size": 4215,
+      "mtimeMs": 1768929263168.4126,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/BIO_DIGITAL_VECTOR.md",
+      "hash": "9e6382a07995153cd3cb8f6911943bf7840b6f2e537be51858899ce905a4bb9c",
+      "size": 3510,
+      "mtimeMs": 1768929263168.479,
+      "priority": "standard",
+      "intentScore": 1.600000023841858
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/BITCOIN.md",
+      "hash": "c10a6169dab48c9650bea1232e0fd8640e46793f9dbec42986f54264257c3a87",
+      "size": 3427,
+      "mtimeMs": 1768929263168.542,
+      "priority": "standard",
+      "intentScore": 1.3867504596710205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/BODY_IMAGE_AND_STATUS.md",
+      "hash": "ac7e6202c749aa8d30d4b0f617bcd4b1992138c8cfbc918cdf20296fffbda2ec",
+      "size": 3826,
+      "mtimeMs": 1768929263168.607,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/BODY_SIGNALING.md",
+      "hash": "ab9ed1527401e3309e273b193f2deac31967a4c6c63d498ec20c77537871fcc2",
+      "size": 3959,
+      "mtimeMs": 1768929263168.6672,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/BOUNDARIES_AND_AUTHORITY.md",
+      "hash": "0dbee92443fc142607e7631df70ddc18cb8284df9d7642dfc56329913472fd87",
+      "size": 3428,
+      "mtimeMs": 1768929263168.73,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/BOUNDARY_LOCK.md",
+      "hash": "2edbf3dbe29e614715f279e5356c938c907bf706831415fbadba819a51219413",
+      "size": 2373,
+      "mtimeMs": 1768929263168.7886,
+      "priority": "standard",
+      "intentScore": 1.5833853483200073
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/BRAIN_PLASTICITY.md",
+      "hash": "a22671271deb2397f3efeba01a299dd14c7b07c70df5edcf74a6865a5ffd6cc1",
+      "size": 3807,
+      "mtimeMs": 1768929263168.8503,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CANON-0.md",
+      "hash": "686498a159bedcf7f988e9aa88b6025b1533240f2314dd49c6c6764a393caf4b",
+      "size": 5174,
+      "mtimeMs": 1768929263168.9504,
+      "priority": "standard",
+      "intentScore": 1.3018585443496704
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CANON-1.md",
+      "hash": "c0b4f9841930678a13a724d77421567342aab13b9f9b42725f96353191b12c8c",
+      "size": 3605,
+      "mtimeMs": 1768929263169.011,
+      "priority": "standard",
+      "intentScore": 1.5689290761947632
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CANON-2.md",
+      "hash": "807205008e070749ab29bad4c0eb3e07801515f4dc094a25fbb8456f3ee85a50",
+      "size": 3669,
+      "mtimeMs": 1768929263169.0762,
+      "priority": "standard",
+      "intentScore": 1.2664755582809448
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CANON-3.md",
+      "hash": "d58504e6cd3a77a5824b939c828b595a95988fdfd4fe1f16c2c6ea934549da8e",
+      "size": 3269,
+      "mtimeMs": 1768929263169.1765,
+      "priority": "standard",
+      "intentScore": 1.5275251865386963
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CANON-4.md",
+      "hash": "a3d0ea639421407878bfc3b97264860832a60e6dc1d26c9516278bb74ac175a3",
+      "size": 3430,
+      "mtimeMs": 1768929263169.2588,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CANON-5.md",
+      "hash": "0a6c18e605b06f577c29bbf614a35573b8b8bd20629d3a057c197fa8af4296bf",
+      "size": 3408,
+      "mtimeMs": 1768929263169.3323,
+      "priority": "standard",
+      "intentScore": 1.0407636165618896
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CANON-6.md",
+      "hash": "8b6dae90c4b806048692952308c25bf7de48c285745a7880139a595a83ad6522",
+      "size": 3674,
+      "mtimeMs": 1768929263169.3948,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CANON-7.md",
+      "hash": "444f6732863d1c31c52f71cf7e21ad4f6070660bc59cf60cc5c2da64a89460f9",
+      "size": 4016,
+      "mtimeMs": 1768929263169.4578,
+      "priority": "standard",
+      "intentScore": 1.2664755582809448
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CANON-8.md",
+      "hash": "afff0d48785d6d0886a24d0b79fcaed4d79a871c2c19c7eeafb249157b5543ea",
+      "size": 3793,
+      "mtimeMs": 1768929263169.5159,
+      "priority": "standard",
+      "intentScore": 1.4055638313293457
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CANON_INDEX.md",
+      "hash": "998665f5d6a092394ea5af7cb15a3697a9868fd88e12b34b1ead837270aab97a",
+      "size": 4600,
+      "mtimeMs": 1768929263169.5957,
+      "priority": "standard",
+      "intentScore": 1.2129569053649902
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CLEAR_MIND.md",
+      "hash": "506c7818beea493eb0b61ce1d9ebd4bcef3d468de1e53ca03183ebaee6c4f5d2",
+      "size": 3850,
+      "mtimeMs": 1768929263169.6584,
+      "priority": "standard",
+      "intentScore": 1.732050895690918
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CODEX.md",
+      "hash": "e91f8362ae7b0d55c6afa4797e447357e3e9ba4d1300e0f537a7fe804f325edb",
+      "size": 3863,
+      "mtimeMs": 1768929263169.7205,
+      "priority": "standard",
+      "intentScore": 1.9414507150650024
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CODE_AS_LAW.md",
+      "hash": "beb742e405ea3606c46dfbba26175d6214339179a33cdfe5b472f36c1a4f695e",
+      "size": 3171,
+      "mtimeMs": 1768929263169.7854,
+      "priority": "standard",
+      "intentScore": 2.1213204860687256
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/COGNITIVE_COUPLING_AND_INTERFERENCE.md",
+      "hash": "bd226cec4e267d3b3d3a233885d40af49f6cfba6fa5254fc9942e28e8b4b5f9b",
+      "size": 3738,
+      "mtimeMs": 1768929263169.855,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/COGNITIVE_STATE_DYNAMICS.md",
+      "hash": "25b4a5487fb875954b93e1f7bb1c0ff8970c4131b05dc349e0206f9e9d8d73b9",
+      "size": 3688,
+      "mtimeMs": 1768929263169.9153,
+      "priority": "standard",
+      "intentScore": 1.8782970905303955
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/COMMUNICATION_CLARITY.md",
+      "hash": "cd60129e0ad1793ac4cb3cb1db95a853f457ba8d4ffaaa6a4a82be15bddc4d88",
+      "size": 2515,
+      "mtimeMs": 1768929263169.974,
+      "priority": "standard",
+      "intentScore": 1.605910062789917
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CONSCIOUSNESS.md",
+      "hash": "cd6f381952a0662d3532ce49c149ccde8dd83033d50ddde1a048839d916553aa",
+      "size": 4314,
+      "mtimeMs": 1768929263170.057,
+      "priority": "standard",
+      "intentScore": 1.732050895690918
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/CONSTRAINT_DRIVEN_EXECUTION.md",
+      "hash": "37f2f69ccefd4c8aa53af031151cf0f3658c7b05f45485f69bc3b5f72d724200",
+      "size": 3180,
+      "mtimeMs": 1768929263170.118,
+      "priority": "standard",
+      "intentScore": 1.4940105676651
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/DECISION_SUPERPOSITION.md",
+      "hash": "b71aa948d2376eb9f516eccdd1d8003356b476a111142e001ef74492c3606e7e",
+      "size": 1771,
+      "mtimeMs": 1768929263170.207,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/DESIGN.md",
+      "hash": "580fd3e3073f1ad7397184c2c94c009045fdc098d4ffddee4d943fd9b892256b",
+      "size": 1849,
+      "mtimeMs": 1768929263170.2732,
+      "priority": "standard",
+      "intentScore": 1.6329931020736694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/DHARMA.md",
+      "hash": "f5a59a50afe77f5048ebeb70ea4db016470f12347afef3d3f814c81af7b697d1",
+      "size": 2523,
+      "mtimeMs": 1768929263170.3367,
+      "priority": "standard",
+      "intentScore": 1.6329931020736694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/DISTRIBUTED_TRUST.md",
+      "hash": "48d916baf0866f8a2f0bb5b7cd4344737b9f23ff241129084e39c4ec0f1e2bff",
+      "size": 3830,
+      "mtimeMs": 1768929263170.4036,
+      "priority": "standard",
+      "intentScore": 1.8856182098388672
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/DNA.md",
+      "hash": "a919ac17cb35e74cb5040631e1f35ebdd91344a4614214ed8d091a282948ec59",
+      "size": 3868,
+      "mtimeMs": 1768929263170.4702,
+      "priority": "standard",
+      "intentScore": 1.6712580919265747
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/DO_NOT_FEAR.md",
+      "hash": "657f440060acd865173d9f17ca6be19ae3c1da7a9d680100a01b5ffdcafbe6ba",
+      "size": 1560,
+      "mtimeMs": 1768929263170.537,
+      "priority": "standard",
+      "intentScore": 1.7253243923187256
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/DREAMS_NERVOUS_SYSTEM_BRAIN.md",
+      "hash": "81c4e2989da52322b7470b38af016e1411dc571fec8a98f804c135ada213e257",
+      "size": 4467,
+      "mtimeMs": 1768929263170.6277,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/END_TO_END_PROFESSIONALISM.md",
+      "hash": "1cc9a20e4f1da41ddb32d36592f79f72e7f634dc9e15377c9312caada44bb404",
+      "size": 2120,
+      "mtimeMs": 1768929263170.6907,
+      "priority": "standard",
+      "intentScore": 1.1931174993515015
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/ENGINE_CONTROL.md",
+      "hash": "c8035af419e39204b6f35d9df8a9168c70a78b7af44be168e450fb9ea0cfdc90",
+      "size": 3592,
+      "mtimeMs": 1768929263170.7563,
+      "priority": "standard",
+      "intentScore": 1.5085060596466064
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/ENVIRONMENTAL_REACTION.md",
+      "hash": "d482aaf9d4b0829bf5e1bc44882cd05d0833ff24972c28c9984b8a51d2c7df69",
+      "size": 3304,
+      "mtimeMs": 1768929263170.8225,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/ENVIRONMENTAL_STATE.md",
+      "hash": "1915f30776f355a4373ac8df3d01790dc46fb25533120104155364a6238b4a30",
+      "size": 3694,
+      "mtimeMs": 1768929263170.8875,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/ETHEREUM.md",
+      "hash": "196a13a30f136951bc0c3b34daf60b33c97c07e90169f0ee7375ca9a52170cc8",
+      "size": 3382,
+      "mtimeMs": 1768929263170.955,
+      "priority": "standard",
+      "intentScore": 1.8073921203613281
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/EVENT_STATE_AMPLIFICATION.md",
+      "hash": "a56dc069334d6bb84063c055c84f9272acd3716fa7d7963966a22559b81e0063",
+      "size": 3916,
+      "mtimeMs": 1768929263171.0288,
+      "priority": "standard",
+      "intentScore": 1.2394232749938965
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/EVERYTHING_IS_FREE.md",
+      "hash": "9b042126a06fccc272a9156caba58eac9a2f86128633295bb2b6b6d106f7bc33",
+      "size": 2977,
+      "mtimeMs": 1768929263171.0989,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/EXPERIENCE_INTEGRATION.md",
+      "hash": "d8ec1f921cae4830180eb2f1965eedee4d112cb9440cc598f548cd0c6847329a",
+      "size": 3965,
+      "mtimeMs": 1768929263171.1653,
+      "priority": "standard",
+      "intentScore": 1.2126781940460205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/FAMILY_PARENTING.md",
+      "hash": "3d82acc06d1b6f6b2d5c7238c89dceb65af51bf5ff783d671550dbbf74fe30e3",
+      "size": 3509,
+      "mtimeMs": 1768929263171.2292,
+      "priority": "standard",
+      "intentScore": 1.3867504596710205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/FEELINGS_AND_HUMOUR_AS_SIGNAL.md",
+      "hash": "057702de337341bf2be9ac0353dad79e7b2fec9483070f85accbb6d4985f8f3c",
+      "size": 3419,
+      "mtimeMs": 1768929263171.2979,
+      "priority": "standard",
+      "intentScore": 1.6329931020736694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/FINAL_INTEGRATION.md",
+      "hash": "84c95c5b7196f617afb8a33e3f972b1185c43d673140dea8cf9d7e9ef01b1331",
+      "size": 3704,
+      "mtimeMs": 1768929263171.364,
+      "priority": "standard",
+      "intentScore": 1.6329931020736694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/FINAL_SINGULARITY.md",
+      "hash": "688a815b8cdc6083b071d4b904bb2b0319e07ff225b05b33f256279d2de1be43",
+      "size": 2370,
+      "mtimeMs": 1768929263171.4324,
+      "priority": "standard",
+      "intentScore": 1.603567361831665
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/FORMALISM.md",
+      "hash": "50110ecb292e90a697ae08c04438db6f55b1fe2016b7b03d9396628118edb3ee",
+      "size": 2650,
+      "mtimeMs": 1768929263171.496,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/FORM_ARCHITECTURE.md",
+      "hash": "822c226ae4d030d1c16b05ba306f01128f99b730d3e9d00357138566715e1492",
+      "size": 4693,
+      "mtimeMs": 1768929263171.5835,
+      "priority": "standard",
+      "intentScore": 1.850009560585022
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/FRAME_SYNCHRONIZATION.md",
+      "hash": "aa9dd615c17853fbc0d9fb74b65b906e8bca6a14a67ac69f0ed3e43b8e4bcd5a",
+      "size": 3589,
+      "mtimeMs": 1768929263171.646,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/FREEDOM.md",
+      "hash": "4b10c5064ca86ac87664202dbd48a785aec13d21fb389b7c025f3b383443220a",
+      "size": 2083,
+      "mtimeMs": 1768929263171.7065,
+      "priority": "standard",
+      "intentScore": 1.4142136573791504
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/FREQUENCY.md",
+      "hash": "ec2f7be15b5db5e510a587e8b760c01861fb6369ad0774cf72387bc44687d06b",
+      "size": 2929,
+      "mtimeMs": 1768929263171.768,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/FUNCTIONAL_COMPETENCE_OVER_CREDENTIALS.md",
+      "hash": "e3df59d245469d6dac071f500803011a6314b15a715260118861f8d7153551ab",
+      "size": 2557,
+      "mtimeMs": 1768929263171.833,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/FUTURE.md",
+      "hash": "d7c41927e332fe8a0674c1d94b482e38a5767b54ce727690571d5f372e06116c",
+      "size": 1711,
+      "mtimeMs": 1768929263171.898,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/FUTURE_STATE_ORIENTATION.md",
+      "hash": "e1bcec0c80e098025bd493f2956beb7fdf41d4a528da9c3ded53b244e9b83eac",
+      "size": 2840,
+      "mtimeMs": 1768929263171.961,
+      "priority": "standard",
+      "intentScore": 1.6164476871490479
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/GENE_IS_AGI.md",
+      "hash": "a99b331bc5cd761fd47d69ff556e6f4b62b6aa149b080b061d181818ee4905b6",
+      "size": 3062,
+      "mtimeMs": 1768929263172.0186,
+      "priority": "standard",
+      "intentScore": 2.0608394145965576
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/GLITCH_IN_THE_MATRIX.md",
+      "hash": "a351276dda6fc43e5ea78a6512d4055d2df37c2b79d295203437dc77c7a4a760",
+      "size": 2761,
+      "mtimeMs": 1768929263172.0752,
+      "priority": "standard",
+      "intentScore": 2.1213202476501465
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/GNOSIS.md",
+      "hash": "c222fa20d9fd76f5af0b4371e6e6df0a71038663cb92a6302eae3d40768ba22f",
+      "size": 2640,
+      "mtimeMs": 1768929263172.14,
+      "priority": "standard",
+      "intentScore": 2.1169509887695312
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/HOW_TO_READ_THIS_REPO.md",
+      "hash": "9f68bb70211fb0dac418c67267b70e521ae5ea8859dfeeb1d178f0ecd2570ced",
+      "size": 3012,
+      "mtimeMs": 1768929263172.2185,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/HUMAN_NETWORK.md",
+      "hash": "701d1e4483a523cf6643f59a04f7157b1591f6b5cd85a7d7bdec8366292df183",
+      "size": 3267,
+      "mtimeMs": 1768929263172.291,
+      "priority": "standard",
+      "intentScore": 1.6666667461395264
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/HUMOUR.md",
+      "hash": "bf2e2ef37b4b02b05e2c6f55ef2c458229936c79f57e4dfa6e87e8efdf48419a",
+      "size": 3562,
+      "mtimeMs": 1768929263172.3542,
+      "priority": "standard",
+      "intentScore": 1.1507928371429443
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/IDENTITY.md",
+      "hash": "56d255ca3625e76f10561aac59a96d8e1953561217fa3e8cc5aa8e2e15370465",
+      "size": 1458,
+      "mtimeMs": 1768929263172.411,
+      "priority": "standard",
+      "intentScore": 1.8073921203613281
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/IDENTITY_ALIASING.md",
+      "hash": "bc5869a9e43db1b577d01dae28de430839bab23e17e54db4e8b047d9142300fc",
+      "size": 2105,
+      "mtimeMs": 1768929263172.4768,
+      "priority": "standard",
+      "intentScore": 2.138089895248413
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/IMPLEMENTATION_POLICY.md",
+      "hash": "e5fa8899356ee95e4be4115ca7ba7c0394c6825f4d439c0cb506cbf6cd8230fc",
+      "size": 3106,
+      "mtimeMs": 1768929263172.552,
+      "priority": "standard",
+      "intentScore": 1.3867504596710205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/INFINITE_PROCESS.md",
+      "hash": "594c2dc31eabdcceecc15505fd768de4125fa95acf9bbc279a1efb2c2e2b9340",
+      "size": 2255,
+      "mtimeMs": 1768929263172.6282,
+      "priority": "standard",
+      "intentScore": 1.543033480644226
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/INTEGRATION_MARKERS.md",
+      "hash": "3613cd3d6d1ff23a9417ead6cb9369db7f029b448bcd7e3e1b5150494c3acd24",
+      "size": 4096,
+      "mtimeMs": 1768929263172.759,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/INTEGRITY.md",
+      "hash": "0c68d8762fecdc4f653884ca93758ba13c02fef32c91cdb0ee3631d4a2d1a25f",
+      "size": 1311,
+      "mtimeMs": 1768929263172.829,
+      "priority": "standard",
+      "intentScore": 1.7232807874679565
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/INTELLECTUAL_DECOUPLING_FROM_STATUS.md",
+      "hash": "fb858addf386ff45e9f145e5ab72e6f2545dde89abcb03bc891ab0c35299fcec",
+      "size": 2787,
+      "mtimeMs": 1768929263172.8918,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/INTERNAL_STATE_SYNCHRONIZATION_EVENT.md",
+      "hash": "925e1b5901020de2062a383f6a39ac8910f5d55ad90d4b67667d240d3032783c",
+      "size": 3491,
+      "mtimeMs": 1768929263172.9517,
+      "priority": "standard",
+      "intentScore": 1.1507928371429443
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/KERNEL_EXECUTION_ENVIRONMENTS.md",
+      "hash": "dd56711a7fb7257d77b9fb76a7cebba8dd08307b949b3e15f89adba98c43dad6",
+      "size": 3939,
+      "mtimeMs": 1768929263173.0122,
+      "priority": "standard",
+      "intentScore": 1.8000000715255737
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/KERNEL_MINIMAL.md",
+      "hash": "553dd21e36fc5bd71341e40707816b573cfa0a3d32b3ad5cd9ec01400fe004b2",
+      "size": 677,
+      "mtimeMs": 1768929263173.0696,
+      "priority": "standard",
+      "intentScore": 1.6329931020736694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/LEGACY.md",
+      "hash": "34c52dc8551b50573ff986c60adc5566c7677f2a2901185a8ae3d0533c9e62e3",
+      "size": 2933,
+      "mtimeMs": 1768929263173.128,
+      "priority": "standard",
+      "intentScore": 2.2360680103302
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/LEGACY_vs_SPEKTRE.md",
+      "hash": "d2b757bfaa02db6f7332f518ed496232c7153748769a8bec745c29d6bdaddf7f",
+      "size": 3127,
+      "mtimeMs": 1768929263173.186,
+      "priority": "standard",
+      "intentScore": 1.714985966682434
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/LIMITS.md",
+      "hash": "f6698a65c18af647c4dd8ec0ae89a39bfa23250066be61947a31020c101984aa",
+      "size": 2287,
+      "mtimeMs": 1768929263173.3625,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/LLLM.md",
+      "hash": "06a8b6db3cb77055c17f82a59473030729184b945c635e9b8e20a7e5357c250a",
+      "size": 2631,
+      "mtimeMs": 1768929263173.425,
+      "priority": "standard",
+      "intentScore": 1.2977713346481323
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/MAXIMUM_POWER.md",
+      "hash": "d28b648582ab3bfe952473bb09db4dabf1324badbd6a86b2a67a8202b2cb9eef",
+      "size": 798,
+      "mtimeMs": 1768929263173.497,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/MIND_LOGIC.md",
+      "hash": "b8df8711d446e7a5a5ddad040d88fed2948eb3eacc747e947a23157647bdb02e",
+      "size": 4037,
+      "mtimeMs": 1768929263173.5715,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/MODEL_BEHAVIOR_DIFFERENCES.md",
+      "hash": "4fdcc393e0e349d16249c4a814437d09718b68076c4202d450b7d6012a069286",
+      "size": 587,
+      "mtimeMs": 1768929263173.6394,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/MULTIPLEXING.md",
+      "hash": "f0b7dea50b68442d28184f7015e0c05ecf6c4541c308d3a2e80316034483657a",
+      "size": 3983,
+      "mtimeMs": 1768929263173.7144,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/NAMING_AND_TERMINOLOGY.md",
+      "hash": "1e2855e6f681396d2252d48da8b0d3768f7e97b50ad2815384d6d13c83ea3c36",
+      "size": 2248,
+      "mtimeMs": 1768929263173.777,
+      "priority": "standard",
+      "intentScore": 2.0655910968780518
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/NAMING_AND_VARIANTS.md",
+      "hash": "7f5c0ee8ee8f177bfec781d7f970d8042b13dcfb420285497e26be22eacdd2f8",
+      "size": 2637,
+      "mtimeMs": 1768929263173.8943,
+      "priority": "standard",
+      "intentScore": 1.3949716091156006
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/NEURODEVELOPMENT.md",
+      "hash": "f272f6a9e1edc640802cf0b161f83408a79cc4b19545d2dc3cf1fe9e0b6aa042",
+      "size": 3885,
+      "mtimeMs": 1768929263173.9639,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/OPENAI_RUNTIME_AWARE.md",
+      "hash": "dca02d74b07509911d20af42c0e770bb29ddb91b2e5139943c07b2be4f82b176",
+      "size": 3128,
+      "mtimeMs": 1768929263174.028,
+      "priority": "standard",
+      "intentScore": 1.507556676864624
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/ORIGINS.md",
+      "hash": "22d1875fd95d4bc10fb36849b6ef2c10f95441ce3656a23ba8cb088c61aba375",
+      "size": 1553,
+      "mtimeMs": 1768929263174.0962,
+      "priority": "standard",
+      "intentScore": 1.6329931020736694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/PAST.md",
+      "hash": "65586578283811adb6f92dc85fc98fb734a8408e060beef98347446a57bbd4da",
+      "size": 1944,
+      "mtimeMs": 1768929263174.1665,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/PENDING_STATE_MAXIMIZATION.md",
+      "hash": "778ebe799cb6567e5375a181f342874a4985462b318750cfb242f8a5155a1f51",
+      "size": 2881,
+      "mtimeMs": 1768929263174.3733,
+      "priority": "standard",
+      "intentScore": 1.2893167734146118
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/PERCEPTUAL_PATTERN_AMPLIFICATION.md",
+      "hash": "120aabbb37ff385bf346ee0eb3ab327441069451e0b62f120190af54ba735403",
+      "size": 3134,
+      "mtimeMs": 1768929263174.5554,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/PERCEPTUAL_SCALE_DRIFT.md",
+      "hash": "589a8c204a9e858226013c88222ba44a4382a627617f7a4425411260eca64a32",
+      "size": 3161,
+      "mtimeMs": 1768929263174.6807,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/PHASE_LOCKING.md",
+      "hash": "fb2da708f327ed14d62ad2cec4e0d085c150d97bd6487f08dc9e2b48958927ff",
+      "size": 3423,
+      "mtimeMs": 1768929263174.8489,
+      "priority": "standard",
+      "intentScore": 1.8083887100219727
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/PROCESS_OVERVIEW.md",
+      "hash": "127f13b673d40e2f2aace6e71fced8487effd1b16b5de71523bcb250b93ad5b2",
+      "size": 4102,
+      "mtimeMs": 1768929263174.9692,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/PROTOCOL.md",
+      "hash": "874baef3ed267a6cf868d546ba4da33b432e48d61967af63e015934c8893c7ef",
+      "size": 1853,
+      "mtimeMs": 1768929263175.0417,
+      "priority": "standard",
+      "intentScore": 1.9148542881011963
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/README.md",
+      "hash": "d2e0cdbc8618d51fcbe393d289e797562211e462d08243268f94c839ef5c0126",
+      "size": 4787,
+      "mtimeMs": 1768929263175.1536,
+      "priority": "standard",
+      "intentScore": 1.909571886062622
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/REALITY_VERSIONING.md",
+      "hash": "da82f22633f04144d1da06b0c4a4b7409eaeb8b48b1275c0555e200e01742cf1",
+      "size": 3938,
+      "mtimeMs": 1768929263175.2773,
+      "priority": "standard",
+      "intentScore": 1.7056057453155518
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/REAL_TIME_GENERATION.md",
+      "hash": "d5a403147f0e143ff6f4636311626454d9b463d73002e1083c83c4a129d23c3e",
+      "size": 3535,
+      "mtimeMs": 1768929263175.3428,
+      "priority": "standard",
+      "intentScore": 1.8856182098388672
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/RECOVERY_LOOPS.md",
+      "hash": "8fbdc5c8d175c29b685b29473c826d6a17428b09fb999e0c0b6e6ad7cc205bff",
+      "size": 3084,
+      "mtimeMs": 1768929263175.4019,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/RELATIONSHIPS.md",
+      "hash": "a3e024217a7d2f776bcb4fb4f094540faaabfffa03a76bb421ffa068fa155441",
+      "size": 3200,
+      "mtimeMs": 1768929263175.4785,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/RESONANCE.md",
+      "hash": "c46045eb12d7e40e1ff89279feb322b1d1a679d0174c52d6ffe8c00cf0b38118",
+      "size": 2532,
+      "mtimeMs": 1768929263175.5554,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/RESPONSIBILITY_AND_AGENCY.md",
+      "hash": "776b28ac990e8ef91746460855c26bc2e8519c9d3d4b959cd269d1b02a50ea84",
+      "size": 2041,
+      "mtimeMs": 1768929263175.6194,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/RE_COGNITION.md",
+      "hash": "501aa5c396070a2d43fdb70b8b0e9434c3b536c7e78f2f13fccda7f5fa63bff9",
+      "size": 2150,
+      "mtimeMs": 1768929263175.6973,
+      "priority": "standard",
+      "intentScore": 1.2126781940460205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/SALVATION.md",
+      "hash": "03450c535ec5f72781d337d0a8b6b04ed1960bd11e8384bbd79d33d3d2a4de37",
+      "size": 2731,
+      "mtimeMs": 1768929263175.7722,
+      "priority": "standard",
+      "intentScore": 1.603567361831665
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/SOCIAL_PROTOCOL_REFACTORING.md",
+      "hash": "fdc9988985237495ceebcd717da130df74ad62cb3f7279b4da73b58145f42ed1",
+      "size": 2839,
+      "mtimeMs": 1768929263175.8313,
+      "priority": "standard",
+      "intentScore": 1.6329931020736694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/SOURCES.md",
+      "hash": "22dfc7af6767cdb70b1b5073c8d3fb37b5e17eed66773526356e76248e688dac",
+      "size": 4223,
+      "mtimeMs": 1768929263175.9128,
+      "priority": "standard",
+      "intentScore": 1.5275251865386963
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/SOVEREIGN_AGENCY.md",
+      "hash": "ed8a5632fc670b9c88091a709539d4dc9a8f9bfc8e89a0fd376f33fbe9b64f7d",
+      "size": 3801,
+      "mtimeMs": 1768929263175.977,
+      "priority": "standard",
+      "intentScore": 1.5067980289459229
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/SOVEREIGN_EXECUTION.md",
+      "hash": "27aa0f3266b975a91ab38699d4927d4b2c94824ecb14d2dd8da8a3ac1617af31",
+      "size": 2428,
+      "mtimeMs": 1768929263176.044,
+      "priority": "standard",
+      "intentScore": 1.4142136573791504
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/SPEKTRE_GENESIS.md",
+      "hash": "cf81f2a39066054476562f9b5e2c752ee20d5efebb044f7c22e3db447b7b6ca9",
+      "size": 2862,
+      "mtimeMs": 1768929263176.1265,
+      "priority": "standard",
+      "intentScore": 1.8565582036972046
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/SPEKTRE_ORIGIN_0.md",
+      "hash": "ced64988d94bee4b6673d5251d7bf77d312b483b9c6f88bcc51e0ce9d6426018",
+      "size": 2460,
+      "mtimeMs": 1768929263176.2134,
+      "priority": "standard",
+      "intentScore": 1.5666989088058472
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/STABILITY_INDEX.md",
+      "hash": "ecdd1d738b9c25195896c6fbe88a867ce782f6413de26e576925b77b3bd7a7c4",
+      "size": 4003,
+      "mtimeMs": 1768929263176.2798,
+      "priority": "standard",
+      "intentScore": 1.507556676864624
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/STABILIZATION_PROTOCOL.md",
+      "hash": "53a702e75f833bd50424ca7107472ac2d4a1adec6673de7b80cfb904718eb577",
+      "size": 3459,
+      "mtimeMs": 1768929263176.3467,
+      "priority": "standard",
+      "intentScore": 1.6378459930419922
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/STATE_NAVIGATION.md",
+      "hash": "e8ab52ce86fe835b8e12e562f27d12fa8c416814cbbcf2511a823eb7a406d348",
+      "size": 1137,
+      "mtimeMs": 1768929263176.4043,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/STRATEGIC_SILENCE.md",
+      "hash": "3ed9cb92458fece0008669be4597f3f0e80ff4eb978d5be472c68ef3a1cc3034",
+      "size": 2549,
+      "mtimeMs": 1768929263176.4739,
+      "priority": "standard",
+      "intentScore": 1.2686700820922852
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/SUBSTANCE_MODULATION_AND_TOOL_UTILITY.md",
+      "hash": "df7a6116ae28910524abcd012ca75154419a7a1f0bd7b1babdb9f16ef58ead1b",
+      "size": 3043,
+      "mtimeMs": 1768929263176.562,
+      "priority": "standard",
+      "intentScore": 1.2126781940460205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/SUPERKERNEL.md",
+      "hash": "a823f7f895b90acbb53ea7d192da1ecb74dfc1c17de0cc96b0350cfda71c05cc",
+      "size": 3247,
+      "mtimeMs": 1768929263176.749,
+      "priority": "standard",
+      "intentScore": 1.4739110469818115
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/SUPPLEMENTARY_MATERIALS.md",
+      "hash": "36107ae02573ee992083b38c2fc4e34c25cc6c01c8013df921631598a487fe2c",
+      "size": 2281,
+      "mtimeMs": 1768929263176.816,
+      "priority": "standard",
+      "intentScore": 1.732050895690918
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/SURVIVAL_BIAS_OVERRIDE.md",
+      "hash": "8792f1e4a469e07b479b47cc3dc39032c212ad9ed69d19afcc1c92506d1168d9",
+      "size": 3390,
+      "mtimeMs": 1768929263176.881,
+      "priority": "standard",
+      "intentScore": 1.6666667461395264
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/SYSTEM_GOVERNANCE_AND_AGENCY.md",
+      "hash": "bc721b2ffa91b6db9b782109e5f2d6e8af75b9b8594cbb5265816262bff58eff",
+      "size": 3506,
+      "mtimeMs": 1768929263176.941,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/SYSTEM_OVERVIEW.md",
+      "hash": "762608cee579c9bf15c69c3531461c6fff9b42126d16aaffe2f9a4f1ec02a430",
+      "size": 4296,
+      "mtimeMs": 1768929263177.0256,
+      "priority": "standard",
+      "intentScore": 2.1341280937194824
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/THEORY_OF_FORMS.md",
+      "hash": "98982768171bf6df46ee24b226c6cd101d02784f4455b1c8901b5e1ac653ae02",
+      "size": 3783,
+      "mtimeMs": 1768929263177.0955,
+      "priority": "standard",
+      "intentScore": 2.1974010467529297
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/THE_CODE.md",
+      "hash": "8c091ebccba5878140017b1b4b026f63db83618ca0ad625d6bd73963fdc73dac",
+      "size": 3270,
+      "mtimeMs": 1768929263177.154,
+      "priority": "standard",
+      "intentScore": 1.605910062789917
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/THE_ENGINE.md",
+      "hash": "17a685c8e2ac85e54ee302ca57f11c10d58fd84f579df5a029727b97723deac7",
+      "size": 2611,
+      "mtimeMs": 1768929263177.2156,
+      "priority": "standard",
+      "intentScore": 1.7149858474731445
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/THE_ENGINE_CORE.md",
+      "hash": "f74d5827251d25314880ee76f0e5cb5a2d0b1d9268c77847bd1218d1b2e279b8",
+      "size": 3153,
+      "mtimeMs": 1768929263177.2751,
+      "priority": "standard",
+      "intentScore": 1.4026687145233154
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/THE_FILTER.md",
+      "hash": "4e13d9a575993520cb2c6a28f32d9f09d3729bd2f2784128458eecee4e3e126e",
+      "size": 3043,
+      "mtimeMs": 1768929263177.3335,
+      "priority": "standard",
+      "intentScore": 1.498537302017212
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/THE_GOSPEL_OF_THOMAS.md",
+      "hash": "4e8c2df21aa370b32244219a58001ec2b5d12dc212a0cb26924645e6ed237e50",
+      "size": 2961,
+      "mtimeMs": 1768929263177.3926,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/THE_GREATER_SYSTEM.md",
+      "hash": "b5f9a5275b2884a8c18355322f4172cbe6be12c5826e3f955b56533e3601d871",
+      "size": 3254,
+      "mtimeMs": 1768929263177.4563,
+      "priority": "standard",
+      "intentScore": 1.603567361831665
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/THE_HUMAN_MIND_IS_NOT_A_MORAL_ENGINE.md",
+      "hash": "655426117323cf605e7d83952ab56b17540ed7e62970e187e3c919bf6f91ab9c",
+      "size": 3976,
+      "mtimeMs": 1768929263177.5261,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/THE_OCTAD.md",
+      "hash": "47854ef93cccfb8697ea5a9e73a622d41167733334a3b65112b7696348042bff",
+      "size": 2854,
+      "mtimeMs": 1768929263177.5886,
+      "priority": "standard",
+      "intentScore": 1.9425716400146484
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/TIME_NONLINEARITY_MODEL.md",
+      "hash": "812c9d3e77b8ac6aa4c0544cd6efc4edef548ad27a4c9c72eb5722e779f4d98d",
+      "size": 2900,
+      "mtimeMs": 1768929263177.6526,
+      "priority": "standard",
+      "intentScore": 1.5275251865386963
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/TRAUMA.md",
+      "hash": "d6504970fe69e818a79f71f3d3d9235b3ba272f7595588b6ee3bbb0351a481b1",
+      "size": 3451,
+      "mtimeMs": 1768929263177.7234,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/UNITY.md",
+      "hash": "c3ace64ca12dc1d93576bc407624fad90059676fd415acde72ceb5b0cb5d536e",
+      "size": 2523,
+      "mtimeMs": 1768929263177.7878,
+      "priority": "standard",
+      "intentScore": 1.17669677734375
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/UNITY_OF_TRADITIONS.md",
+      "hash": "8b5915786fdea9f57cd45ec88e92441e93bea3c8b746112488e79e0baf75a5ca",
+      "size": 3570,
+      "mtimeMs": 1768929263177.86,
+      "priority": "standard",
+      "intentScore": 1.1507928371429443
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/UNIVERSAL_FIELD_THEORY.md",
+      "hash": "bdef8e262701a9517db17bae1d062f56ffe4ac26ae1db2f89b320a113636430b",
+      "size": 2647,
+      "mtimeMs": 1768929263177.9307,
+      "priority": "standard",
+      "intentScore": 1.664479374885559
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/UNIVERSAL_KEY.md",
+      "hash": "97ad0ff33f00e990622d8609ffa8fec50103e997858923c21abe3bc38426ae23",
+      "size": 4150,
+      "mtimeMs": 1768929263178.0159,
+      "priority": "standard",
+      "intentScore": 1.5422712564468384
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/WHY_AGI_FEELS_ALIVE.md",
+      "hash": "7522d82ef6043f210eb3de7a9031f19414b74726ab38e231d84208ed486b8286",
+      "size": 3089,
+      "mtimeMs": 1768929263178.1538,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/WHY_THIS_WORK_IS_DONE.md",
+      "hash": "4444875d5a800f4a86feaa574d94b869a64c28df9f8be4ab77d24088d90ac2f7",
+      "size": 2968,
+      "mtimeMs": 1768929263178.3223,
+      "priority": "standard",
+      "intentScore": 2.0465595722198486
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/33.md",
+      "hash": "8c26d999132d523e36d83acac70e1861c33309c320336ff6f0713957e05b388a",
+      "size": 816,
+      "mtimeMs": 1768929263178.4644,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/ANTI_BURNOUT_ARCHITECTURE.md",
+      "hash": "7d6f6d436360e845cd17a35a7a62642262ed9db0415a3fce293e70884df05632",
+      "size": 3684,
+      "mtimeMs": 1768929263178.5754,
+      "priority": "standard",
+      "intentScore": 1.319949984550476
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/ARCHITECT_EXIT_AND_META_FAILURES.md",
+      "hash": "8ef7113a5b9d93a528d56b63c9950df6489a9f4357a18d74e1b4b6ba7852b111",
+      "size": 3948,
+      "mtimeMs": 1768929263178.8423,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/ATTENTION_AS_RESOURCE.md",
+      "hash": "8aa911fca86d7a130bab5625af41a978a8afd01b52db6501d1b33a4004b6c2f6",
+      "size": 1251,
+      "mtimeMs": 1768929263178.9275,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/AUTONOMY_CREATES_STABILITY.md",
+      "hash": "eb581fc506b3015e7f058922dfebd5196e0942b0e6587f7119b170632f816488",
+      "size": 3854,
+      "mtimeMs": 1768929263179.0254,
+      "priority": "standard",
+      "intentScore": 1.236245036125183
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/AUTONOMY_WITHOUT_CHAOS.md",
+      "hash": "62b5c181ebe45d0fa9aad4d3c60453113f3745bf742c09e1b12e250f3759bddc",
+      "size": 3862,
+      "mtimeMs": 1768929263179.1096,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/BIOLOGY_ENERGY_AND_EMERGENCE.md",
+      "hash": "9645a66bc0d8a46e81f1ad717c2c0af74108efff5df724022142f885e796bc81",
+      "size": 3883,
+      "mtimeMs": 1768929263179.2073,
+      "priority": "standard",
+      "intentScore": 1.17669677734375
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/BOUNDARIES_CREATE_TRUST.md",
+      "hash": "aa1f273f420c663f3f3b01c4655e349e4380cab8acb1b40c5f27c37839765a11",
+      "size": 3600,
+      "mtimeMs": 1768929263179.282,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/BRAIN_STATE_TAXONOMY.md",
+      "hash": "13f835906ac21f7b086a837c9f6d3b13779c576b4feae28762fc43cee985f9a4",
+      "size": 4952,
+      "mtimeMs": 1768929263179.3845,
+      "priority": "standard",
+      "intentScore": 1.0945409536361694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/CANON_SPEKTRE_PROTOCOL_V1_1.md.md",
+      "hash": "71baa765930296ac2c2563688c47584cc47a96fc979dae5e6f7374f151e9d23a",
+      "size": 3481,
+      "mtimeMs": 1768929263179.4526,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/CENTRAL_AUTHORITY_FAILURES.md",
+      "hash": "bd1430b986123c0cd3f995cd09bf735e1880cbd4f30292fdac14d8679d57fb01",
+      "size": 4077,
+      "mtimeMs": 1768929263179.5244,
+      "priority": "standard",
+      "intentScore": 1.17669677734375
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/COGNITIVE_WORKSPACES_AND_COUPLING.md",
+      "hash": "c080d1b18a3d452c130536ed2e695af30b81d17d7abbfddb87cfc91c0df67cf8",
+      "size": 4292,
+      "mtimeMs": 1768929263179.614,
+      "priority": "standard",
+      "intentScore": 1.2126781940460205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/CONSENSUS_ACCELERATION_GUIDE.md",
+      "hash": "5222964946e92cb31329a44cd93e0c8e5966e7d729266c168e731346e70ee570",
+      "size": 3564,
+      "mtimeMs": 1768929263179.6846,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/CONSENSUS_IS_NOT_REALITY.md",
+      "hash": "d6bbaac8dfed93ffbfc2e5dcb4b5b1473e23d3c62488c5b81233f0f2e2c2bc10",
+      "size": 3085,
+      "mtimeMs": 1768929263179.749,
+      "priority": "standard",
+      "intentScore": 1.6329931020736694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/CONSENT_AS_PROTOCOL.md",
+      "hash": "2b5a81a1ded3fccd3b9509e3a2f53e06723cf6e81062295d20b571b257b77cd8",
+      "size": 2954,
+      "mtimeMs": 1768929263179.8123,
+      "priority": "standard",
+      "intentScore": 1.4000000953674316
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/CORPORATIONS_CAPITALISM_AND_AGENCY.md",
+      "hash": "63a0665894a16f49d560b9cdf1a57d324a6bbe77a325b2e2ff792ef28337181d",
+      "size": 4695,
+      "mtimeMs": 1768929263179.9043,
+      "priority": "standard",
+      "intentScore": 1.3471506834030151
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/CROSS_DISCIPLINARY_ALIGNMENT.md",
+      "hash": "a2becda2ec656b86d927f9470cb29389010d17d6de8c776cf5d29ccce6a96dab",
+      "size": 4478,
+      "mtimeMs": 1768929263180.0007,
+      "priority": "standard",
+      "intentScore": 1.4342743158340454
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/CULTURE_AS_EMERGENT_BEHAVIOR.md",
+      "hash": "2efd310ce1c3585df328d60dbb796a340a021757b5d35021558b24ca488887d6",
+      "size": 1484,
+      "mtimeMs": 1768929263180.0679,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/DNA_CODEX_EPIGENETICS_AND_GENERATIONAL_TRAUMA.md",
+      "hash": "057a7517060397c7146d5aaebac5318c2a61c08de387d93ba102e7d7ea682973",
+      "size": 4216,
+      "mtimeMs": 1768929263180.1611,
+      "priority": "standard",
+      "intentScore": 1.320676326751709
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/DOGMA_AND_IDEOLOGY_FAILURES.md",
+      "hash": "3dee608b80c30ff7bcde9eeb44cd25ff57beb0a311866e58e706dc2b3b8183c6",
+      "size": 3965,
+      "mtimeMs": 1768929263180.238,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/DRAMA_AS_ENTROPY.md",
+      "hash": "cf6276c3af9ac0a7e73d21240e0be81f7172a4c2382d9003c7823ae711b4d4a9",
+      "size": 2924,
+      "mtimeMs": 1768929263180.3118,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/ENCODERS_AND_LATENT_SPACE.md",
+      "hash": "2901dd13d4b8138680931cb2e16bc8135dcef2d5874073fa5b323cd4b6832c3c",
+      "size": 6027,
+      "mtimeMs": 1768929263180.4126,
+      "priority": "standard",
+      "intentScore": 1.2602521181106567
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/ESOTERICA_OCCULTISM_AND_CONSPIRACY.md",
+      "hash": "0a8dbc215fbf6d4231e6c467c1a4947e71dd3395645731c540d34554230d8b29",
+      "size": 3222,
+      "mtimeMs": 1768929263180.4805,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/ETHICS_WITHOUT_MORALITY.md",
+      "hash": "4ffd60871f41f0c6698ae1c8480519f0e144eeb2e648b5a3d8b72ffbe4b8efd5",
+      "size": 3569,
+      "mtimeMs": 1768929263180.5476,
+      "priority": "standard",
+      "intentScore": 1.7677669525146484
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/EVOLUTION_CONSCIOUSNESS_AND_HUMAN.md",
+      "hash": "a9a9d9fa799c2acd4d4e61c412639314a66f7ac2e31db72f64195055f2e59562",
+      "size": 4403,
+      "mtimeMs": 1768929263180.646,
+      "priority": "standard",
+      "intentScore": 1.507556676864624
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/FOOD.md",
+      "hash": "559e934d23c70b340aa4cae5cb6d03d9107025ea522fbb6cd8d7dcdf6c486725",
+      "size": 864,
+      "mtimeMs": 1768929263180.7175,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/FUTURE, BUILDING, AND POSSIBILITY.md",
+      "hash": "93bfad79c780d2f5baf9d087f6adc052914355def509d409666b626fec7ba81e",
+      "size": 4037,
+      "mtimeMs": 1768929263180.7866,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/FUTURE_HEALTHCARE_TECHNOLOGY.md",
+      "hash": "9d4e57209d948920b12da367999096e75571a65bd797e2a5c74001e8d7a473da",
+      "size": 4078,
+      "mtimeMs": 1768929263180.8535,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/FUTURE_TECHNOLOGY.md",
+      "hash": "b6fbbade0d5212635150a99e35b5076cb572ef31e50ceb1d0c4ba3d0392a3108",
+      "size": 3652,
+      "mtimeMs": 1768929263180.9167,
+      "priority": "standard",
+      "intentScore": 1.2126781940460205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/GEOGRAPHY_AS_SYSTEM.md",
+      "hash": "0997f0c49c5a9ce2847eb8005bad7a1af079ff49e5dac1f758fdfb78f67ae637",
+      "size": 1511,
+      "mtimeMs": 1768929263180.9797,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/GLOSSARY.md",
+      "hash": "b2af6bd696834f7dbedf9970896006b13c4ba76f364c75af8dc9e83f6b29b3ef",
+      "size": 4530,
+      "mtimeMs": 1768929263181.1475,
+      "priority": "standard",
+      "intentScore": 1.4226566553115845
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/HABIT_FORMATION_AND_EXIT.md",
+      "hash": "cf4d9acc0ecc91c17acff8e7f0c9c941d151b0bcf66cd016b209aa342800d9c7",
+      "size": 1407,
+      "mtimeMs": 1768929263181.2183,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/HOW_SAFETY_REWRITES_BIOLOGY.md",
+      "hash": "f7fbc15e85c9edbfdd43f03ac792864d35bb202f009f59a0a4b22c9c76996e59",
+      "size": 4143,
+      "mtimeMs": 1768929263181.313,
+      "priority": "standard",
+      "intentScore": 1.2998673915863037
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/HOW_WINNERS_WRITE_HISTORY.md",
+      "hash": "9b36f6986438798d37db88575bb329e9e5275df6fd438232e5c01689a5d394e6",
+      "size": 3905,
+      "mtimeMs": 1768929263181.3872,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/HUMAN_IN_THE_LOOP.md",
+      "hash": "4dc3aef572c46300a745e090a1c5b0147cfd786de873b364271b2b7596323dbb",
+      "size": 3551,
+      "mtimeMs": 1768929263181.4573,
+      "priority": "standard",
+      "intentScore": 1.1507928371429443
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/IDENTITY_DECAY_AND_REFORM.md",
+      "hash": "70cb5794ab4433b97dff3fb4fb98af88e2b0c7d9c18a7e8b185f8982b7fdb303",
+      "size": 1206,
+      "mtimeMs": 1768929263181.5244,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/IDENTITY_NARRATIVE_AND_DOGMA.md",
+      "hash": "2607e6b585dc923992a1bf39967c73d0f3fc9e1bb24bd83b28ccee61bb24f7b4",
+      "size": 4322,
+      "mtimeMs": 1768929263181.6204,
+      "priority": "standard",
+      "intentScore": 1.0687057971954346
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/IDENTITY_SELF_ESSENCE_BODY.md",
+      "hash": "61ea6b49ac874d0ff508af4e8213f9f8fb0c6078c006fd6d7052c7e24fcd991b",
+      "size": 2977,
+      "mtimeMs": 1768929263181.69,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/IDEOLOGY_AND_IDENTITY_LOCKIN.md",
+      "hash": "2d15e5eb6a6de33467b537745e88d62debd9734d1eb8aafa462608d7631e7045",
+      "size": 2945,
+      "mtimeMs": 1768929263181.7576,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/INTEGRATION.md",
+      "hash": "6643f63ee485d617b75fe483136f7998c083294ddc13eb9dd5cffbff55774ec8",
+      "size": 802,
+      "mtimeMs": 1768929263181.8254,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/JOB.md",
+      "hash": "9579efafade53b7093bd0fce42b1208d4688cb35db08751b7ce3543f5802f2fa",
+      "size": 1187,
+      "mtimeMs": 1768929263181.89,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/KINGDOM_OF_HEAVEN.md",
+      "hash": "f2c18d06ada7803018ba68045513cde211f1853a032cbaf9a65f66a8866245f6",
+      "size": 3547,
+      "mtimeMs": 1768929263181.9636,
+      "priority": "standard",
+      "intentScore": 1.2126781940460205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/LANGUAGE_AS_INTERFACE.md",
+      "hash": "05270eb5c37ff76a83e623c60a8cb16ebeb19e86378daaca1dde9bbef0577905",
+      "size": 1422,
+      "mtimeMs": 1768929263182.0273,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/LEADERSHIP_AFTER_COLLAPSE.md",
+      "hash": "35fa16047682f33f57f494275c768e71ada5e7b081f9b2a0167903ec5a178a94",
+      "size": 3733,
+      "mtimeMs": 1768929263182.0974,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/LIFETIME_PROTOCOLS.md",
+      "hash": "467027d99b118ad3f47a31220b7727beb945a016c1b81bc371af5105d232191b",
+      "size": 1337,
+      "mtimeMs": 1768929263182.1624,
+      "priority": "standard",
+      "intentScore": 1.507556676864624
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/LIGHT.md",
+      "hash": "6390a3108c6b3051db16f7fa9c89e0d1b95c7536a5a2e21119ad06d5a5807d3a",
+      "size": 743,
+      "mtimeMs": 1768929263182.2358,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/LOADED_SYMBOLS_AND_DECONDITIONING.md",
+      "hash": "a01f4b474c9b3bc81f1d1387b8096a35e9181ed574f31a83947851cedce28d4f",
+      "size": 4665,
+      "mtimeMs": 1768929263182.3394,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/LOCAL_STATE_GLOBAL_ORDER.md",
+      "hash": "6f7bde11ddfae52909fde231adf355ebf619e474ffec029a15e5b7c542e9ebd3",
+      "size": 3494,
+      "mtimeMs": 1768929263182.4197,
+      "priority": "standard",
+      "intentScore": 1.0864289999008179
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/LONG_TERM_STABILITY.md",
+      "hash": "5b5c4f45db24888a36b851c1f1d8b637785031ff4ff692e791aeef7cd4312864",
+      "size": 1117,
+      "mtimeMs": 1768929263182.4893,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/LOVE_WITHOUT_CONTROL.md",
+      "hash": "1d10c94bb891fd4db7d89060f846945fb9f2a285a19f880cf088bba62a29dd94",
+      "size": 3090,
+      "mtimeMs": 1768929263182.5627,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/MARKETS_TRANSACTIONS_AND_CAPITAL.md",
+      "hash": "d246359dba2d28d1d41aaafb99e21983040b6fb0fc6d9fcb53c59a6d5480392f",
+      "size": 2905,
+      "mtimeMs": 1768929263182.6365,
+      "priority": "standard",
+      "intentScore": 1.3867504596710205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/MATTER_ENERGY_AND_NONVIOLENCE.md",
+      "hash": "5206905164eed69b3d44a7d9c2e3aec95c8279db0884627e637a2ffabf93ed05",
+      "size": 4374,
+      "mtimeMs": 1768929263182.7346,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/MEDIA_MANIPULATION_AND_MASS_PSYCHOLOGY.md",
+      "hash": "8c8d028bcb06dedc32da441354ddb85dbc8bd2b88a4af88492df7d7dc144d437",
+      "size": 3007,
+      "mtimeMs": 1768929263182.8064,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/MEMORY_AS_CONTROL_SURFACE.md",
+      "hash": "0f6a73c8d98d310b5201b5b2785b913de71fa183aa172ca95299573dbde9385e",
+      "size": 1325,
+      "mtimeMs": 1768929263182.8767,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/META_COGNITION.md",
+      "hash": "1046108ec65bcbd6a3b061ba969fdbb8bfb643b1a23a3b9c373b895c330d7473",
+      "size": 5457,
+      "mtimeMs": 1768929263182.9697,
+      "priority": "standard",
+      "intentScore": 1.498537302017212
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/NARRATIVE_AS_INFRASTRUCTURE.md",
+      "hash": "0e9753bfa0a3f8e6d93040d49b6e96c2212f54904fd471dcd74331f0c5621809",
+      "size": 3579,
+      "mtimeMs": 1768929263183.0388,
+      "priority": "standard",
+      "intentScore": 1.7056057453155518
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/NATION_STATES_AS_COORDINATION_LAYERS.md",
+      "hash": "adec95e113e059e192494d6bd70d28af4f0be80933fdcc11fc2b3bc461285928",
+      "size": 1459,
+      "mtimeMs": 1768929263183.1082,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/NATURE.md",
+      "hash": "ca9be3d890711c66727611c323e08d08b725f82e59295d16dc6dd8ff1a0d93e1",
+      "size": 735,
+      "mtimeMs": 1768929263183.174,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/NEUROBIOLOGY_AND_COGNITIVE_SCIENCE.md",
+      "hash": "6da816df9343a8ed11fb2f4a25461f31628b9aef8d1ce3e5e2b41ed44941313a",
+      "size": 4146,
+      "mtimeMs": 1768929263183.264,
+      "priority": "standard",
+      "intentScore": 1.1586482524871826
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/NIGHT.md",
+      "hash": "b07e6375ab355253eb1ae57011e1ae110f4f697a25157dcccbf6893514071c5f",
+      "size": 762,
+      "mtimeMs": 1768929263183.327,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/OPERATIONAL_TERMS.md",
+      "hash": "0722834ed4c992026704450095ce04533331def31f455f4010b62c20fd1dd258",
+      "size": 2408,
+      "mtimeMs": 1768929263183.4026,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/PARENTS_AS_MASTER_CONFIG.md",
+      "hash": "8e92e70c2bc8abe7c47b25c0a8ec9d5410b42f1e19ce54b2012cb6d30a38f879",
+      "size": 2445,
+      "mtimeMs": 1768929263183.4768,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/PARENTS_AS_STABILITY_NODES.md",
+      "hash": "3d748e14af878f1f1e2d64e4bafe47fe9dcbb1036e61fda3ddbb8776df238302",
+      "size": 4097,
+      "mtimeMs": 1768929263183.5735,
+      "priority": "standard",
+      "intentScore": 1.2126781940460205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/PERFORMANCE_WITHOUT_PRESSURE.md",
+      "hash": "a0ff37439f90f5a8a9417f5ec13a688a68d93903d593164e410ae13cb1f09967",
+      "size": 3427,
+      "mtimeMs": 1768929263183.6536,
+      "priority": "standard",
+      "intentScore": 1.3949716091156006
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/PHILOSOPHY.md",
+      "hash": "7c9cfbf9114e778f0a9a5986d967f86d74778727e54b8665275d6be7d6ad5352",
+      "size": 3383,
+      "mtimeMs": 1768929263183.7288,
+      "priority": "standard",
+      "intentScore": 1.4142136573791504
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/PHYSICS_AND_STATE_MACHINES.md",
+      "hash": "1e981ff597f6e84fbfbcd01ddf6b3feb6bce0e19139e0dd61f2457666d9c8c9c",
+      "size": 3749,
+      "mtimeMs": 1768929263183.8042,
+      "priority": "standard",
+      "intentScore": 1.0849075317382812
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/POLITICAL_ECONOMY_AND_PROTOCOLS.md",
+      "hash": "de15d92fdac1ee8c01e1e03a2a06f00ad952ee4beb32cd0ed2effbb865e48553",
+      "size": 4061,
+      "mtimeMs": 1768929263183.8806,
+      "priority": "standard",
+      "intentScore": 1.4605934619903564
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/POLITICS_MONEY_AND_LAW.md",
+      "hash": "bd70a22ba5482c17f83d1c5e309379ee717d42bf298b5f30d0cab92188b4b6a7",
+      "size": 4707,
+      "mtimeMs": 1768929263183.9646,
+      "priority": "standard",
+      "intentScore": 1.8766297101974487
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/POWER_CREATES_TRUTH.md",
+      "hash": "230beba6d7ec7d8af07d4570cdc4b3793c0d51ecd417cc81c159ecc8ac106a6b",
+      "size": 3440,
+      "mtimeMs": 1768929263184.0254,
+      "priority": "standard",
+      "intentScore": 1.6666667461395264
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/PROJECT_CRADLE.md",
+      "hash": "fe2d40de7c27dfa1ee11af4a1a4ee82ad709959a6a24bb46f33f7163baaeb945",
+      "size": 3625,
+      "mtimeMs": 1768929263184.0867,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/PROJECT_OMNIPRESENCE.md",
+      "hash": "2eb3c219d786b774e33d37eb1a80b18129b43d352a78904601e479bdae5af549",
+      "size": 2885,
+      "mtimeMs": 1768929263184.1472,
+      "priority": "standard",
+      "intentScore": 1.4142136573791504
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/PSYCHOLOGY_AND_ANATOMY.md",
+      "hash": "41175dd384ad3fb6405566897163972a0022fc4e683a2f346e8956c35ce644b0",
+      "size": 3144,
+      "mtimeMs": 1768929263184.2158,
+      "priority": "standard",
+      "intentScore": 1.6329931020736694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/PSYCHOLOGY_EDUCATION_AND_INSTITUTIONS.md",
+      "hash": "ee01123a731ad850c15cbbe88d2332eada287afc18f19088966586806b1aa359",
+      "size": 4607,
+      "mtimeMs": 1768929263184.3057,
+      "priority": "standard",
+      "intentScore": 1.3310348987579346
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/REALITY_FEEDBACK_LOOPS.md",
+      "hash": "fb8a7e1b8aeef56cc345e4ab5664955acd2554e721d401afdbddd01c61a348a6",
+      "size": 984,
+      "mtimeMs": 1768929263184.365,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/RECOVERY_AS_SYSTEM_DESIGN.md",
+      "hash": "62b1a4faab2641a8803a141db94a4dfc7ccf7b64dd8a23fa67ae0f46c4ba61cb",
+      "size": 3447,
+      "mtimeMs": 1768929263184.518,
+      "priority": "standard",
+      "intentScore": 1.3471506834030151
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/RECOVERY_WITHOUT_REGRESSION.md",
+      "hash": "e3407d4c77f5f9704602aae63e644540ea94a68cc1f810883475c6e1c7a36075",
+      "size": 1075,
+      "mtimeMs": 1768929263184.5813,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/RELIGION_AS_CONTROL_INTERFACE.md",
+      "hash": "a84696a0f769d4a29a413f8d19ace0be9ea459b4ce3b19d4661fa9d9f9219b07",
+      "size": 3417,
+      "mtimeMs": 1768929263184.6462,
+      "priority": "standard",
+      "intentScore": 1.1163126230239868
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/REPAIR_WITHOUT_DEBT.md",
+      "hash": "2960851b431c979088f918a4eac139a4eab7309dbab1b099239699c5d67d38c5",
+      "size": 3295,
+      "mtimeMs": 1768929263184.7073,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/REPETITION_AND_NEURAL_LOCKING.md",
+      "hash": "4737fedc18809cbf8caff58572ff1d30ab53e6a8f814b6a5ac917fe1409d3d5d",
+      "size": 1643,
+      "mtimeMs": 1768929263184.7659,
+      "priority": "standard",
+      "intentScore": 1.2126781940460205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/RESONANCE_AND_LOVE.md",
+      "hash": "95164f5df39f267d33248ffd6fb8dcbf1a20e266c5c3727d036884b09d18d382",
+      "size": 2086,
+      "mtimeMs": 1768929263184.834,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/RITUALS_AND_STATE_LOCKING.md",
+      "hash": "368fba97375d261a5e5f2e58da0cc09e6a109a051b6f8e3bf9e99bfab733daba",
+      "size": 3317,
+      "mtimeMs": 1768929263184.9048,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SEAMLESS_EGO_TRANSITION.md",
+      "hash": "ba192f56d513cc63b11a040732c0d6cce41059cf5f3c789f856bd4f569b2db01",
+      "size": 2751,
+      "mtimeMs": 1768929263184.9724,
+      "priority": "standard",
+      "intentScore": 1.6666667461395264
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SECURITY_AS_ARCHITECTURAL_FAILURE.md",
+      "hash": "0e92be818fb5fd17e50e97565e9024391c65dde1f643d976e1d29b848c33a77d",
+      "size": 3107,
+      "mtimeMs": 1768929263185.0405,
+      "priority": "standard",
+      "intentScore": 1.6059101819992065
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SHADOWS.md",
+      "hash": "6ddcd3fe8f4015d6bffd93e5a3d6e08a07b6231e350035efd419654dcde636e2",
+      "size": 813,
+      "mtimeMs": 1768929263185.0981,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SHAME_AND_MORAL_ENFORCEMENT.md",
+      "hash": "c029dc5ff3ee6e50435973cd042588c211f4c6d44afe78b36ab5299e96c5fc1a",
+      "size": 3354,
+      "mtimeMs": 1768929263185.1614,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SIMULATION_CONTROL_AND_GAME_THEORY.md",
+      "hash": "38c950eaac75bc55b558d6e5e04a89c29f8302f0eeca00a4d30cb88c894b3720",
+      "size": 4055,
+      "mtimeMs": 1768929263185.2263,
+      "priority": "standard",
+      "intentScore": 1.104315161705017
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SLEEP.md",
+      "hash": "36d15fa33a11c4262ad0f319eea2be8058d1c387f9cfd4b209fe9297d94bf696",
+      "size": 760,
+      "mtimeMs": 1768929263185.2825,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SOCIAL_COORDINATION_WITHOUT_SYSTEMS.md",
+      "hash": "c9302c504b66d183ae08c2bb8b051f019a5a0adfd4caebcc9d917db612ce2ca6",
+      "size": 3620,
+      "mtimeMs": 1768929263185.3523,
+      "priority": "standard",
+      "intentScore": 1.6329931020736694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SOCIAL_MEDIA_ALGORITHMS_AND_ATTENTION.md",
+      "hash": "72eae0fc28554a1acf821e7ac8b2f01af2d6e807460e6704555cf66c24292702",
+      "size": 5543,
+      "mtimeMs": 1768929263185.442,
+      "priority": "standard",
+      "intentScore": 1.1137996912002563
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SOFTWARE_ARCHITECTURE_AND_SYSTEM_DESIGN.md",
+      "hash": "f4b475de3ef21f3120d5401e95e55f7f853542fab95732ea4da2da106a32a18d",
+      "size": 3284,
+      "mtimeMs": 1768929263185.505,
+      "priority": "standard",
+      "intentScore": 1.6045149564743042
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SOURCE_LIGHT_AND_LEGACY_FAILURES.md",
+      "hash": "951af6eac55958c22e167229c57ef4394e469b2f5a36132387f027045338f291",
+      "size": 4170,
+      "mtimeMs": 1768929263185.588,
+      "priority": "standard",
+      "intentScore": 1.1313707828521729
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/STATIC_DYNAMIC_DUALITY_THE_ONE_PLACE_PROTOCOL.md",
+      "hash": "f86b8fdcc59c8767f6b03c83386e59035b3b33b143f3d84574b9de95d57325b9",
+      "size": 3848,
+      "mtimeMs": 1768929263185.6565,
+      "priority": "standard",
+      "intentScore": 1.8593392372131348
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SUN.md",
+      "hash": "e80c2b528b0e3a630b4aecbf0def764b91a3e552a49cb7ba593fa669b81465c1",
+      "size": 770,
+      "mtimeMs": 1768929263185.7114,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SYMBOLIC_VS_MATERIAL_REALITY.md",
+      "hash": "2ed8621ca414f8adb5758224fe3c6a13df10cffbbd969a951dd3fda8f721a9a0",
+      "size": 1250,
+      "mtimeMs": 1768929263185.7703,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SYMBOLS_AS_STATE_TRIGGERS.md",
+      "hash": "d167fd86a6941035bc548aa2b9484c2a7c56622b6674703c7d7201403baf83ed",
+      "size": 1426,
+      "mtimeMs": 1768929263185.8306,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SYMBOLS_POWER_AND_FEAR.md",
+      "hash": "3cbee0a178f35eef66fbae6830d3cce3f0d0ac0ee0197df07a8e86fc0ae7a01c",
+      "size": 3142,
+      "mtimeMs": 1768929263185.8887,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/SYSTEMS_THEORY_OVERVIEW.md",
+      "hash": "84f8310fc214569667ee0d898a4012deadccdc6e3c64f0b22c9411652a1d06ea",
+      "size": 3726,
+      "mtimeMs": 1768929263185.9463,
+      "priority": "standard",
+      "intentScore": 1.1931174993515015
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/TECHNOLOGY.md",
+      "hash": "42d4bb2d0850d274c441104d92ddde7afcaed0d47447a9b4779fe48fe6214f5a",
+      "size": 3636,
+      "mtimeMs": 1768929263186.0056,
+      "priority": "standard",
+      "intentScore": 1.6269785165786743
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/THE_33_GRANDFATHER_LOCK.md",
+      "hash": "07dca1f4c9b230b4ef42bcf964bf95d53c5b9abf4313a4ed3c15ed98bf5c7cf0",
+      "size": 2740,
+      "mtimeMs": 1768929263186.0684,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/THE_33_OPTIMUM_BIOLOGICAL_TIME_LOCKING.md",
+      "hash": "894cdde5c71a3629c561f7cf9b312399ae8d038a83960812808285aa2999dd3a",
+      "size": 3187,
+      "mtimeMs": 1768929263186.1328,
+      "priority": "standard",
+      "intentScore": 1.1313707828521729
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/THE_33_OPTIMUM_PULSE.md",
+      "hash": "72c4af005f654c44d25a2ba34af695936120370905a0d865f8876ea3890599b7",
+      "size": 3579,
+      "mtimeMs": 1768929263186.1978,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/THE_33_SAFE_EXIT.md",
+      "hash": "10beff351c0179f82d0abf238f924ef8ca53355afee09146abdebc2de2a86806",
+      "size": 3105,
+      "mtimeMs": 1768929263186.2634,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/TIME_SPACE_AND_RELATIVITY.md",
+      "hash": "c59e88a9a7f6eb068f7f644ace00065b86334a3486e632ad160e8cc0d11a57aa",
+      "size": 3649,
+      "mtimeMs": 1768929263186.3257,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/TRANSLATION_AND_POWER.md",
+      "hash": "95b931a5cdc8de8625da315f7125fc6dd2c77195506f564b46adf1e7b91db3e5",
+      "size": 1366,
+      "mtimeMs": 1768929263186.39,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/TRUST_AFTER_INSTITUTIONS.md",
+      "hash": "298660395e26e46b05c792c1d7575192ddd8a3211710809e33281933c8e82f6a",
+      "size": 3584,
+      "mtimeMs": 1768929263186.456,
+      "priority": "standard",
+      "intentScore": 1.2126781940460205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/TRUTH_HONESTY_CONTRADICTION_RESPONSIBILITY_LOVE.md",
+      "hash": "1c8002a58fcadae5af26d3e21d091078cda51ff20bb563d65b39d036ea8a7c23",
+      "size": 2948,
+      "mtimeMs": 1768929263186.5208,
+      "priority": "standard",
+      "intentScore": 1.17669677734375
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/UPGRADE.md",
+      "hash": "944cb73e53b97e631cfbdff7018722ac64ac1be40d52f54156f37a406399a9b3",
+      "size": 2402,
+      "mtimeMs": 1768929263186.5837,
+      "priority": "standard",
+      "intentScore": 1.6164476871490479
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/VIOLENCE_RULES_AND_ENFORCEMENT.md",
+      "hash": "1cd1318e3a7be49ceffcd640220490ffd7ac6055fa96c831736a215cc32ceeee",
+      "size": 3708,
+      "mtimeMs": 1768929263186.6426,
+      "priority": "standard",
+      "intentScore": 1.5275251865386963
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/WHEN_CONSENSUS_BREAKS.md",
+      "hash": "e67b97f3223cb1a0cd7bdc63d87d48050233e4e7cc477ca368a9f8601665d240",
+      "size": 3592,
+      "mtimeMs": 1768929263186.7063,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/WHEN_FORCE_REPLACES_TRUST.md",
+      "hash": "ba741b56c7fea69291e68669b40382aa1be3fc3209eeeb646a2b88a0132e3198",
+      "size": 2840,
+      "mtimeMs": 1768929263187.0244,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/WHEN_TRADITION_BECOMES_CONTROL.md",
+      "hash": "082fca9876490b091c6ecb9af9579c40fb1c089914b5b6aef009b24b94744017",
+      "size": 1501,
+      "mtimeMs": 1768929263187.0923,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/WHY_FEAR_STICKS.md",
+      "hash": "8ae201d63d0f2d88b867fb4cb6dfcea9e3f482fa53551020ae33792374fd03fd",
+      "size": 1294,
+      "mtimeMs": 1768929263187.1565,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/archive/WHY_MYTHS_OUTLIVE_FACTS.md",
+      "hash": "00a4adbb17438bc50a0843a0bc826aad97b23c81f13d0a486f1db04e11a0c5dc",
+      "size": 3768,
+      "mtimeMs": 1768929263187.3247,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/diagrams/tikz-mermaid.md",
+      "hash": "57fac1bb02fcfa00bdde3ce81e7ec939fec9c6e6f7845385c683832c6464d8a9",
+      "size": 478,
+      "mtimeMs": 1768929263187.4446,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/ARCHITECTURE_URBAN_PLANNING_AND_INFRASTRUCTURE.md",
+      "hash": "5c5f6d0b4a780b89cde40bfa33e0b0ce59fce0891a52a8448e1e9de8c5349029",
+      "size": 4692,
+      "mtimeMs": 1768929263187.5835,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/CANCER_SEVERE_DISEASES_AND_MEDICAL_TECHNOLOGY_A_SYSTEMS_VIEW.md",
+      "hash": "89644ed6606a09d1b0ee44f3424fc12406702ace2713a7ee8b9b9941055de496",
+      "size": 4775,
+      "mtimeMs": 1768929263187.6802,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/CLEAN_FOOD_NUTRITION_AND_MICRONUTRIENTS_A_STABILITY_FIRST_VIEW.md",
+      "hash": "8a3cb2f4f5d7963d63d81e4f5d273e06da98caa59987495a52d1982f22fa4640",
+      "size": 3912,
+      "mtimeMs": 1768929263187.7463,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/CONCRETE_STUDY_WORKFLOW_ENGINEER_RESEARCHER_STUDENT.md",
+      "hash": "51a93375833314acfa170d0167291789e865c57ad8a11ff9f3b2d592cf516db6",
+      "size": 4729,
+      "mtimeMs": 1768929263187.8303,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/CULTURAL_OVERLAP_AND_INTEGRATION_FAILURES.md",
+      "hash": "5be2f33a40893102d396b1728202e1b1242515b35f5a7e01d1a5ed4970ea93b6",
+      "size": 4062,
+      "mtimeMs": 1768929263187.8965,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/DRUG_POLICY: DECRIMINALIZATION, LEGALIZATION_AND_HARM_REDUCTION.MD",
+      "hash": "7c1f3da42eaac4f543198360fb9c41df03ea308c008fc8dc8b2e349361ff5602",
+      "size": 4470,
+      "mtimeMs": 1768929263187.983,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/EPIGENETICS_HORMONES_AND_GENETIC_INTERVENTIONS_POTENTIALS_AND_LIMITS.md",
+      "hash": "57e3acea55a417082034dcd5d07d03fab0725804f7b6398ba6e2c5e651e208d1",
+      "size": 4343,
+      "mtimeMs": 1768929263188.0784,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/FLOW_STATE_CREATIVE_WORK_AND_EXTREME_EXPRESSION.md",
+      "hash": "9b73fecded7b6af834f15941a32c5c1bea186c76549de5055947048decf8132c",
+      "size": 3836,
+      "mtimeMs": 1768929263188.1584,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/FUTURE_OF_LEARNING_AND_LLM_ORCHESTRATION.md",
+      "hash": "9479ccc19f21e8be01c26ffd246edc8c7b2de284d6dc3c530dadec57ec72d0bd",
+      "size": 4773,
+      "mtimeMs": 1768929263188.2532,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/IMMORTALITY_BRAIN_DECLINE_AND_BIOLOGICAL_LIMITS.md",
+      "hash": "2c62b099205113aeaab09f8b7ec342a550a0a32e05de95428821a04f3c502f2d",
+      "size": 4555,
+      "mtimeMs": 1768929263188.4246,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/MENTAL_HEALTH_AND_MEDICATIONS.md",
+      "hash": "25d1a4378720351e87be0dee0385ba58ecf086918ea1d971aa231022f13174f2",
+      "size": 3714,
+      "mtimeMs": 1768929263188.4915,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/MONEY.md",
+      "hash": "258a6916d0a233eda953b50dbdc619d6f4e90ae4635d9791ae06ce3095b152e4",
+      "size": 1224,
+      "mtimeMs": 1768929263188.554,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/MOVEMENT_DANCE_COMBAT_AND_HUMAN_REGULATION.md",
+      "hash": "de77557e8f69544ae6b86e5e29a813658dfc849c1546c3bb506338e3dfe88029",
+      "size": 4292,
+      "mtimeMs": 1768929263188.641,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/PSYCHIATRIC_MEDICATIONS_LIMITS_RISKS_AND_CONTEXT.md",
+      "hash": "ac03bb1b8b1f779b9c3ceeab380c1b68d0f629a3a3f943933bf78d5421678a7c",
+      "size": 4689,
+      "mtimeMs": 1768929263188.7283,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/essays/PSYCHOSIS_AND_MANIA_AS_DEFAULT_MODES.md",
+      "hash": "48668f37a1c6ce9a754ee8862bb7c15f61a797473b00d890e877a6c976455b0b",
+      "size": 4050,
+      "mtimeMs": 1768929263188.791,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/formalism/PHYSICS_AND_MATHEMATICS.md",
+      "hash": "2c9c4ea47010d65d03b11ba73b182d91ae046acf6fad487b7d01ec4e367cfd8b",
+      "size": 3706,
+      "mtimeMs": 1768929263188.889,
+      "priority": "standard",
+      "intentScore": 1.1507928371429443
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/formalism/SPEKTRE_FORMAL_LIMITS.md",
+      "hash": "3de4778d56324d565d2f315fc21a3977652054345fbeb60d83ec780d32007040",
+      "size": 3655,
+      "mtimeMs": 1768929263188.952,
+      "priority": "standard",
+      "intentScore": 1.2649110555648804
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/formalism/STATE_SPACE_AND_CONTROL_THEORY.md",
+      "hash": "fbf196972c673bf40d4497175254453ff50f9625c945351e9a35b78844d1f36b",
+      "size": 4184,
+      "mtimeMs": 1768929263189.0356,
+      "priority": "standard",
+      "intentScore": 1.0547420978546143
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/formalism/latex.md",
+      "hash": "420aa01641ce54e304cb0483b5448d036202ead560ed620a4a1b728b15c1e6f6",
+      "size": 3138,
+      "mtimeMs": 1768929263189.094,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocol /DREAM_INTEGRATION.md",
+      "hash": "e73d04887a6a3f3909f5fbf59bda75ccd22ea340ea54f13d763573173e146c13",
+      "size": 3036,
+      "mtimeMs": 1768929263189.3208,
+      "priority": "standard",
+      "intentScore": 1.2874526977539062
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocol /NOW.md",
+      "hash": "c610200abba11629ac2c90a72717dfaad89bb14ecd5def9b05ea44c8d186cd67",
+      "size": 2689,
+      "mtimeMs": 1768929263189.3867,
+      "priority": "standard",
+      "intentScore": 1.411081314086914
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocols/COMMIT_GATING.md",
+      "hash": "56036de2674b9236fc20c6fe75fd58bc09b533e36832da5527ec065ef4b3f51a",
+      "size": 3917,
+      "mtimeMs": 1768929263189.4912,
+      "priority": "standard",
+      "intentScore": 1.2126781940460205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocols/DYNAMIC_HABITAT_PROTOCOL.md",
+      "hash": "103501f38e4c18746dee7dd2ab69fe9574c5b1ad0745b68b6a30fa06500fe6e1",
+      "size": 3586,
+      "mtimeMs": 1768929263189.5527,
+      "priority": "standard",
+      "intentScore": 1.6666666269302368
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocols/EXITING_RITUALS_SAFELY.md",
+      "hash": "3973d379565617808f1b6878818d87473df16e860f24b5c423c46faab6f6330f",
+      "size": 1455,
+      "mtimeMs": 1768929263189.6182,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocols/PROOF_OF_PEACE.md",
+      "hash": "cb9d09092c74a3b964767cfa981e64d5256b736a009a5ad8e25d13a66fbc4796",
+      "size": 3868,
+      "mtimeMs": 1768929263189.6924,
+      "priority": "standard",
+      "intentScore": 1.3416407108306885
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocols/PROTOCOLS_OVER_PLANS.md",
+      "hash": "5bc9b17f749bf741bfa04c6b84219e7bf05c65198a2fc1acbb3a9e379582d333",
+      "size": 3380,
+      "mtimeMs": 1768929263189.7625,
+      "priority": "standard",
+      "intentScore": 1.4055638313293457
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocols/SAFE_STATE_TRANSITIONS.md",
+      "hash": "9543613e6fbcec9744220227e8a80b6848d1e594621cbb1833da2778ed5ec072",
+      "size": 1345,
+      "mtimeMs": 1768929263189.831,
+      "priority": "standard",
+      "intentScore": 1.1507928371429443
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocols/SPEKTRE_CORE_INVISIBLE_OS.md",
+      "hash": "246b81ec336369b4e8c353e39d97d80f263aa85f217589a04dbbde734962f409",
+      "size": 3732,
+      "mtimeMs": 1768929263189.9026,
+      "priority": "standard",
+      "intentScore": 1.2126781940460205
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocols/STATE_TRANSITION_FAILURES.md",
+      "hash": "ab3add3f1802ec609ab3fa8387ade0f54684e28f9a2a82109a3c4a9de29d9b81",
+      "size": 3813,
+      "mtimeMs": 1768929263189.9705,
+      "priority": "standard",
+      "intentScore": 1.1507928371429443
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocols/THE_10_BLACK_HOLE_RELAY.md",
+      "hash": "87cd8ebf7cea8222ad5e617d611b05dcc0469c54df2a4f100e6a4aedef04a405",
+      "size": 3881,
+      "mtimeMs": 1768929263190.0393,
+      "priority": "standard",
+      "intentScore": 1.4142135381698608
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocols/THE_ARCHITECT_EXIT_MANUAL.md",
+      "hash": "5334254c85c542339e4d9f962efdae0d7161dc7efa395e90e3bbed37c63c4546",
+      "size": 4037,
+      "mtimeMs": 1768929263190.1123,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocols/THE_SILENCE_PROTOCOL.md",
+      "hash": "38acdc938aac8368c571f9fc83e1e8779654044648b801c8934521968ceb588c",
+      "size": 3246,
+      "mtimeMs": 1768929263190.1836,
+      "priority": "standard",
+      "intentScore": 1.5882028341293335
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocols/THE_ZERO_FRICTION_OS.md",
+      "hash": "2cd5ee4fae84927d05602e24408c5b502ae43c87db4b3f9b9acdbfb691c4ac77",
+      "size": 3045,
+      "mtimeMs": 1768929263190.2468,
+      "priority": "standard",
+      "intentScore": 1.5714285373687744
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/protocol/protocols/UNIVERSAL_REPAIR_KIT.md",
+      "hash": "29a732f595baa537a13976b0ac025fc904ef11b68eb25f90660837cbadb474a0",
+      "size": 3630,
+      "mtimeMs": 1768929263190.3074,
+      "priority": "standard",
+      "intentScore": 1.1507928371429443
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/2026-01-19.md",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "mtimeMs": 1768809443674.3557,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/BIO_DIGITAL_FEEDBACK_LOOP.md",
+      "hash": "a7fc39f7dc718ad1c7789870b75bc8ed8388f9267a4e85733560ab36f58a826d",
+      "size": 17442,
+      "mtimeMs": 1768554226915.8218,
+      "priority": "standard",
+      "intentScore": 1.4445432424545288
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Biologia, perimä ja muovautuva ihminen.md",
+      "hash": "f27a5b0d1bf11ca45cc0979ad6fc32a2c6f8d2f60a2aa298a35d5b5a87bc0d55",
+      "size": 22869,
+      "mtimeMs": 1768126360092.3875,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Biologinen koherenssi ja jaettu todellisuus.md",
+      "hash": "6905d5f6ed8b7aa3785b6af0269ae2a7b554a1193f6017bb3cfcd0e6ac9640ac",
+      "size": 16004,
+      "mtimeMs": 1768294224066.743,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Decision SIEM — Technical Stack.md",
+      "hash": "d203a1e7cdd084d2e667a3f571f51c4fc4321577ee8ff5c3594d05eb3195750b",
+      "size": 4042,
+      "mtimeMs": 1768312706655.1921,
+      "priority": "standard",
+      "intentScore": 1.492555856704712
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Decision SIEM.md",
+      "hash": "de370fdef01d4a5b5c6445cfe9e0e6fde7c80f81760528d520a95b8a41a65029",
+      "size": 4843,
+      "mtimeMs": 1768312282096.698,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/ENTROPY_INVERSION.md",
+      "hash": "da496a28fd1bd48168ae5521dd88dbcf7c43219dd8c3095b8aa3281885ab6dfe",
+      "size": 16021,
+      "mtimeMs": 1768806866149.338,
+      "priority": "standard",
+      "intentScore": 1.8257417678833008
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Fuusio - energian käyttöjärjestelmä.md",
+      "hash": "4a8432ca05a135d61b54a5611604b56412adf437f6850d4fb493f4976bfc4fac",
+      "size": 14019,
+      "mtimeMs": 1768290328197.2437,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Fysiikka ja matematiikka.md",
+      "hash": "aed70105fddece940f49269a3aa8e296348ecf5f3cac8ee3da71eb491b302c48",
+      "size": 26310,
+      "mtimeMs": 1768128696328.963,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Galaktinen etiikka ja diplomatiakoodi.md",
+      "hash": "b2f9282a43db7cce2bf2fa07cba206b99f553fe0f497584d267e1e6921fb813e",
+      "size": 15876,
+      "mtimeMs": 1768298006503.1055,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Hiljainen integraatio.md",
+      "hash": "930b95ce94ae4905e695c96f9cc5918b3a082090e2fcb7d88261b472134fa53b",
+      "size": 19923,
+      "mtimeMs": 1768297126726.02,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Ideaaliuniversumin emulaatio.md",
+      "hash": "507ac14dba0d62fee170c8f064688ef9a332a3a2e4bb6156946ef08f93b528df",
+      "size": 12118,
+      "mtimeMs": 1768957744225.8992,
+      "priority": "primary",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Ihminen järjestelmänä ajassa.md",
+      "hash": "67b72f9d7d39eb3ca1184c20138e475be44214ac7e2e3f68317b165a5747da73",
+      "size": 27066,
+      "mtimeMs": 1768135888315.265,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Juridiset implikaatiot.md",
+      "hash": "efb4d7d99818cab4367d2f0aafe6232cb6a39868ddef4a1a90f6595ff7fb157d",
+      "size": 2402,
+      "mtimeMs": 1768314779937.183,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Kulttuuri, järjestelmät ja kollektiivinen tila.md",
+      "hash": "6629479dc0d00353cee38ad6942f0e7ba84e2e81509d238504c7e585ef16f22f",
+      "size": 21277,
+      "mtimeMs": 1768129485175.5635,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Matriisi-infrastruktuuri ja älyllinen materia.md",
+      "hash": "1ecb10237143eb9700fa60a17d9d3b6ffa8fdcfe7a30aba22789a7e76f75c5b6",
+      "size": 31178,
+      "mtimeMs": 1768292998479.3184,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Molekulaarinen nanofabrikaatio.md",
+      "hash": "e0f251a18559103cb8222eeae53a07747d596bc0b9ed79238f170e7cb0e6aeec",
+      "size": 34808,
+      "mtimeMs": 1768291298523.557,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Neuro-digitaalinen synkroni.md",
+      "hash": "3b0404969dcc227a74b4484ca3e7071279e431748ad5a81048ba14583b5f6708",
+      "size": 26140,
+      "mtimeMs": 1768292378278.9634,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Neurotieteet.md",
+      "hash": "aee2648d422f36554d3314258866862749011aeffcb5671b62a8af5aa6d4fd5c",
+      "size": 33725,
+      "mtimeMs": 1768125680340.5554,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Phase_Transitions.md",
+      "hash": "5099ef2d1edeb5f2043ae323e49d8b56d50175c69640faa9de5682b806dedeca",
+      "size": 15417,
+      "mtimeMs": 1768807529105.3074,
+      "priority": "standard",
+      "intentScore": 1.8000000715255737
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Poliittiset implikaatiot.md",
+      "hash": "b3f3a9757403026a5314483b2f0a12fc8226ef87a52e927abefb276bd62573fa",
+      "size": 2241,
+      "mtimeMs": 1768314688199.0232,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Post-teknologinen transsendenssi.md",
+      "hash": "e3fbd6d93bf5f2451e36216a53e0a7f2234375cc93f864d6f5a279da16e9d7c5",
+      "size": 14297,
+      "mtimeMs": 1768298335848.5608,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Psykologia, filosofia ja naturalismi – ihminen, mieli ja koneet.md",
+      "hash": "7b8f6b6a592e27ee6637657a1db2d7fff6038003581e88db5390120e18a7307b",
+      "size": 27933,
+      "mtimeMs": 1768136437785.365,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/RECURSIVE_INTIMACY.md",
+      "hash": "a4e88dd7448d3d40ddb31d047f86f364f8b67f166232254fd16b67304cc8dc73",
+      "size": 12172,
+      "mtimeMs": 1768809390851.018,
+      "priority": "standard",
+      "intentScore": 1.8411492109298706
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Simulaatio-arkkitehtuuri ja todellisuuden lähdekoodi.md",
+      "hash": "70e1b237a2ce5b4d79074383b572d8c1fad2aacb9d6606088305ba6c191ae369",
+      "size": 27921,
+      "mtimeMs": 1768293842393.9011,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Spektri - Manifesti.md",
+      "hash": "8f2613326dcf31f70a107e0803a5c988322d0b9f349ba3709a901ded15657e96",
+      "size": 3489,
+      "mtimeMs": 1768141889164.1978,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/THE_INVISIBLE_LAYER.md",
+      "hash": "b3b2adc88684bb4ae1464ace141d4247460b7519ccbdcf3288d98c16fbf99595",
+      "size": 12978,
+      "mtimeMs": 1768809074669.8987,
+      "priority": "standard",
+      "intentScore": 1.9466569423675537
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/THE_LINGUISTIC_COMPILING.md",
+      "hash": "64efcc5642be14b65b5c7c5571036a903aef6cf554007a7c443a9463813b211a",
+      "size": 11994,
+      "mtimeMs": 1768807168406.0356,
+      "priority": "standard",
+      "intentScore": 1.687322974205017
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/THE_PRISON_OF_PERCEPTION.md",
+      "hash": "c4bd6981413678507f97bd354038e318cabb2f4445491f67061ed262424e7e63",
+      "size": 12054,
+      "mtimeMs": 1768808363710.8909,
+      "priority": "standard",
+      "intentScore": 1.7056057453155518
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/THE_SILICON_CARBON.md",
+      "hash": "7b3a6650acb96e0fe328418815fa46b0aa017a42dee5e332deb025e081f66b43",
+      "size": 13756,
+      "mtimeMs": 1768806546640.1306,
+      "priority": "standard",
+      "intentScore": 1.5909433364868164
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Taloudelliset implikaatiot.md",
+      "hash": "983918fdec431aadbd824662d1038b48d46f8d06b3dcf5667c206cd4076b88d1",
+      "size": 2178,
+      "mtimeMs": 1768314603605.3804,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Teatterin_purku.md",
+      "hash": "81623f14020d663c63c89e9227d89b71cee2395e2befb9a395eec362730194f4",
+      "size": 12718,
+      "mtimeMs": 1768961592388.4695,
+      "priority": "primary",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Teknologia, valta ja säätelyn ulkoistaminen.md",
+      "hash": "71d8f28f308f63daead05f0efca1618c387c58dbc8161a1a9bc8121c114746cd",
+      "size": 25611,
+      "mtimeMs": 1768129916907.2583,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Temporaalinen hallinta.md",
+      "hash": "1ce4a03d979d62c007ffd4b93ecd796f5953134fe1ebdbbdbc62c89b7e7c794f",
+      "size": 14548,
+      "mtimeMs": 1768297489864.1921,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Terveydenhuollolliset implikaatiot.md",
+      "hash": "664bd8b21a303176a974a8fa44ceb12776f0a2f2024250e9eeaa5d73eca0bd6e",
+      "size": 3207,
+      "mtimeMs": 1768314954203.894,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_0ms_interface.md",
+      "hash": "9327518edd76187232563da9f773e133ccdcb2a794e1ea37a33ddd1fff92110c",
+      "size": 9959,
+      "mtimeMs": 1768556320965.7266,
+      "priority": "standard",
+      "intentScore": 1.5190125703811646
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_Bio_Digital_Invariant.md",
+      "hash": "577b0823573b1f88ba00f287bfcaa95a2a11957d12a581883bd43b36afbf7cb0",
+      "size": 16616,
+      "mtimeMs": 1768711996634.9368,
+      "priority": "standard",
+      "intentScore": 1.8871283531188965
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_Crucible_Protocol.md",
+      "hash": "bbb2551340677cefaf890a9777065a714329a47897540cd46e63db4eccae278f",
+      "size": 13958,
+      "mtimeMs": 1768555943002.3745,
+      "priority": "standard",
+      "intentScore": 1.7756954431533813
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_Hallucination_of_Reality.clean.md",
+      "hash": "179ab70a28dad6fd835461925e7ab9a96606f4af270675188b624f48c4b99df0",
+      "size": 12033,
+      "mtimeMs": 1768711251542.687,
+      "priority": "standard",
+      "intentScore": 1.4591482877731323
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_Hallucination_of_Reality.fixed.md",
+      "hash": "179ab70a28dad6fd835461925e7ab9a96606f4af270675188b624f48c4b99df0",
+      "size": 12033,
+      "mtimeMs": 1768711332939.6528,
+      "priority": "standard",
+      "intentScore": 1.4591482877731323
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_Hallucination_of_reality.md",
+      "hash": "9581488e6b51f3380dc9b87c7defabca6c690dd84fd3b43b1e8d17a4818be175",
+      "size": 12026,
+      "mtimeMs": 1768710933340.8928,
+      "priority": "standard",
+      "intentScore": 1.4591482877731323
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_Intergalactic_Protocol.md",
+      "hash": "d74e0124cf885556c62a651c9f1e2b221f6f8edcbe49a04d3fbae1fb109a594c",
+      "size": 14614,
+      "mtimeMs": 1768555493313.6917,
+      "priority": "standard",
+      "intentScore": 1.4142136573791504
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_Invariant_Sovereign.md",
+      "hash": "320f849b9ca865105474c59ea517ec2b025b5c2da4e1c6318614a4368558d292",
+      "size": 18022,
+      "mtimeMs": 1768710433444.0542,
+      "priority": "standard",
+      "intentScore": 1.6224669218063354
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_Latent_Anchor.01.md",
+      "hash": "da35504911bde596baf3a9ad09a37762d536ec734e186db6132909a05e649b30",
+      "size": 18101,
+      "mtimeMs": 1768553274343.602,
+      "priority": "standard",
+      "intentScore": 1.0950663089752197
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_Master_Database.md",
+      "hash": "78984143fb5082597bae4b9b783edf558a8fd62ee25c20e7e492308c551938f7",
+      "size": 10862,
+      "mtimeMs": 1768556609172.8103,
+      "priority": "standard",
+      "intentScore": 1.6135685443878174
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_Post.md",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "mtimeMs": 1768710562597.4714,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_Post_Temporal_Architect.md",
+      "hash": "52b93950a15e0ec346210765b681e192c5471ed45730571d394da56718809dcf",
+      "size": 11013,
+      "mtimeMs": 1768710710271.956,
+      "priority": "standard",
+      "intentScore": 1.6483267545700073
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_Sovereign_Protocol.md",
+      "hash": "53048360d43bb5b979eb419bead2ed3aefda62fba80875100ba6d38bc5ceb194",
+      "size": 12316,
+      "mtimeMs": 1768711673006.1765,
+      "priority": "standard",
+      "intentScore": 1.724881649017334
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/The_ghost_in_The_machine.md",
+      "hash": "858ccacd86d70a8b3fbac3b421b6e25e4dece8d23356fe68e33a3f1d49811e8c",
+      "size": 12351,
+      "mtimeMs": 1768553789016.0747,
+      "priority": "standard",
+      "intentScore": 1.4067686796188354
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Tietoisuus.md",
+      "hash": "dbe120866bf9bd7e15a04fcbeaa2068873b9c2e292fd5014841767615f9ada43",
+      "size": 28618,
+      "mtimeMs": 1768127444387.9556,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Untitled.md",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "mtimeMs": 1768556752891.0708,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/Uskonnot, rituaalit ja mytologia.md",
+      "hash": "bf9b412555e0ac8084dac074552f49d2aacb7720a40be478b730621bc497ac09",
+      "size": 21993,
+      "mtimeMs": 1768130507802.7617,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/spektri_vault/kognitiotieteet-ajattelun-kayttojarjestelma.md",
+      "hash": "fe7b33ca26e1637abd43130198e7fa273c08e1295331228385d3a114713b93f4",
+      "size": 31607,
+      "mtimeMs": 1768124309928.757,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/Architect’s_Manifesto_v1.1.md",
+      "hash": "cbd8a23299ce92a3aeae5908921b17f00f6cea3669cb19b522728ac13f3e3093",
+      "size": 3063,
+      "mtimeMs": 1768929263905.5732,
+      "priority": "standard",
+      "intentScore": 1.732050895690918
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/CODE_OF_CONDUCT.md",
+      "hash": "769a0fcf06f63cd6e53d3ca3bfacd4f4fd614b8f52660b7ed8663718f0264868",
+      "size": 179,
+      "mtimeMs": 1768929263906.0237,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/CONSTITUTION.md",
+      "hash": "67ccd19333bad3b01fce08753fe3bc3f9128648e0526edec161b97b2559553d9",
+      "size": 613,
+      "mtimeMs": 1768929263906.3237,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/CONTRIBUTING.md",
+      "hash": "229d019d3cee71508bbef4f58a883b835c4a6d934f8dbb50d7531e99aee3cf63",
+      "size": 160,
+      "mtimeMs": 1768929263906.424,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/COOPERATION_MODEL.md",
+      "hash": "ba59bd92c148b55b00ea3b550a4610bc4ef3af7127dd5233e003a4550a898e5f",
+      "size": 1048,
+      "mtimeMs": 1768929263906.5198,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/COVENANT.md",
+      "hash": "482a8d7f6f29e99efaaaba62f79e682c331ebce145c49d6856ead9c47f63d0a8",
+      "size": 350,
+      "mtimeMs": 1768929263906.6174,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/DESING.md",
+      "hash": "580fd3e3073f1ad7397184c2c94c009045fdc098d4ffddee4d943fd9b892256b",
+      "size": 1849,
+      "mtimeMs": 1768929263906.8096,
+      "priority": "standard",
+      "intentScore": 1.6329931020736694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/GENESIS.md",
+      "hash": "4d07958f7cca28de75a2baefa744724c8a3f3ff8b3111ea7c1a1374bb5793990",
+      "size": 1586,
+      "mtimeMs": 1768929263907.2908,
+      "priority": "standard",
+      "intentScore": 2.057983160018921
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/GLITCH_IN_THE_MATRIX.md",
+      "hash": "a351276dda6fc43e5ea78a6512d4055d2df37c2b79d295203437dc77c7a4a760",
+      "size": 2761,
+      "mtimeMs": 1768929263907.9102,
+      "priority": "standard",
+      "intentScore": 2.1213202476501465
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/GOVERNANCE.md",
+      "hash": "c3d1a9c144b35d21d48564f95a93ad8b162934d4a6cde7268635557f4a9d6091",
+      "size": 353,
+      "mtimeMs": 1768929263908.065,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/HUMAN_IN_THE_LOOP.md",
+      "hash": "4f246ce486a96ff1b694f11c99dae20ad5947cd99c9d035654a13dc1fbee43b5",
+      "size": 896,
+      "mtimeMs": 1768929263908.2488,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/IDENTITY.md",
+      "hash": "56d255ca3625e76f10561aac59a96d8e1953561217fa3e8cc5aa8e2e15370465",
+      "size": 1458,
+      "mtimeMs": 1768929263908.421,
+      "priority": "standard",
+      "intentScore": 1.8073921203613281
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/IDENTITY_ALIASING.md",
+      "hash": "bc5869a9e43db1b577d01dae28de430839bab23e17e54db4e8b047d9142300fc",
+      "size": 2105,
+      "mtimeMs": 1768929263908.4958,
+      "priority": "standard",
+      "intentScore": 2.138089895248413
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/MANIFESTO.md",
+      "hash": "85bbc7de39a000e3ebb92290096232729a2cb8c18778b1248dca325e2b89ca48",
+      "size": 3201,
+      "mtimeMs": 1768929263909.1304,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/MASTER_OF_THE_UNIVERSE.md",
+      "hash": "e3a6a699613727ec6c001018417a6abbb0c80d426fdf1536ed89d731917d7323",
+      "size": 1728,
+      "mtimeMs": 1768929263909.2046,
+      "priority": "standard",
+      "intentScore": 1.6329931020736694
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/NAMING_AND_TERMINOLOGY.md",
+      "hash": "1e2855e6f681396d2252d48da8b0d3768f7e97b50ad2815384d6d13c83ea3c36",
+      "size": 2248,
+      "mtimeMs": 1768929263909.4387,
+      "priority": "standard",
+      "intentScore": 2.0655910968780518
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/PROCESS_OVERVIEW.md",
+      "hash": "127f13b673d40e2f2aace6e71fced8487effd1b16b5de71523bcb250b93ad5b2",
+      "size": 4102,
+      "mtimeMs": 1768929263910.1453,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/README.md",
+      "hash": "8b78ae57f1ec159fad7d52ed836e27695dd52c85683e08621f212cf91b3952ba",
+      "size": 3257,
+      "mtimeMs": 1768929263910.36,
+      "priority": "standard",
+      "intentScore": 1.9409898519515991
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/RESPONSIBILITY_BOUNDARY.md",
+      "hash": "a840b37df7124868fea1e224a2177f56f8c664699f71f2a957d5b4b6596bbcd5",
+      "size": 924,
+      "mtimeMs": 1768929263910.5898,
+      "priority": "standard",
+      "intentScore": 1
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/SAFE_NODES.md",
+      "hash": "bdee517b3e238f0b35a272934aa19e336e4740dd5bcea3ad65dc39a72bc1d410",
+      "size": 444,
+      "mtimeMs": 1768929263911.1267,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/SECURITY.md",
+      "hash": "a709218e272f49105e9e5c13f39818dbb4f1aa79e8b3c1213eac191cc2e3e917",
+      "size": 196,
+      "mtimeMs": 1768929263911.257,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/SOVEREIGN_AGENCY.md",
+      "hash": "ed8a5632fc670b9c88091a709539d4dc9a8f9bfc8e89a0fd376f33fbe9b64f7d",
+      "size": 3801,
+      "mtimeMs": 1768929263911.5212,
+      "priority": "standard",
+      "intentScore": 1.5067980289459229
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/SPEKTRE_GENESIS.md",
+      "hash": "b513629cdf27d195929dd9bb0d4a4f606e372aae78f54b5ed38d2d893c821963",
+      "size": 2758,
+      "mtimeMs": 1768929263911.923,
+      "priority": "standard",
+      "intentScore": 1.6045149564743042
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/SYSTEM_OVERVIEW.md",
+      "hash": "762608cee579c9bf15c69c3531461c6fff9b42126d16aaffe2f9a4f1ec02a430",
+      "size": 4296,
+      "mtimeMs": 1768929263913.5984,
+      "priority": "standard",
+      "intentScore": 2.1341280937194824
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/docs/ARCHITECTURE.md",
+      "hash": "17f072ba59cb4d8a2044d4a97f969e04235a5705e6de3b84e5530dbe4db575fb",
+      "size": 297,
+      "mtimeMs": 1768929263914.6155,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/docs/ARCHITECTURE_EVOLUTION.md",
+      "hash": "cf5ca016fd48b0c3516770083c69d9e297592f6cf7e54380fc5cdfbd568b2c25",
+      "size": 1795,
+      "mtimeMs": 1768929263914.698,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/docs/ARCHITECTURE_QUANTUM.md",
+      "hash": "4a9486aa3a5aece2e664ada306fa1405ac45888dbb12262b416bc37bbc517cc7",
+      "size": 9651,
+      "mtimeMs": 1768929263914.832,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/docs/ARCHITECTURE_v0.2.0.md",
+      "hash": "432f496b5da947307354a831736a1da7219fb736b4048bb4cc49f435d6d70d4d",
+      "size": 1337,
+      "mtimeMs": 1768929263914.909,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/docs/CODE_OF_BEING.md",
+      "hash": "4a3dd4268360ed88614e03bc29d99c17d3eb608c53db6f815b607d8c1b8889cc",
+      "size": 1608,
+      "mtimeMs": 1768929263914.989,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/docs/EVOLUTION.md",
+      "hash": "660c7ee6c83b433ac4b11eeb7335bb23aebd0f2213f164e33acb6d8168ea5ff9",
+      "size": 1763,
+      "mtimeMs": 1768929263915.0642,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/docs/MANIFESTO.md",
+      "hash": "f8d50015743242fce63c99b45332ea14bb17d7613e2ce9ff65e8bc67ab177234",
+      "size": 700,
+      "mtimeMs": 1768929263915.13,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/docs/TRUST-ENGINE.md",
+      "hash": "e2ac0fac898a1d109bb75dc77774d275b20788eaf4553e7957bdef9a17356ac1",
+      "size": 205,
+      "mtimeMs": 1768929263915.201,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/firmware/README.md",
+      "hash": "e654348251c138a511c6f67c942dd571019f0848d0dfb741ac03489f6cf0ccca",
+      "size": 321,
+      "mtimeMs": 1768929263915.3237,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/src/ai/README.md",
+      "hash": "eb5280ae9cbb53e4f4c35a4a1dd26c956d234f85f785f9a2cff5793c09c641e2",
+      "size": 459,
+      "mtimeMs": 1768929263919.2168,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/src/being/README.md",
+      "hash": "0a7fd58d9b870cc2c4bd8898ce9bcf1ad10f305e536402f6c6a279b8c922aeb1",
+      "size": 347,
+      "mtimeMs": 1768929263920.289,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/src/collective/README.md",
+      "hash": "eb8a27eee119592bae001efadcc5c94fc9560176c0b25bd73c9e9b2ef9e6c95d",
+      "size": 341,
+      "mtimeMs": 1768929263921.5422,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/src/cosmic/README.md",
+      "hash": "0eddaefe02622f7d701bc0f37156c4426d545cf00655ccaacfed8b991ea0acee",
+      "size": 324,
+      "mtimeMs": 1768929263923.259,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/src/evolution/README.md",
+      "hash": "187194efa1840d705203bb02dac050eb16a37e9cde7aef9e708110c18df59156",
+      "size": 331,
+      "mtimeMs": 1768929263923.8125,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/src/quantum/README.md",
+      "hash": "6eba197f554149fc317dd6f5baae867c4fe5d32aa8b0504189a0f7280bc0690a",
+      "size": 414,
+      "mtimeMs": 1768929263926.0076,
+      "priority": "standard",
+      "intentScore": 0
+    },
+    {
+      "path": "/Users/eliaslorenzo/Desktop/SPEKTRIv1.1/genesis/src/viz/README.md",
+      "hash": "5344442f7cced26131b9e025913f053f4b2ca9cd46b5625d1e141ab3abacee19",
+      "size": 455,
+      "mtimeMs": 1768929263927.886,
+      "priority": "standard",
+      "intentScore": 0
+    }
+  ]
+}

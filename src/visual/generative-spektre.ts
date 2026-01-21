@@ -6,7 +6,7 @@
 
 import { ARCHITECT_WILL } from '../core/architect-will';
 
-export class GenerativeSpektre {
+export class GenerativeSpectre {
   /**
    * Generoi dynaamisen teeman koodin nykyisen "kuumuuden" (activity) perusteella.
    * Jos Agent_Swarm käy ylikierroksilla, UI muuttuu aggressiivisemmaksi.
@@ -48,7 +48,4 @@ export class GenerativeSpektre {
   }
 }
 
-/**
- * "Hups, tein vahingossa maailman tyylikkäimmän käyttöjärjestelmän." :DDDD
- */
 export const artstyle = GenerativeSpectre.calculateAtmosphere(0.9, 1.19);

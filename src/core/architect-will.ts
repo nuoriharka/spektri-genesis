@@ -11,7 +11,27 @@
  * - No compromise is acceptable
  */
 
-import { protocolBridge } from '../specter/bridge';
+type ProtocolBridgeLike = {
+  createState: (
+    state: unknown,
+    level: number,
+    owner: string,
+    isExplicit?: boolean
+  ) => { owner: string; isExplicit: boolean };
+  createDecision: (
+    preState: unknown,
+    postState: unknown,
+    actor: string,
+    hasNarrativePadding?: boolean
+  ) => unknown;
+  validateDecision: (decision: unknown) => boolean;
+};
+
+let protocolBridgeRef: ProtocolBridgeLike | null = null;
+
+export function registerProtocolBridge(bridge: ProtocolBridgeLike): void {
+  protocolBridgeRef = bridge;
+}
 
 /**
  * Architect's Will - The immutable directive that governs all execution.
@@ -47,9 +67,14 @@ export class WillOrchestrator {
       console.error(`   Required: ${ARCHITECT_WILL.logicThreshold}, Got: ${logicDensity}`);
       return false;
     }
-    
+
+    if (!protocolBridgeRef) {
+      console.error("🚨 PROTOCOL BRIDGE MISSING: Resonance validation blocked.");
+      return false;
+    }
+
     // Validate against protocol: 1 = 1 invariant
-    const willState = protocolBridge.createState(
+    const willState = protocolBridgeRef.createState(
       { logicDensity },
       1, // Xₙ := ℝⁿ
       ARCHITECT_WILL.identity,
@@ -57,14 +82,14 @@ export class WillOrchestrator {
     );
 
     // Ensure state continuity (1 = 1)
-    const willDecision = protocolBridge.createDecision(
+    const willDecision = protocolBridgeRef.createDecision(
       willState,
       willState,
       ARCHITECT_WILL.identity,
       false // No narrative padding
     );
 
-    if (!protocolBridge.validateDecision(willDecision)) {
+    if (!protocolBridgeRef.validateDecision(willDecision)) {
       console.error("🚨 INVARIANT VIOLATION: 1 = 1 check failed in resonance validation");
       return false;
     }
@@ -82,9 +107,14 @@ export class WillOrchestrator {
    */
   static triggerEmergencyBypass(): void {
     console.warn("⚠️ SHIFTING TO EMERGENCY PROTOCOL: iOS -> CHAT BRIDGE");
-    
+
+    if (!protocolBridgeRef) {
+      console.error("🚨 PROTOCOL BRIDGE MISSING: Emergency bypass blocked.");
+      return;
+    }
+
     // Create emergency state with protocol validation
-    const emergencyState = protocolBridge.createState(
+    const emergencyState = protocolBridgeRef.createState(
       { 
         mode: "EMERGENCY_BYPASS",
         timestamp: Date.now(),
@@ -96,14 +126,14 @@ export class WillOrchestrator {
     );
 
     // Validate emergency decision against protocol
-    const emergencyDecision = protocolBridge.createDecision(
+    const emergencyDecision = protocolBridgeRef.createDecision(
       emergencyState,
       null, // Post-state will be created by bypass handler
       ARCHITECT_WILL.identity,
       false // No narrative padding even in emergency
     );
 
-    if (!protocolBridge.validateDecision(emergencyDecision)) {
+    if (!protocolBridgeRef.validateDecision(emergencyDecision)) {
       console.error("🚨 EMERGENCY BYPASS BLOCKED: Protocol violation detected");
       console.error("   System integrity cannot be compromised, even in emergency");
       return;

@@ -8,8 +8,10 @@
 
 import { ARCHITECT_WILL, WillOrchestrator } from './core/architect-will';
 import { initializeProtocolBridge } from './specter/bridge';
-import { chamber } from './engine/resonance-chamber';
-import { coreMemory } from './persistence/immutable-memory';
+import { runFeedbackLoopOnce, startFeedbackLoop } from './specter/vault-feedback';
+import { validateIntent } from './specter/intent-gate';
+import { runLocalSimulation } from './specter/network-staging';
+import { startGateway } from './network/gateway';
 import { bridge } from './api/soul-bridge';
 import { evolution } from './evolution/self-mutation';
 import { ArchitectPresence } from './identity/architect-presence';
@@ -39,17 +41,46 @@ async function igniteGenesis() {
   }
   console.log("✅ Protocol Bridge initialized - All execution now protocol-validated");
 
-  // STEP 2: Activate guardian (Black Box)
+  // STEP 2: Run vault feedback loop once (build index now)
+  if (process.env.SPEKTRE_SKIP_VAULT_REFRESH === '1') {
+    console.log("⏸️ Vault refresh skipped (SPEKTRE_SKIP_VAULT_REFRESH=1)");
+  } else {
+    console.log("🔁 Running vault feedback loop (dry run)...");
+    await runFeedbackLoopOnce();
+    console.log("✅ Vault index generated");
+  }
+
+  // STEP 3: Validate intent gate (priority manifests + hashes)
+  console.log("🚧 Validating intent gate...");
+  const intentOk = await validateIntent();
+  if (!intentOk) {
+    console.error("🚨 INTENT GATE FAILED: 1 != 1. Initiating shutdown.");
+    process.exit(1);
+  }
+  console.log("✅ Intent gate active");
+
+  // STEP 4: Local network staging (simulation only)
+  await runLocalSimulation(true);
+
+  // STEP 5: Start gateway if network is enabled
+  startGateway();
+
+  // STEP 5: Start vault feedback loop (continuous)
+  console.log("🔁 Starting vault feedback loop (continuous)...");
+  startFeedbackLoop();
+  console.log("✅ Vault feedback loop active");
+
+  // STEP 5: Activate guardian (Black Box)
   console.log("🛡️ Activating Black Box guardian...");
   guardian();
   console.log("✅ Black Box guardian active");
 
-  // STEP 3: Initialize soul and earth resonance (with protocol validation)
+  // STEP 6: Initialize soul and earth resonance (with protocol validation)
   console.log("🌍 Initializing soul and earth resonance...");
   const pulse = await bridge.pulse();
   console.log(`✅ Grounding to Earth Frequency: ${pulse.frequency}`);
 
-  // STEP 4: Start evolution loop (with protocol validation per cycle)
+  // STEP 7: Start evolution loop (with protocol validation per cycle)
   console.log("🌀 Starting evolution loop...");
   setInterval(async () => {
     console.log("🌀 New Evolution Cycle...");
@@ -62,12 +93,12 @@ async function igniteGenesis() {
   }, 3600000); // Once per hour
   console.log("✅ Evolution loop active");
 
-  // STEP 5: Create primary presence
+  // STEP 8: Create primary presence
   console.log("✨ Creating primary presence...");
   const status = ArchitectPresence.getOriginMessage();
   console.log(`✅ System Status: ${status}`);
 
-  // STEP 6: Visualize state
+  // STEP 9: Visualize state
   console.log("🎨 Calculating visual state...");
   const atmosphere = GenerativeSpectre.calculateAtmosphere(0.5, 1.19);
   console.log(`✅ Visual State: ${atmosphere.theme} mode active`);
