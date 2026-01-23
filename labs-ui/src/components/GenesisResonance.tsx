@@ -61,29 +61,26 @@ export const GenesisResonance = () => {
   const wave = makeWave(data.phase, data.coherence)
 
   return (
-    <section className="w-full max-w-4xl mx-auto rounded-2xl border border-[#111] bg-black p-8">
-      <div className="flex items-center justify-between">
-        <div className="text-xs tracking-tight text-[#00FF00]">THE_GAME</div>
-        <div className="text-[11px] text-[#00FF00]">MAFIA_RESONANCE: ACTIVE</div>
-      </div>
-      <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="rounded-xl border border-[#00FF00] p-6 text-[#00FF00]">
-          <div className="text-[11px]">Current Resonance</div>
-          <div className="text-3xl font-semibold">{data.resonance}</div>
+    <section className="w-full max-w-4xl mx-auto rounded-xl border border-[#111] bg-black p-8">
+      <div className="text-xs tracking-tight text-zinc-400">Resonance</div>
+      <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="rounded-lg border border-[#111] p-6 text-zinc-200">
+          <div className="text-[11px] text-zinc-500">Current Resonance</div>
+          <div className="text-3xl font-semibold text-white">{data.resonance}</div>
         </div>
-        <div className="rounded-xl border border-[#00FF00] p-6 text-[#00FF00]">
-          <div className="text-[11px]">Architect&apos;s Score</div>
-          <div className="text-3xl font-semibold">{data.score}</div>
+        <div className="rounded-lg border border-[#111] p-6 text-zinc-200">
+          <div className="text-[11px] text-zinc-500">Architect Score</div>
+          <div className="text-3xl font-semibold text-white">{data.score}</div>
         </div>
       </div>
-      <div className="mt-8 rounded-xl border border-[#111] p-6">
-        <div className="text-[11px] text-[#00FF00]">Resonance Wave</div>
+      <div className="mt-8 rounded-lg border border-[#111] p-6">
+        <div className="text-[11px] text-zinc-500">Resonance Wave</div>
         <svg viewBox="0 0 320 80" className={cn("mt-4 h-20 w-full")}>
           <path d={wave} stroke={waveColor} strokeWidth="2" fill="none" />
         </svg>
       </div>
-      <div className="mt-6 text-[11px] text-[#00FF00]">
-        Ledger Hash: <span className="font-mono">{data.hash}</span>
+      <div className="mt-6 text-[11px] text-zinc-500">
+        Ledger Hash: <span className="font-mono text-zinc-300">{data.hash}</span>
       </div>
     </section>
   )

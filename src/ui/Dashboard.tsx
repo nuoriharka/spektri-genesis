@@ -230,7 +230,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       <header className="relative flex items-center justify-between mb-8">
         <div className="text-sm tracking-tight uppercase">SPECTER v1.1</div>
         <div className="text-xs text-zinc-400">
-          Architect: Lauri Elias Rainio | Status: Hardened | MAFIA_RESONANCE: ACTIVE
+          Architect: Lauri Elias Rainio | Status: Hardened
         </div>
       </header>
 
@@ -253,8 +253,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
         <>
         <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8">
         <section className="bg-[#09090b] border border-[#27272a] rounded-lg p-6">
-          <div className="text-xs text-zinc-400 mb-2">The Anchor</div>
-          <div className="text-sm text-zinc-200 mb-4">Master Ledger State</div>
+          <div className="text-xs text-zinc-400 mb-2">Ledger</div>
+          <div className="text-sm text-zinc-200 mb-4">State</div>
           <div className="text-[11px] text-zinc-400 mb-1">State Hash</div>
           <div className="font-mono text-xs text-zinc-100 break-all">{stateHash}</div>
           <div className="mt-6 text-[11px] text-zinc-400">Total Transitions</div>
@@ -262,9 +262,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </section>
 
         <section className="bg-[#09090b] border border-[#27272a] rounded-lg p-6">
-          <div className="text-xs text-zinc-400 mb-2">The Activity</div>
+          <div className="text-xs text-zinc-400 mb-2">Activity</div>
           {empty ? (
-            <div className="text-sm text-zinc-400">Waiting for Architect's Intent. 1=1.</div>
+            <div className="text-sm text-zinc-400">Waiting for intent.</div>
           ) : (
             <ul className="space-y-3">
               {entries.slice(0, 6).map((entry) => (
@@ -281,7 +281,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       </div>
 
       <section className="relative mt-8 bg-[#09090b] border border-[#27272a] rounded-lg p-6">
-        <div className="text-xs text-zinc-400 mb-2">Architect's Sign‑off</div>
+        <div className="text-xs text-zinc-400 mb-2">Proposals</div>
         {pending.length === 0 ? (
           <div className="text-sm text-zinc-400">No pending proposals.</div>
         ) : (
@@ -323,6 +323,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </section>
         </div>
       )}
+
+      <div className="relative mt-10 text-[11px] text-zinc-500">
+        Designed by Lauri Elias Rainio | Helsinki
+      </div>
     </div>
   );
 };
