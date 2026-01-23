@@ -7,7 +7,7 @@ let wasmPromise: Promise<WebAssembly.Instance> | null = null;
 
 const loadWasm = async () => {
   if (!wasmPromise) {
-    const wasmUrl = new URL('./the_game.wasm', import.meta.url);
+    const wasmUrl = '/game/the_game.wasm';
     wasmPromise = fetch(wasmUrl)
       .then((res) => res.arrayBuffer())
       .then((bytes) => WebAssembly.instantiate(bytes, {}))

@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { runGameStep } from '../game/the_game_bridge';
+import { calculateCoherence, getPhase } from '../engine/resonance_bridge';
 
 type LedgerEntry = {
   sequence: number;
@@ -54,6 +55,24 @@ const verifyLedger = (snapshot: LedgerSnapshot) => {
   return true;
 };
 
+const alignInterval = (fn: () => void, intervalMs: number) => {
+  let timer: ReturnType<typeof setTimeout> | null = null;
+  let interval: ReturnType<typeof setInterval> | null = null;
+  const start = async () => {
+    const phase = await getPhase();
+    const delay = Math.max(0, Math.round(((1 - phase) / 432) * 1000));
+    timer = setTimeout(() => {
+      fn();
+      interval = setInterval(fn, intervalMs);
+    }, delay);
+  };
+  start();
+  return () => {
+    if (timer) clearTimeout(timer);
+    if (interval) clearInterval(interval);
+  };
+};
+
 const useLedger = (url: string) => {
   const [snapshot, setSnapshot] = useState<LedgerSnapshot>({ entries: [], errors: [] });
   const [stateHash, setStateHash] = useState('—');
@@ -80,11 +99,10 @@ const useLedger = (url: string) => {
         }
       }
     };
-    tick();
-    const id = setInterval(tick, 2000);
+    const stop = alignInterval(tick, 2000);
     return () => {
       active = false;
-      clearInterval(id);
+      stop();
     };
   }, [url]);
 
@@ -104,11 +122,10 @@ const useProposals = (url: string) => {
         if (active) setProposals([]);
       }
     };
-    tick();
-    const id = setInterval(tick, 2000);
+    const stop = alignInterval(tick, 2000);
     return () => {
       active = false;
-      clearInterval(id);
+      stop();
     };
   }, [url]);
   return proposals;
@@ -131,6 +148,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
     [proposals]
   );
   const [gameState, setGameState] = useState({ resonance: 0, score: 0 });
+  const [coherence, setCoherence] = useState(0);
+  const [phase, setPhase] = useState(0);
   const gameRef = useRef(gameState);
   gameRef.current = gameState;
 
@@ -144,13 +163,64 @@ export const Dashboard: React.FC<DashboardProps> = ({
         if (active) setGameState({ resonance: 0, score: 0 });
       }
     };
-    tick();
-    const id = setInterval(tick, 2000);
+    const stop = alignInterval(tick, 2000);
     return () => {
       active = false;
-      clearInterval(id);
+      stop();
     };
   }, [integrityOk, anchoredCount]);
+
+  useEffect(() => {
+    let active = true;
+    const sync = async () => {
+      try {
+        const nextPhase = await getPhase();
+        if (active) setPhase(nextPhase);
+      } catch {
+        if (active) setPhase(0);
+      }
+      if (active) requestAnimationFrame(sync);
+    };
+    const id = requestAnimationFrame(sync);
+    return () => {
+      active = false;
+      cancelAnimationFrame(id);
+    };
+  }, []);
+
+  useEffect(() => {
+    let active = true;
+    const tick = async () => {
+      const value = await calculateCoherence(stateHash, gameState.resonance, gameState.score);
+      if (active) setCoherence(integrityOk ? value : 0);
+    };
+    tick();
+  }, [stateHash, gameState, integrityOk]);
+
+  const waveColor = useMemo(() => {
+    if (!integrityOk) return '#FF0000';
+    const t = Math.max(0, Math.min(1, 1 - coherence));
+    const r = Math.round(255 * t);
+    const g = Math.round(255 * (1 - t));
+    return `rgb(${r}, ${g}, 0)`;
+  }, [coherence, integrityOk]);
+
+  const wavePath = useMemo(() => {
+    const width = 320;
+    const height = 80;
+    const mid = height / 2;
+    const amp = 18 * Math.max(0.2, coherence || 0);
+    const points: string[] = [];
+    const steps = 32;
+    for (let i = 0; i <= steps; i += 1) {
+      const x = (width / steps) * i;
+      const base = Math.sin((i / steps) * Math.PI * 2 + phase * Math.PI * 2);
+      const noise = (1 - coherence) * Math.sin((i + 1) * 3.1 + phase * 12);
+      const y = mid + (base + noise) * amp;
+      points.push(`${x.toFixed(2)},${y.toFixed(2)}`);
+    }
+    return `M ${points.join(' L ')}`;
+  }, [coherence, phase]);
 
   return (
     <div className="min-h-screen bg-black text-zinc-50 p-8 font-sans">
@@ -180,6 +250,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       </div>
 
       {tab === 'ledger' && (
+        <>
         <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8">
         <section className="bg-[#09090b] border border-[#27272a] rounded-lg p-6">
           <div className="text-xs text-zinc-400 mb-2">The Anchor</div>
@@ -230,24 +301,25 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </ul>
         )}
       </section>
+        </>
       )}
 
       {tab === 'game' && (
         <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8">
-          <section
-            className="bg-black border rounded-lg p-6"
-            style={{ borderColor: integrityOk ? '#00FF00' : '#FF0000', color: integrityOk ? '#00FF00' : '#FF0000' }}
-          >
+          <section className="bg-black border rounded-lg p-6" style={{ borderColor: waveColor, color: waveColor }}>
             <div className="text-xs mb-2">THE_GAME</div>
             <div className="text-[11px] mb-1">Current Resonance</div>
             <div className="text-2xl font-semibold">{gameState.resonance}</div>
           </section>
-          <section
-            className="bg-black border rounded-lg p-6"
-            style={{ borderColor: integrityOk ? '#00FF00' : '#FF0000', color: integrityOk ? '#00FF00' : '#FF0000' }}
-          >
+          <section className="bg-black border rounded-lg p-6" style={{ borderColor: waveColor, color: waveColor }}>
             <div className="text-[11px] mb-1">Architect's Score</div>
             <div className="text-2xl font-semibold">{gameState.score}</div>
+          </section>
+          <section className="bg-black border border-[#27272a] rounded-lg p-6 md:col-span-2">
+            <div className="text-[11px] text-zinc-400 mb-3">Resonance Wave</div>
+            <svg viewBox="0 0 320 80" className="w-full h-20">
+              <path d={wavePath} stroke={waveColor} strokeWidth="2" fill="none" />
+            </svg>
           </section>
         </div>
       )}
