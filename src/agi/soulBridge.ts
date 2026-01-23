@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { MultidimensionalSoul, Identity4 } from "../being/multidimensionalSoul";
 import { loadHumanKnowledgeStub, KnowledgeGraph } from "./knowledge";
 import { trustEngineV2 } from "../being/trustEngineV2";

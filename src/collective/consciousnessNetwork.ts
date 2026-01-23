@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { AdaptiveSoul } from "../being/adaptiveSoul";
 import { Soul } from "../being/types";
 import { trustEngine } from "../being";

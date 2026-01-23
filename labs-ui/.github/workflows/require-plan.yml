@@ -1,0 +1,22 @@
+name: require-plan
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+permissions:
+  pull-requests: write
+jobs:
+  check-plan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check PR body contains Plan section
+        uses: actions-ecosystem/action-regex-match@v2
+        id: check
+        with:
+          text: ${{ github.event.pull_request.body }}
+          regex: '## Plan[\s\S]*'
+      - name: Fail if missing
+        if: steps.check.outputs.match == ''
+        run: |
+          echo "PR body must include a '## Plan' section with 3–5 steps." >&2
+          exit 1

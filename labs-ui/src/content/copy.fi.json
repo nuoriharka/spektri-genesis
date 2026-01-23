@@ -1,0 +1,26 @@
+{
+  "notAChat": {
+    "title": "Ei pelkkä chat-ikkuna",
+    "desc": "Spektri on tuotantokelpoinen agenttialusta: suunnittelu, ajo, läpinäkyvyys ja integraatiot yhdessä."
+  },
+  "notAChatItems": [
+    { "t": "Tehtävät ja tavoitteet", "d": "Määrittele lopputulos – agentti suunnittelee vaiheet." },
+    { "t": "Työkalut ja integraatiot", "d": "OAuth yhdellä klikkauksella – Drive, Slack, CRM, kaupat." },
+    { "t": "Seuranta ja läpinäkyvyys", "d": "Näe kustannus, kesto ja onnistumisaste joka ajolla." }
+  ],
+  "diff": {
+    "title": "Miksi Spektri?",
+    "items": [
+      { "t": "Nopea ensimmäinen onnistuminen", "d": "Mallit ja ohjatut virrat – käyntiin alle minuutissa." },
+      { "t": "Tuotantotaso alusta asti", "d": "Audit trail, metriikat ja ajastus valmiina." },
+      { "t": "Integraatiot ilman kitkaa", "d": "Google, Microsoft, CRM:t, verkkokaupat, maksut." },
+      { "t": "Kustannus–hyöty näkyvissä", "d": "Näe säästetty aika ja kustannus/ajo läpinäkyvästi." }
+    ]
+  },
+  "endCta": {
+    "title": "Rakennetaan ensimmäinen onnistuminen tänään",
+    "desc": "Aloita ilmaiseksi. Katso 60s demo. Ei lukittautumista.",
+    "primary": "Aloita ilmaiseksi",
+    "secondary": "Katso 60s demo"
+  }
+}

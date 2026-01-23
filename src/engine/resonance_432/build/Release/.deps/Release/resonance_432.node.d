@@ -1,0 +1,1 @@
+cmd_Release/resonance_432.node := c++ -bundle -undefined dynamic_lookup -Wl,-search_paths_first -mmacosx-version-min=11.0 -arch arm64 -L./Release -stdlib=libc++  -o Release/resonance_432.node Release/obj.target/resonance_432/../resonance_432.o 

@@ -1,0 +1,22 @@
+{
+  "providers": [
+    { "name": "openai", "models": ["gpt-4o-mini", "gpt-4o"] },
+    { "name": "anthropic", "models": ["claude-3-5-sonnet", "claude-3-haiku"] },
+    { "name": "local", "models": ["llama-3.1:8b"] }
+  ],
+  "routing": {
+    "default": ["openai:gpt-4o-mini", "anthropic:claude-3-5-sonnet", "local:llama-3.1:8b"],
+    "fallback": true,
+    "hedgeAfterMs": 2000,
+    "timeoutMs": 15000
+  },
+  "limits": {
+    "maxTokens": 1024,
+    "temperature": 0.7,
+    "rateLimits": {
+      "openai": { "rpm": 3000 },
+      "anthropic": { "rpm": 2000 },
+      "local": { "rpm": 100000 }
+    }
+  }
+}

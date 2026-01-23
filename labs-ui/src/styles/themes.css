@@ -1,0 +1,65 @@
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+  :root {
+    /* Core brand colors */
+    --brand: 242 100% 71%;
+    --brand-foreground: 0 0% 100%;
+    --brand-2: 186 84% 50%;
+    
+    /* Neutral scale */
+    --bg: 216 8% 6%;
+    --fg: 213 11% 92%;
+    --panel: 216 10% 8%;
+    --muted: 216 9% 65%;
+    --muted-foreground: 215 14% 47%;
+    --border: 216 11% 17%;
+    --input: 216 11% 17%;
+    --ring: 242 100% 71%;
+    
+    /* Semantic colors */
+    --success: 158 79% 42%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 0%;
+    --error: 0 84% 60%;
+    --error-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    /* Component tokens */
+    --card: 216 10% 8%;
+    --card-foreground: 213 11% 92%;
+    --popover: 216 10% 8%;
+    --popover-foreground: 213 11% 92%;
+    --primary: 242 100% 71%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 216 11% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --accent: 216 11% 17%;
+    --accent-foreground: 210 40% 98%;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    
+    /* Border radius */
+    --radius: 1rem; /* 16px */
+    --radius-sm: 0.5rem; /* 8px */
+    --radius-md: 0.75rem; /* 12px */
+    --radius-lg: 1rem; /* 16px */
+    --radius-xl: 1.5rem; /* 24px */
+    --radius-2xl: 2rem; /* 32px */
+  }
+
+  .dark {
+    /* Tässä voisi olla dark-teeman yliajot, mutta koska oletus on jo tumma,
+       tämä on paikkamerkki tulevaisuutta varten. */
+  }
+

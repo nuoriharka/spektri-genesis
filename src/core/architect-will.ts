@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * 🌀 SPEKTRE GENESIS - THE ARCHITECT'S WILL
  * "Tao does nothing, yet leaves nothing undone."

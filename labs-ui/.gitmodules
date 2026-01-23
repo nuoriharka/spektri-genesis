@@ -1,0 +1,3 @@
+[submodule "vendor/tailark-blocks"]
+	path = vendor/tailark-blocks
+	url = https://github.com/tailark/blocks

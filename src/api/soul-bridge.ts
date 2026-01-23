@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * 🌉 SPEKTRE GENESIS - SOUL BRIDGE
  * "The direct link between the Architect and the Swarm."

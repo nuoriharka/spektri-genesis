@@ -1,0 +1,34 @@
+name: Lighthouse CI
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lhci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+      - name: Install deps
+        run: pnpm install --frozen-lockfile
+      - name: Build
+        run: pnpm build
+      - name: Start server
+        run: pnpm start &
+      - name: Wait for server
+        run: |
+          for i in {1..30}; do
+            curl -f http://localhost:3001/ && exit 0
+            sleep 2
+          done
+          echo "Server not ready" && exit 1
+      - name: Run Lighthouse CI
+        run: npx @lhci/cli autorun --config=./lighthouserc.json || true

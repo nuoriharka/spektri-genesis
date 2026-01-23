@@ -1,0 +1,9 @@
+<svg width="256" height="256" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Spektri logomark mono dark">
+  <g fill="none" stroke="#0B0C0E" stroke-width="6" stroke-linecap="round">
+    <path d="M 44 10 C 34 2, 16 2, 16 12
+             C 16 20, 28 20, 28 28
+             C 28 36, 16 36, 16 44
+             C 16 54, 34 54, 44 46"/>
+  </g>
+  <rect x="-6" y="28" width="76" height="6" rx="3" transform="rotate(-20 32 32)" fill="#0B0C0E" opacity="0.55"/>
+</svg>

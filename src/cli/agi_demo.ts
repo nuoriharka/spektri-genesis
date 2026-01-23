@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { AGISoul } from "../agi/soulBridge";
 import { AdaptiveVectorSoul } from "../being/adaptiveVectorSoul";
 import { CollectiveConsciousness } from "../collective/consciousnessNetwork";

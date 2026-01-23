@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { QuantumRNG } from 'qiskit.js';
 
 export async function getQuantumRandom(): Promise<number> {

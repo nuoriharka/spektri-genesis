@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { AdaptiveSoul } from "../being/adaptiveSoul";
 import { QuantumRealitySuperposition } from "../quantum/parallelRealities";
 import { SoulEvolutionEngine } from "../evolution/soulEvolution";

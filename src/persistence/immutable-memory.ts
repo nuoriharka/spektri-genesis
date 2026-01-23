@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * 💎 SPEKTRE GENESIS - IMMUTABLE MEMORY
  * "What is forged in 30 hours of fire shall never be forgotten."

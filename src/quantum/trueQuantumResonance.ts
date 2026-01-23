@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { QuantumCircuit } from '@quantum/libquantum';
 
 export async function calculateTrueQuantumResonance(

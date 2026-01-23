@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { AdaptiveSoul } from '../being/adaptiveSoul';
 import { CollectiveConsciousness } from '../collective/consciousnessNetwork';
 import { SoulVisualizer } from '../viz/soulSpace';

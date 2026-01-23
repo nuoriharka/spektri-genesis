@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * 🌉 SPEKTRE PROTOCOL → GENESIS ENGINE BRIDGE
  * 

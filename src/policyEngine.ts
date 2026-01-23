@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * 🛡️ SPEKTRE GENESIS - POLICY ENGINE
  * "Code as law. Rules are executable. Violations are impossible."

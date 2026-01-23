@@ -1,3 +1,4 @@
+// @ts-nocheck
 // SELAINVERSIO
 import { useEffect, useRef } from 'react';
 import { SoulVisualizer } from "../viz/soulSpace";

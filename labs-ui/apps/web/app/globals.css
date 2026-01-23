@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import root globals to reuse tokens and variables */
+@import '../../src/app/globals.css';
