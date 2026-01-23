@@ -1,28 +1,44 @@
-"use client"
+import path from 'node:path'
+import fs from 'node:fs/promises'
+import { findActiveProject, loadActions, loadOperations, loadProjects } from '@/lib/store'
 
-import React from 'react'
+const gatewayUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8787'
 
-export default function Home() {
-  const [health, setHealth] = React.useState<'OK' | 'DEGRADED'>('DEGRADED')
+const formatTime = (timestamp: string) =>
+  new Date(timestamp).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })
 
-  React.useEffect(() => {
-    let active = true
-    const tick = async () => {
-      try {
-        const res = await fetch('/api/resonance', { cache: 'no-store' })
-        const json = await res.json()
-        if (active) setHealth(json.coherence >= 1 ? 'OK' : 'DEGRADED')
-      } catch {
-        if (active) setHealth('DEGRADED')
-      }
-    }
-    tick()
-    const id = setInterval(tick, 2000)
-    return () => {
-      active = false
-      clearInterval(id)
-    }
-  }, [])
+const checkGateway = async () => {
+  const controller = new AbortController()
+  const timer = setTimeout(() => controller.abort(), 800)
+  try {
+    const response = await fetch(gatewayUrl, { method: 'GET', signal: controller.signal })
+    clearTimeout(timer)
+    return response.ok
+  } catch {
+    clearTimeout(timer)
+    return false
+  }
+}
+
+const checkTool = async () => {
+  try {
+    await fs.access(path.resolve(process.cwd(), '../src/engine/resonance_432/build/Release/resonance_432.node'))
+    return true
+  } catch {
+    return false
+  }
+}
+
+export default async function Home() {
+  const projects = await loadProjects()
+  const actions = await loadActions()
+  const operations = await loadOperations()
+  const active = findActiveProject(projects)
+  const running = operations.filter((op) => op.status === 'Running')
+  const recent = actions.slice(-5).reverse()
+  const apiOnline = await checkGateway()
+  const toolAvailable = await checkTool()
+  const lastCheck = new Date().toISOString()
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -31,22 +47,52 @@ export default function Home() {
         <div className="mt-10 grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="rounded-lg border border-[#111] bg-black p-6">
             <div className="text-[11px] text-zinc-500">Active Project</div>
-            <div className="mt-2 text-sm text-zinc-300">None</div>
-          </div>
+            {active ? (
+              <div className="mt-3 space-y-1 text-sm text-zinc-300">
+                <div className="text-white">{active.name}</div>
+                <div>Phase: {active.phase}</div>
+                <div>Last commit: {active.lastCommitAt ? formatTime(active.lastCommitAt) : '—'}</div>
+              </div>
+            ) : (
+              <form action="/api/projects/create" method="post" className="mt-3">
+                <button className="rounded-md border border-[#111] px-4 py-2 text-xs text-zinc-300 hover:text-white">
+                  Create Project
+                </button>
+              </form>
+            )}
+              </div>
           <div className="rounded-lg border border-[#111] bg-black p-6">
             <div className="text-[11px] text-zinc-500">Recent Actions</div>
-            <div className="mt-2 text-sm text-zinc-300">None</div>
+            <div className="mt-3 space-y-1 text-sm text-zinc-300">
+              {recent.map((action) => (
+                <div key={`${action.timestamp}-${action.verb}`}>
+                  {formatTime(action.timestamp)} — {action.verb} {action.target}
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="rounded-lg border border-[#111] bg-black p-6">
-            <div className="text-[11px] text-zinc-500">Running Operations</div>
-            <div className="mt-2 text-sm text-zinc-300">None</div>
-          </div>
+          {running.length > 0 && (
+            <div className="rounded-lg border border-[#111] bg-black p-6">
+              <div className="text-[11px] text-zinc-500">Running Operations</div>
+              <div className="mt-3 space-y-1 text-sm text-zinc-300">
+                {running.map((op) => (
+                  <div key={op.id}>
+                    {op.id} — {op.tool} — {op.status}
+        </div>
+                ))}
+              </div>
+            </div>
+          )}
           <div className="rounded-lg border border-[#111] bg-black p-6">
             <div className="text-[11px] text-zinc-500">System Health</div>
-            <div className="mt-2 text-3xl font-semibold font-mono text-white">{health}</div>
+            <div className="mt-3 space-y-1 text-sm text-zinc-300">
+              <div>API Connectivity: {apiOnline ? 'Online' : 'Offline'}</div>
+              <div>Tool Availability: {toolAvailable ? 'Available' : 'Unavailable'}</div>
+              <div>Last Check: {formatTime(lastCheck)}</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      </div>
   )
 }

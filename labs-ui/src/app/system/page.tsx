@@ -1,9 +1,9 @@
-"use client"
-
-import React from 'react'
 import { GenesisResonance } from '@/components/GenesisResonance'
+import { loadSystem } from '@/lib/store'
 
-export default function SystemPage() {
+export default async function SystemPage() {
+  const system = await loadSystem()
+
   return (
     <div className="min-h-screen bg-black text-white px-6 py-16">
       <div className="mx-auto max-w-5xl">
@@ -13,16 +13,24 @@ export default function SystemPage() {
         </div>
         <div className="mt-10 grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="rounded-lg border border-[#111] bg-black p-6">
-            <div className="text-[11px] text-zinc-500">Integrations</div>
-            <div className="mt-3 text-sm text-zinc-500">None</div>
+            <div className="text-[11px] text-zinc-500">Connected Tools</div>
+            <div className="mt-3 text-sm text-zinc-500">{system.tools.length ? system.tools.join(', ') : 'None'}</div>
+          </div>
+          <div className="rounded-lg border border-[#111] bg-black p-6">
+            <div className="text-[11px] text-zinc-500">Authentication</div>
+            <div className="mt-3 text-sm text-zinc-500">{system.auth}</div>
           </div>
           <div className="rounded-lg border border-[#111] bg-black p-6">
             <div className="text-[11px] text-zinc-500">Environment</div>
-            <div className="mt-3 text-sm text-zinc-500">Local</div>
+            <div className="mt-3 text-sm text-zinc-500">{system.environment}</div>
+          </div>
+          <div className="rounded-lg border border-[#111] bg-black p-6">
+            <div className="text-[11px] text-zinc-500">Last Check</div>
+            <div className="mt-3 text-sm text-zinc-500">{system.lastCheck}</div>
           </div>
           <div className="rounded-lg border border-[#111] bg-black p-6 md:col-span-2">
             <div className="text-[11px] text-zinc-500">Logs</div>
-            <div className="mt-3 text-sm text-zinc-500">No logs.</div>
+            <div className="mt-3 text-sm text-zinc-500">Read-only</div>
           </div>
         </div>
       </div>
