@@ -8,7 +8,7 @@ type LedgerSnapshot = {
   score: number
 }
 
-export default function LedgerPage() {
+export default function AssetsPage() {
   const [data, setData] = React.useState<LedgerSnapshot>({ hash: '—', resonance: 0, score: 0 })
 
   React.useEffect(() => {
