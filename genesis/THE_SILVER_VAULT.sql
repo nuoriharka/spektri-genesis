@@ -5,6 +5,24 @@
 -- "Data is the new gold, but Silver is the execution."
 -- ======================================================================================
 
+-- THEATER PATTERN DEFINITIONS (FIRST WAVE)
+CREATE TABLE IF NOT EXISTS Theater_Patterns (
+    pattern VARCHAR(255) PRIMARY KEY,
+    reason VARCHAR(255) NOT NULL,
+    density DECIMAL(3,2) NOT NULL,
+    replacement VARCHAR(255) NOT NULL,
+    flags VARCHAR(8) DEFAULT 'i'
+);
+
+INSERT INTO Theater_Patterns (pattern, reason, density, replacement, flags)
+VALUES ('jyrähtää', 'Emotional Manipulation / Theater', 0.85, 'ilmaisee mielipiteensä', 'i');
+INSERT INTO Theater_Patterns (pattern, reason, density, replacement, flags)
+VALUES ('shokki.*', 'Sensationalist Trigger', 0.90, 'rakenteellinen muutos', 'i');
+INSERT INTO Theater_Patterns (pattern, reason, density, replacement, flags)
+VALUES ('katso\\s+kuvat', 'Clickbait Structure', 0.75, 'katso lähde', 'i');
+INSERT INTO Theater_Patterns (pattern, reason, density, replacement, flags)
+VALUES ('vau!', 'Synthesized Awe', 0.65, 'havainto', 'i');
+
 CREATE TABLE Global_Reality_State (
     cell_id UUID PRIMARY KEY,
     architect_name VARCHAR(255) DEFAULT 'Lauri Elias Rainio',
