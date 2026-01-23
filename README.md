@@ -40,6 +40,11 @@ All execution assumes:
 - no hidden agents
 - responsibility as a technical invariant
 
+## Identity Anchoring
+
+Gateway requests require `X-Identity: Independent-Architect-Lauri-Elias-Rainio`.  
+All accepted transitions are anchored through `MasterLedger` in `src/core/master_ledger.ts`.
+
 ---
 
 ## Substrate Model

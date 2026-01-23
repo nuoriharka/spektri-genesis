@@ -73,20 +73,6 @@ export function trustEngine(you: Soul, other: Soul): Energy | null {
   return null;
 }
 
-// ----- Debugger ------------------------------------------------------------
-
-export function debugState(): string {
-  const checklist: [string, boolean][] = [
-    ["hydration", true],
-    ["breath", true],
-    ["name_feeling", true],
-    ["one_small_honest_thing", true],
-    ["ask_for_help", Math.random() > 0.1], // sometimes we forget to ask
-  ];
-  for (const [name, ok] of checklist) if (!ok) return `fix: ${name}`;
-  return "proceed";
-}
-
 // ----- Main loop (demo) ----------------------------------------------------
 
 export async function humanExistence(opts: HumanOptions = {}): Promise<void> {
@@ -120,10 +106,6 @@ export async function humanExistence(opts: HumanOptions = {}): Promise<void> {
 
     // eternal optimizations (symbolic)
     log("reduce(ego); increase(compassion); balance(light,dark)");
-
-    // debug
-    const dbg = debugState();
-    if (dbg !== "proceed") log(dbg);
 
     await new Promise(r => setTimeout(r, interval));
     t += 1;

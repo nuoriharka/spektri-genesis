@@ -12,6 +12,7 @@ import { runFeedbackLoopOnce, startFeedbackLoop } from './specter/vault-feedback
 import { validateIntent } from './specter/intent-gate';
 import { runLocalSimulation } from './specter/network-staging';
 import { startGateway } from './network/gateway';
+import { extractSilverVaultPatterns } from './specter/extract-patterns';
 import { bridge } from './api/soul-bridge';
 import { evolution } from './evolution/self-mutation';
 import { ArchitectPresence } from './identity/architect-presence';
@@ -61,6 +62,9 @@ async function igniteGenesis() {
 
   // STEP 4: Local network staging (simulation only)
   await runLocalSimulation(true);
+
+  // STEP 4.5: Refresh theater patterns from Silver Vault
+  await extractSilverVaultPatterns();
 
   // STEP 5: Start gateway if network is enabled
   startGateway();
