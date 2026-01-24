@@ -45,16 +45,6 @@ export default function ChatPage() {
 
   React.useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
-      if (event.metaKey && event.key.toLowerCase() === 'i') {
-        event.preventDefault()
-        inputRef.current?.focus()
-      }
-      if (event.key === 'End' || event.key === 'ArrowRight') {
-        event.preventDefault()
-        listRef.current?.scrollTo({ top: listRef.current.scrollHeight, behavior: 'auto' })
-        opsRef.current?.scrollTo({ top: opsRef.current.scrollHeight, behavior: 'auto' })
-        stateRef.current?.scrollTo({ top: stateRef.current.scrollHeight, behavior: 'auto' })
-      }
       if (event.code === 'Space' && document.activeElement !== inputRef.current) {
         event.preventDefault()
         listRef.current?.scrollBy({ top: 120, behavior: 'auto' })
@@ -102,6 +92,7 @@ export default function ChatPage() {
         <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
           <div
             ref={listRef}
+            data-scroll-target="chat"
             className="h-[320px] overflow-y-auto border border-[#111] p-4 text-sm text-zinc-300"
           >
             {messages.map((msg) => (
@@ -135,6 +126,7 @@ export default function ChatPage() {
         <div className="mt-4 flex items-center gap-3">
           <input
             ref={inputRef}
+            id="chat-input"
             value={input}
             onChange={(event) => setInput(event.target.value)}
             placeholder="Message"

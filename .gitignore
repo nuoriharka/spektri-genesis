@@ -16,6 +16,10 @@
 node_modules/ (We don't need bloat, we have pure logic)
 dist/
 .tools/
+node_modules/
+* 2.*
+* 2
+.DS_Store
 
 # --- SECURITY ---
 # Never commit your private keys, but always commit your public intent.

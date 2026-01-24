@@ -20,7 +20,7 @@ export default async function OperationsPage() {
             </form>
           ))}
         </div>
-        <div className="mt-8 border border-[#111]">
+        <div className="mt-8 border border-[#111]" data-scroll-target="operations">
           <div className="grid grid-cols-5 text-[11px] text-zinc-500 px-4 py-3 border-b border-[#111]">
             <div>ID</div>
             <div>Tool</div>
