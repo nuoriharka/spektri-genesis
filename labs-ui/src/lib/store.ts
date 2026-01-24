@@ -37,6 +37,12 @@ export type Asset = {
   location: string
 }
 
+export type ChatMessage = {
+  timestamp: string
+  role: 'user' | 'assistant' | 'system'
+  content: string
+}
+
 export type SystemInfo = {
   tools: string[]
   auth: 'Authenticated' | 'Unauthenticated'
@@ -75,6 +81,8 @@ export const loadSystem = () =>
     environment: 'Local',
     lastCheck: new Date().toISOString()
   })
+
+export const loadChatHistory = () => readJson<ChatMessage[]>('chat_history.json', [])
 
 export const findActiveProject = (projects: Project[]) =>
   projects.find((project) => project.state === 'Active')

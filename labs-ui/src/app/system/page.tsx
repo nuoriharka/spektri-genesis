@@ -7,7 +7,10 @@ export default async function SystemPage() {
   return (
     <div className="min-h-screen bg-black text-white px-6 py-16">
       <div className="mx-auto max-w-5xl">
-        <h1 className="text-2xl font-semibold tracking-[0.08em]">System</h1>
+        <div className="flex items-center justify-between">
+          <h1 className="text-2xl font-semibold tracking-[0.08em]">System</h1>
+          <a href="/chat" className="text-xs text-zinc-500 hover:text-zinc-200">Chat</a>
+        </div>
         <div className="mt-10">
           <GenesisResonance />
         </div>

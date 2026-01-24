@@ -1,6 +1,6 @@
 import path from 'node:path'
 import fs from 'node:fs/promises'
-import { findActiveProject, loadActions, loadOperations, loadProjects } from '@/lib/store'
+import { findActiveProject, loadActions, loadOperations, loadProjects, loadSystem } from '@/lib/store'
 
 const gatewayUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8787'
 
@@ -33,6 +33,7 @@ export default async function Home() {
   const projects = await loadProjects()
   const actions = await loadActions()
   const operations = await loadOperations()
+  const system = await loadSystem()
   const active = findActiveProject(projects)
   const running = operations.filter((op) => op.status === 'Running')
   const recent = actions.slice(-5).reverse()
@@ -88,6 +89,8 @@ export default async function Home() {
             <div className="mt-3 space-y-1 text-sm text-zinc-300">
               <div>API Connectivity: {apiOnline ? 'Online' : 'Offline'}</div>
               <div>Tool Availability: {toolAvailable ? 'Available' : 'Unavailable'}</div>
+              <div>Authentication: {system.auth}</div>
+              <div>Environment: {system.environment}</div>
               <div>Last Check: {formatTime(lastCheck)}</div>
             </div>
           </div>

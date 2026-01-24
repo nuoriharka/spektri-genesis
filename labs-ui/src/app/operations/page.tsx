@@ -1,5 +1,7 @@
 import { loadOperations } from '@/lib/store'
 
+const actions = ['Create', 'Build', 'Deploy', 'Publish']
+
 export default async function OperationsPage() {
   const operations = await loadOperations()
 
@@ -7,6 +9,17 @@ export default async function OperationsPage() {
     <div className="min-h-screen bg-black text-white px-6 py-16">
       <div className="mx-auto max-w-5xl">
         <h1 className="text-2xl font-semibold tracking-[0.08em]">Operations</h1>
+        <div className="mt-8 grid grid-cols-1 gap-3 md:grid-cols-2">
+          {actions.map((action) => (
+            <form key={action} action="/api/operations/execute" method="post">
+              <input type="hidden" name="action" value={action} />
+              <button className="flex w-full items-center justify-between rounded-lg border border-[#111] bg-black px-5 py-4 text-sm text-zinc-300 hover:text-white">
+                <span>{action}</span>
+                <span className="text-zinc-600">Run</span>
+              </button>
+            </form>
+          ))}
+        </div>
         <div className="mt-8 border border-[#111]">
           <div className="grid grid-cols-5 text-[11px] text-zinc-500 px-4 py-3 border-b border-[#111]">
             <div>ID</div>

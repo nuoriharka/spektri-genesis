@@ -1,0 +1,29 @@
+[
+  {
+    "id": "project-173",
+    "name": "Project Alpha",
+    "state": "Active",
+    "phase": "Code",
+    "lastCommitAt": "2026-01-23T22:40:00.000Z",
+    "lastAction": "Advanced to Code",
+    "assets": ["asset-001", "asset-002"]
+  },
+  {
+    "id": "project-174",
+    "name": "Project Beta",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": "2026-01-23T22:10:00.000Z",
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-175",
+    "name": "Project Gamma",
+    "state": "Deployed",
+    "phase": "Publish",
+    "lastCommitAt": "2026-01-22T19:15:00.000Z",
+    "lastAction": "Deployed",
+    "assets": ["asset-003"]
+  }
+]

@@ -7,8 +7,16 @@ const IDENTITY = 'Lauri Elias Rainio'
 const GATEWAY = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8787'
 
 export async function POST(request: Request) {
-  const body = await request.json().catch(() => ({}))
-  const action = typeof body?.action === 'string' ? body.action : 'Operation'
+  const contentType = request.headers.get('content-type') || ''
+  let action = 'Operation'
+  if (contentType.includes('application/json')) {
+    const body = await request.json().catch(() => ({}))
+    if (typeof body?.action === 'string') action = body.action
+  } else {
+    const form = await request.formData()
+    const value = form.get('action')
+    if (typeof value === 'string') action = value
+  }
   const now = new Date().toISOString()
   let status: 'Completed' | 'Failed' = 'Failed'
   let error: string | undefined
