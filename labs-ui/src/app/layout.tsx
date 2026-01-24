@@ -10,6 +10,7 @@ import { Header } from '@/components/layout/Header'
 import { initTelemetry } from '@/lib/telemetry'
 import { cn } from '@/lib/utils'
 import Footer from '@/components/Footer'
+import CommandPalette from '@/components/CommandPalette'
 import ClientBoot from '@/components/ClientBoot'
 
 const inter = Inter({
@@ -133,6 +134,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </main>
             <Footer />
           </div>
+          <CommandPalette />
           <Analytics />
           <ServiceWorkerRegister />
         </Providers>

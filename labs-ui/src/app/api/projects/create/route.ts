@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { appendLog, loadProjects, writeJson } from '@/lib/store'
+import { appendLog, loadActions, loadProjects, writeJson } from '@/lib/store'
 
 export const runtime = 'nodejs'
 
@@ -20,7 +20,17 @@ export async function POST() {
 
   const updated = [...projects, project]
   await writeJson('projects.json', updated)
+  const check = await loadProjects()
+  const tail = check[check.length - 1]
+  if (!tail || tail.id !== project.id) {
+    return NextResponse.json({ ok: false }, { status: 500 })
+  }
   await appendLog('actions.json', { timestamp: now, verb: 'Created project', target: project.name })
+  const actions = await loadActions()
+  const actionTail = actions[actions.length - 1]
+  if (!actionTail || actionTail.timestamp !== now) {
+    return NextResponse.json({ ok: false }, { status: 500 })
+  }
 
   return NextResponse.redirect(new URL('/projects', process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3001'), 303)
 }

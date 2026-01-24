@@ -15,7 +15,6 @@ export async function POST(request: Request) {
 
   const entry = { timestamp: new Date().toISOString(), role: 'user', content } as const
   await appendLog('chat_history.json', entry)
-
   const messages = await loadChatHistory()
   const last = messages[messages.length - 1]
   const ok = !!last && last.timestamp === entry.timestamp && last.content === entry.content

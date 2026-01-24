@@ -23,7 +23,7 @@ export type OperationLog = {
   id: string
   tool: string
   source: string
-  status: 'Running' | 'Completed' | 'Failed'
+  status: 'PENDING' | 'OK' | 'ERROR'
   startedAt: string
   endedAt?: string
   error?: string

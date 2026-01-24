@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { appendLog, findActiveProject, loadProjects, nextPhase, writeJson } from '@/lib/store'
+import { appendLog, findActiveProject, loadActions, loadOperations, loadProjects, nextPhase, writeJson } from '@/lib/store'
 
 export const runtime = 'nodejs'
 
@@ -18,6 +18,20 @@ export async function POST() {
 
   let status: 'Completed' | 'Failed' = 'Failed'
   let error: string | undefined
+  const baseId = `op-${Date.now()}`
+  const pending = {
+    id: `${baseId}-pending`,
+    tool: 'gateway',
+    source: 'UI',
+    status: 'PENDING',
+    startedAt: now
+  } as const
+  await appendLog('operations.json', pending)
+  const pendingLog = await loadOperations()
+  const pendingTail = pendingLog[pendingLog.length - 1]
+  if (!pendingTail || pendingTail.id !== pending.id) {
+    return NextResponse.json({ ok: false }, { status: 500 })
+  }
   try {
     const response = await fetch(`${GATEWAY}/`, {
       method: 'POST',
@@ -47,20 +61,53 @@ export async function POST() {
   })
 
   await writeJson('projects.json', updated)
+  const check = await loadProjects()
+  const updatedActive = check.find((project) => project.id === active.id)
+  if (!updatedActive || updatedActive.phase === active.phase) {
+    await appendLog('operations.json', {
+      id: `op-${Date.now()}-final`,
+      tool: 'gateway',
+      source: 'UI',
+      status: 'ERROR',
+      startedAt: now,
+      endedAt: now,
+      error: 'Project update failed'
+    })
+    return NextResponse.json({ ok: false }, { status: 500 })
+  }
   await appendLog('actions.json', {
     timestamp: now,
     verb: status === 'Completed' ? 'Executed next step' : 'Execution failed',
     target: active.name
   })
+  const actions = await loadActions()
+  const actionTail = actions[actions.length - 1]
+  if (!actionTail || actionTail.timestamp !== now) {
+    await appendLog('operations.json', {
+      id: `op-${Date.now()}-final`,
+      tool: 'gateway',
+      source: 'UI',
+      status: 'ERROR',
+      startedAt: now,
+      endedAt: now,
+      error: 'Action log failed'
+    })
+    return NextResponse.json({ ok: false }, { status: 500 })
+  }
   await appendLog('operations.json', {
-    id: `op-${Date.now()}`,
+    id: `${baseId}-final`,
     tool: 'gateway',
     source: 'UI',
-    status,
+    status: status === 'Completed' ? 'OK' : 'ERROR',
     startedAt: now,
     endedAt: now,
     error
   })
+  const ops = await loadOperations()
+  const opsTail = ops[ops.length - 1]
+  if (!opsTail || opsTail.startedAt !== now) {
+    return NextResponse.json({ ok: false }, { status: 500 })
+  }
 
   return NextResponse.redirect(new URL('/projects', process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3001'), 303)
 }

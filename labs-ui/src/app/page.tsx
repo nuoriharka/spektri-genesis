@@ -35,7 +35,7 @@ export default async function Home() {
   const operations = await loadOperations()
   const system = await loadSystem()
   const active = findActiveProject(projects)
-  const running = operations.filter((op) => op.status === 'Running')
+  const running = operations.filter((op) => op.status === 'PENDING')
   const recent = actions.slice(-5).reverse()
   const apiOnline = await checkGateway()
   const toolAvailable = await checkTool()

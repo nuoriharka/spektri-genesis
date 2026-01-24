@@ -1,4 +1,4 @@
 [
-  {"id": "op-9001", "tool": "gateway", "source": "UI", "status": "Completed", "startedAt": "2026-01-23T22:41:00.000Z", "endedAt": "2026-01-23T22:41:01.000Z"},
-  {"id": "op-9000", "tool": "gateway", "source": "UI", "status": "Failed", "startedAt": "2026-01-23T22:36:00.000Z", "endedAt": "2026-01-23T22:36:01.000Z", "error": "Gateway 403"}
+  {"id": "op-9001-final", "tool": "gateway", "source": "UI", "status": "OK", "startedAt": "2026-01-23T22:41:00.000Z", "endedAt": "2026-01-23T22:41:01.000Z"},
+  {"id": "op-9000-final", "tool": "gateway", "source": "UI", "status": "ERROR", "startedAt": "2026-01-23T22:36:00.000Z", "endedAt": "2026-01-23T22:36:01.000Z", "error": "Gateway 403"}
 ]

@@ -40,7 +40,7 @@ export default async function OperationsPage() {
                 <div className="text-zinc-500">
                   {op.startedAt}{op.endedAt ? ` → ${op.endedAt}` : ''}
                 </div>
-                {op.status === 'Failed' && op.error && (
+                {op.status === 'ERROR' && op.error && (
                   <div className="col-span-5 mt-1 text-xs text-zinc-500">{op.error}</div>
                 )}
               </div>

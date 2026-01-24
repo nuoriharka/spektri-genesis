@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { appendLog } from '@/lib/store'
+import { appendLog, loadOperations } from '@/lib/store'
 
 export const runtime = 'nodejs'
 
@@ -18,8 +18,23 @@ export async function POST(request: Request) {
     if (typeof value === 'string') action = value
   }
   const now = new Date().toISOString()
-  let status: 'Completed' | 'Failed' = 'Failed'
+  const baseId = `op-${Date.now()}`
+  let status: 'OK' | 'ERROR' = 'ERROR'
   let error: string | undefined
+
+  const pending = {
+    id: `${baseId}-pending`,
+    tool: 'gateway',
+    source: 'UI',
+    status: 'PENDING',
+    startedAt: now
+  } as const
+  await appendLog('operations.json', pending)
+  const pendingLog = await loadOperations()
+  const pendingTail = pendingLog[pendingLog.length - 1]
+  if (!pendingTail || pendingTail.id !== pending.id) {
+    return NextResponse.json({ ok: false }, { status: 500 })
+  }
 
   try {
     const response = await fetch(`${GATEWAY}/`, {
@@ -31,22 +46,28 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({ action })
     })
-    status = response.ok ? 'Completed' : 'Failed'
+    status = response.ok ? 'OK' : 'ERROR'
     if (!response.ok) error = `Gateway ${response.status}`
   } catch {
-    status = 'Failed'
+    status = 'ERROR'
     error = 'Gateway unreachable'
   }
 
-  await appendLog('operations.json', {
-    id: `op-${Date.now()}`,
+  const finalEntry = {
+    id: `${baseId}-final`,
     tool: 'gateway',
     source: 'UI',
     status,
     startedAt: now,
     endedAt: now,
     error
-  })
+  } as const
+  await appendLog('operations.json', finalEntry)
+  const finalLog = await loadOperations()
+  const finalTail = finalLog[finalLog.length - 1]
+  if (!finalTail || finalTail.id !== finalEntry.id) {
+    return NextResponse.json({ ok: false }, { status: 500 })
+  }
 
   return NextResponse.json({ status })
 }
