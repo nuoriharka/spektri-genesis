@@ -13,12 +13,24 @@ type ActiveProject = {
   phase: string
 }
 
+type PlanProposal = {
+  plan: {
+    id: string
+    title: string
+    projectId: string | null
+    steps: { id: string; title: string; actionKind: string; payload: string; dependsOn?: string[] }[]
+  }
+  validation: { executable: boolean; missingDependencies: string[]; unknownActions: string[] }
+  note: string
+}
+
 export default function ChatPage() {
   const [messages, setMessages] = React.useState<Message[]>([])
   const [input, setInput] = React.useState('')
   const [active, setActive] = React.useState<ActiveProject | null>(null)
   const [operations, setOperations] = React.useState<string[]>([])
   const [stateLog, setStateLog] = React.useState<string[]>([])
+  const [proposal, setProposal] = React.useState<PlanProposal | null>(null)
   const listRef = React.useRef<HTMLDivElement | null>(null)
   const opsRef = React.useRef<HTMLDivElement | null>(null)
   const stateRef = React.useRef<HTMLDivElement | null>(null)
@@ -63,19 +75,27 @@ export default function ChatPage() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ content })
     })
+    const propose = await fetch('/api/plans/propose', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ content })
+    })
+    if (propose.ok) {
+      const proposalJson = await propose.json()
+      setProposal(proposalJson)
+    }
     await refresh()
     listRef.current?.scrollTo({ top: listRef.current.scrollHeight, behavior: 'auto' })
   }
 
   const commit = async () => {
-    const content = input.trim()
-    if (!content) return
-    setInput('')
-    await fetch('/api/chat/commit', {
+    if (!proposal) return
+    await fetch('/api/plans/commit', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ content })
+      body: JSON.stringify({ plan: proposal.plan })
     })
+    setProposal(null)
     await refresh()
     listRef.current?.scrollTo({ top: listRef.current.scrollHeight, behavior: 'auto' })
   }
@@ -123,6 +143,37 @@ export default function ChatPage() {
             ))}
           </div>
         </div>
+        {proposal && (
+          <div className="mt-6 border border-[#111] p-4 text-sm text-zinc-300">
+            <div className="text-[11px] text-zinc-500">Plan Proposal</div>
+            <div className="mt-2 text-zinc-200">{proposal.plan.title}</div>
+            <div className="mt-3 space-y-2 text-xs text-zinc-400">
+              {proposal.plan.steps.map((step, index) => (
+                <div key={step.id}>
+                  {index + 1}. {step.actionKind} — {step.title}
+                </div>
+              ))}
+            </div>
+            <div className="mt-3 text-xs text-zinc-500">
+              Validation: {proposal.validation.executable ? 'YES' : 'NO'}
+            </div>
+            <div className="text-xs text-zinc-500">
+              Missing dependencies: {proposal.validation.missingDependencies.length ? proposal.validation.missingDependencies.join(', ') : 'None'}
+            </div>
+            <div className="text-xs text-zinc-500">
+              Unknown actions: {proposal.validation.unknownActions.length ? proposal.validation.unknownActions.join(', ') : 'None'}
+            </div>
+            <div className="mt-2 text-xs text-zinc-500">{proposal.note}</div>
+            <div className="mt-4">
+              <button
+                onClick={commit}
+                className="h-10 rounded-md border border-[#111] px-4 text-xs text-zinc-300 hover:text-white"
+              >
+                Commit Plan to Genesis
+              </button>
+            </div>
+          </div>
+        )}
         <div className="mt-4 flex items-center gap-3">
           <input
             ref={inputRef}

@@ -14,9 +14,16 @@ export type Project = {
 }
 
 export type ActionLog = {
+  id?: string
   timestamp: string
   verb: string
   target: string
+  planId?: string
+  stepIndex?: number
+  dependsOn?: string[]
+  status?: 'QUEUED' | 'RUNNING' | 'DONE' | 'ERROR' | 'SKIPPED'
+  result?: string
+  error?: { reason: string; details?: string }
 }
 
 export type OperationLog = {
@@ -35,6 +42,23 @@ export type Asset = {
   type: 'Code' | 'Media' | 'Document' | 'Artifact'
   updatedAt: string
   location: string
+}
+
+export type PlanStep = {
+  id: string
+  title: string
+  actionKind: 'CREATE' | 'BUILD' | 'DEPLOY' | 'PUBLISH'
+  payload: string
+  dependsOn?: string[]
+}
+
+export type Plan = {
+  id: string
+  projectId: string | null
+  title: string
+  createdAt: string
+  steps: PlanStep[]
+  status: 'DRAFT' | 'COMMITTED' | 'EXECUTING' | 'DONE' | 'ERROR'
 }
 
 export type ChatMessage = {
@@ -74,6 +98,7 @@ export const loadProjects = () => readJson<Project[]>('projects.json', [])
 export const loadActions = () => readJson<ActionLog[]>('actions.json', [])
 export const loadOperations = () => readJson<OperationLog[]>('operations.json', [])
 export const loadAssets = () => readJson<Asset[]>('assets.json', [])
+export const loadPlans = () => readJson<Plan[]>('plans.json', [])
 export const loadSystem = () =>
   readJson<SystemInfo>('system.json', {
     tools: [],
