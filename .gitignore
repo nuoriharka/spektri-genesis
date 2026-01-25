@@ -32,3 +32,16 @@ secrets.env (The Source connection string is internal only)
 !tuesday_plan.sh
 
 # "Hups, I git-ignored my past and pushed only my future." :DDDD
+# local caches / logs
+.npm-cache/
+.npm-logs/
+*.log
+genesis/*.log
+
+# build artifacts
+.next/
+node_modules/
+**/.next/
+**/node_modules/
+**/dist/
+**/*.void

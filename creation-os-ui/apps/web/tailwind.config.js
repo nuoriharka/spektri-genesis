@@ -5,8 +5,7 @@ module.exports = {
   content: [
     // local app files
     './app/**/*.{ts,tsx}',
-    // reuse root sources
-    '../../src/**/*.{ts,tsx}',
+    // local shared sources
+    './src/**/*.{ts,tsx}',
   ],
 }
-y

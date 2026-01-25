@@ -20,7 +20,7 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["./apps/web/src/*"],
   "photos/*": ["./photos/*"],
   "@creationos/agents": ["./packages/agents/src/index.ts"]
     }

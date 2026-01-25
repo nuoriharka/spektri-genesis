@@ -1,0 +1,6 @@
+{
+  "tools": ["gateway", "ledger", "resonance_432"],
+  "auth": "Authenticated",
+  "environment": "Local",
+  "lastCheck": "2026-01-23T22:42:00.000Z"
+}

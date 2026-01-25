@@ -7,12 +7,13 @@
     "start": "node dist/index.js",
     "engine": "tsx src/index.ts",
     "lint": "eslint . --ext .ts",
-  "test": "vitest run",
+    "test": "vitest run",
   "demo:being": "tsx src/cli/being_demo.ts",
   "demo:quantum": "tsx src/cli/quantum_evolution_demo.ts",
   "demo:agi": "tsx src/cli/agi_demo.ts",
     "web:dev": "vite",
-    "dev": "concurrently \"npm run engine\" \"cd ./creation-os-ui && npm run dev\""
+    "dev": "concurrently \"npm run engine\" \"cd ./creation-os-ui && npm run dev\"",
+    "release:local": "pnpm -C creation-os-ui install && pnpm -C creation-os-ui/apps/web build"
   },
   "dependencies": {
     "tweetnacl": "^1.0.3",
