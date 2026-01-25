@@ -3,10 +3,13 @@
     "id": "project-173",
     "name": "Project Alpha",
     "state": "Active",
-    "phase": "Code",
-    "lastCommitAt": "2026-01-23T22:40:00.000Z",
-    "lastAction": "Advanced to Code",
-    "assets": ["asset-001", "asset-002"]
+    "phase": "Publish",
+    "lastCommitAt": "2026-01-25T09:39:23.851Z",
+    "lastAction": "Execution failed",
+    "assets": [
+      "asset-001",
+      "asset-002"
+    ]
   },
   {
     "id": "project-174",
@@ -24,6 +27,197 @@
     "phase": "Publish",
     "lastCommitAt": "2026-01-22T19:15:00.000Z",
     "lastAction": "Deployed",
-    "assets": ["asset-003"]
+    "assets": [
+      "asset-003"
+    ]
+  },
+  {
+    "id": "project-1769327894779",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769328178564",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769328471147",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769328611619",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769328648012",
+    "name": "Proof Project 2",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769328663724",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769328679067",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769328698903",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769329684778",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769329902089",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769329919799",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769330478225",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769330681393",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769331098468",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769331708058",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769332119661",
+    "name": "Root Dev Proof",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769333472653",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769333551282",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769333772470",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769333800896",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
+  },
+  {
+    "id": "project-1769333961489",
+    "name": "Proof Project",
+    "state": "Draft",
+    "phase": "Design",
+    "lastCommitAt": null,
+    "lastAction": "Created",
+    "assets": []
   }
 ]

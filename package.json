@@ -1,5 +1,5 @@
 {
-  "name": "spektri-genesis",
+  "name": "genesis",
   "version": "0.2.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
   "demo:quantum": "tsx src/cli/quantum_evolution_demo.ts",
   "demo:agi": "tsx src/cli/agi_demo.ts",
     "web:dev": "vite",
-    "dev": "concurrently \"npm run engine\" \"cd ./labs-ui && npm run dev\""
+    "dev": "concurrently \"npm run engine\" \"cd ./creation-os-ui && npm run dev\""
   },
   "dependencies": {
     "tweetnacl": "^1.0.3",
