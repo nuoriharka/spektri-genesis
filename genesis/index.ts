@@ -1,5 +1,5 @@
 export default {
-  async fetch(request) {
+  async fetch(request: Request) {
     const corsHeaders = {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET,HEAD,POST,OPTIONS',
@@ -9,7 +9,7 @@ export default {
     if (request.method === 'OPTIONS') return new Response(null, { headers: corsHeaders });
 
     const body = await request.text();
-    // Specter v1.1 -logiikka: Etsi teatteria, palauta totuus
+    // Creation OS filter: replace flagged terms with neutral tokens.
     const cleanedBody = body.replace(/Trumpista/g, 'RAKENTEESTA')
                            .replace(/Naton/g, 'SPEKTRIN');
 

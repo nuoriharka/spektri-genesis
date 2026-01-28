@@ -27,7 +27,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["src/components/ui/chart.tsx"],
+      files: ["src/components/ui/chart.ts", "src/components/ui/chart.tsx"],
       rules: {
         "no-restricted-imports": "off",
       },
